@@ -1,0 +1,69 @@
+Start training
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden1' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden2' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden3' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden4' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden5' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden6' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden7' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden8' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden9' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden10' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:159: UserWarning: '_features' was found in ScriptModule constants, but was not actually set in __init__. Consider removing it.
+  "Consider removing it.".format(name))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:159: UserWarning: '_classifier' was found in ScriptModule constants, but was not actually set in __init__. Consider removing it.
+  "Consider removing it.".format(name))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit_length' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit1' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit2' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit3' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit4' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit5' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+Model restored from file: .\logs\model-54000.pth
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\optim\lr_scheduler.py:351: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+=> 2020-12-07 08:30:06.605728: step 54100, loss = 1.061298, learning_rate = 0.010000 (356.2 examples/sec)
+=> 2020-12-07 08:30:15.413168: step 54200, loss = 0.767593, learning_rate = 0.010000 (399.2 examples/sec)
+=> 2020-12-07 08:30:24.194286: step 54300, loss = 0.154586, learning_rate = 0.010000 (401.0 examples/sec)
+=> 2020-12-07 08:30:33.119412: step 54400, loss = 0.086179, learning_rate = 0.010000 (395.2 examples/sec)
+=> 2020-12-07 08:30:42.042647: step 54500, loss = 0.013812, learning_rate = 0.010000 (394.3 examples/sec)
+=> 2020-12-07 08:30:50.921896: step 54600, loss = 0.010690, learning_rate = 0.010000 (395.7 examples/sec)
+=> 2020-12-07 08:30:59.917188: step 54700, loss = 0.002435, learning_rate = 0.010000 (394.1 examples/sec)
+=> 2020-12-07 08:31:09.112862: step 54800, loss = 0.001487, learning_rate = 0.010000 (391.8 examples/sec)
+=> 2020-12-07 08:31:17.975183: step 54900, loss = 0.001286, learning_rate = 0.010000 (396.6 examples/sec)
+=> 2020-12-07 08:31:26.861975: step 55000, loss = 0.079241, learning_rate = 0.010000 (395.2 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.666667, best accuracy 0.000000
+=> Model saved to file: ./logs\model-55000.pth
+=> patience = 100
+=> 2020-12-07 08:31:36.180051: step 55100, loss = 0.010100, learning_rate = 0.010000 (396.0 examples/sec)
+=> 2020-12-07 08:31:45.235402: step 55200, loss = 0.002230, learning_rate = 0.010000 (390.6 examples/sec)
+=> 2020-12-07 08:31:54.211391: step 55300, loss = 0.005478, learning_rate = 0.010000 (392.8 examples/sec)
+=> 2020-12-07 08:32:03.223684: step 55400, loss = 0.000168, learning_rate = 0.010000 (390.3 examples/sec)
+=> 2020-12-07 08:32:12.294516: step 55500, loss = 0.000203, learning_rate = 0.010000 (392.4 examples/sec)
+=> 2020-12-07 08:32:21.496438: step 55600, loss = 0.003516, learning_rate = 0.010000 (390.4 examples/sec)
+=> 2020-12-07 08:32:30.800327: step 55700, loss = 0.000147, learning_rate = 0.010000 (382.5 examples/sec)
+Traceback (most recent call last):
+  File "train.py", line 148, in <module>
+    main(parser.parse_args())
+  File "train.py", line 143, in main
+    path_to_restore_checkpoint_file, training_options)
+  File "train.py", line 84, in _train
+    images, length_labels, digits_labels = images.cuda(), length_labels.cuda(), [digit_labels.cuda() for digit_labels in digits_labels]
+KeyboardInterrupt

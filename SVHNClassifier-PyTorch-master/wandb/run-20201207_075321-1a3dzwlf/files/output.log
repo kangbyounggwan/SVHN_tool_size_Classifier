@@ -1,0 +1,118 @@
+Start training
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden1' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden2' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden3' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden4' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden5' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden6' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden7' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden8' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden9' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden10' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:159: UserWarning: '_features' was found in ScriptModule constants, but was not actually set in __init__. Consider removing it.
+  "Consider removing it.".format(name))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:159: UserWarning: '_classifier' was found in ScriptModule constants, but was not actually set in __init__. Consider removing it.
+  "Consider removing it.".format(name))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit_length' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit1' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit2' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit3' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit4' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit5' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+Model restored from file: .\logs\model-54000.pth
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\optim\lr_scheduler.py:351: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+=> 2020-12-07 07:53:38.557454: step 54100, loss = 0.085618, learning_rate = 0.010000 (329.3 examples/sec)
+=> 2020-12-07 07:53:47.339636: step 54200, loss = 0.003135, learning_rate = 0.010000 (400.3 examples/sec)
+=> 2020-12-07 07:53:56.600404: step 54300, loss = 0.002180, learning_rate = 0.010000 (381.2 examples/sec)
+=> 2020-12-07 07:54:05.659570: step 54400, loss = 0.000343, learning_rate = 0.010000 (395.1 examples/sec)
+=> 2020-12-07 07:54:14.609630: step 54500, loss = 0.000488, learning_rate = 0.010000 (395.1 examples/sec)
+=> 2020-12-07 07:54:23.429414: step 54600, loss = 0.010778, learning_rate = 0.010000 (400.2 examples/sec)
+=> 2020-12-07 07:54:32.293702: step 54700, loss = 0.001364, learning_rate = 0.010000 (396.3 examples/sec)
+=> 2020-12-07 07:54:41.130759: step 54800, loss = 0.001443, learning_rate = 0.010000 (398.0 examples/sec)
+=> 2020-12-07 07:54:49.999064: step 54900, loss = 0.000488, learning_rate = 0.010000 (397.0 examples/sec)
+=> 2020-12-07 07:54:58.867954: step 55000, loss = 0.000201, learning_rate = 0.010000 (397.8 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.666667, best accuracy 0.000000
+=> Model saved to file: ./logs\model-55000.pth
+=> patience = 100
+=> 2020-12-07 07:55:08.195507: step 55100, loss = 0.000094, learning_rate = 0.010000 (397.4 examples/sec)
+=> 2020-12-07 07:55:17.025888: step 55200, loss = 0.000051, learning_rate = 0.010000 (399.0 examples/sec)
+=> 2020-12-07 07:55:25.944991: step 55300, loss = 0.000031, learning_rate = 0.010000 (394.2 examples/sec)
+=> 2020-12-07 07:55:34.826234: step 55400, loss = 0.000158, learning_rate = 0.010000 (396.3 examples/sec)
+=> 2020-12-07 07:55:43.656847: step 55500, loss = 0.000129, learning_rate = 0.010000 (400.3 examples/sec)
+=> 2020-12-07 07:55:52.515153: step 55600, loss = 0.000137, learning_rate = 0.010000 (398.4 examples/sec)
+=> 2020-12-07 07:56:01.373852: step 55700, loss = 0.000178, learning_rate = 0.010000 (398.6 examples/sec)
+=> 2020-12-07 07:56:10.247117: step 55800, loss = 0.000169, learning_rate = 0.010000 (396.4 examples/sec)
+=> 2020-12-07 07:56:19.148306: step 55900, loss = 0.000139, learning_rate = 0.010000 (396.0 examples/sec)
+=> 2020-12-07 07:56:28.016302: step 56000, loss = 0.000147, learning_rate = 0.010000 (395.5 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.666667, best accuracy 0.666667
+=> patience = 99
+=> 2020-12-07 07:56:36.929461: step 56100, loss = 0.000051, learning_rate = 0.010000 (396.6 examples/sec)
+=> 2020-12-07 07:56:45.956647: step 56200, loss = 0.000114, learning_rate = 0.010000 (396.2 examples/sec)
+=> 2020-12-07 07:56:55.063663: step 56300, loss = 0.000085, learning_rate = 0.010000 (387.1 examples/sec)
+=> 2020-12-07 07:57:04.279959: step 56400, loss = 0.000171, learning_rate = 0.010000 (382.5 examples/sec)
+=> 2020-12-07 07:57:13.458278: step 56500, loss = 0.000118, learning_rate = 0.010000 (383.0 examples/sec)
+=> 2020-12-07 07:57:22.630646: step 56600, loss = 0.000138, learning_rate = 0.010000 (382.1 examples/sec)
+=> 2020-12-07 07:57:31.535825: step 56700, loss = 0.000912, learning_rate = 0.010000 (394.9 examples/sec)
+=> 2020-12-07 07:57:40.433519: step 56800, loss = 0.000096, learning_rate = 0.010000 (395.3 examples/sec)
+=> 2020-12-07 07:57:49.355651: step 56900, loss = 0.000235, learning_rate = 0.010000 (395.8 examples/sec)
+=> 2020-12-07 07:57:58.236894: step 57000, loss = 0.000141, learning_rate = 0.010000 (396.6 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.555556, best accuracy 0.666667
+=> patience = 98
+=> 2020-12-07 07:58:07.144392: step 57100, loss = 0.000115, learning_rate = 0.010000 (395.7 examples/sec)
+=> 2020-12-07 07:58:16.042590: step 57200, loss = 0.000284, learning_rate = 0.010000 (394.3 examples/sec)
+=> 2020-12-07 07:58:24.950653: step 57300, loss = 0.002214, learning_rate = 0.010000 (397.7 examples/sec)
+=> 2020-12-07 07:58:33.839875: step 57400, loss = 0.000332, learning_rate = 0.010000 (396.0 examples/sec)
+=> 2020-12-07 07:58:42.747560: step 57500, loss = 0.000140, learning_rate = 0.010000 (396.0 examples/sec)
+=> 2020-12-07 07:58:51.638776: step 57600, loss = 0.000214, learning_rate = 0.010000 (395.4 examples/sec)
+=> 2020-12-07 07:59:00.522228: step 57700, loss = 0.000243, learning_rate = 0.010000 (394.6 examples/sec)
+=> 2020-12-07 07:59:09.429403: step 57800, loss = 0.000243, learning_rate = 0.010000 (394.6 examples/sec)
+=> 2020-12-07 07:59:18.329595: step 57900, loss = 0.000193, learning_rate = 0.010000 (395.6 examples/sec)
+=> 2020-12-07 07:59:27.241685: step 58000, loss = 0.000355, learning_rate = 0.010000 (395.5 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.555556, best accuracy 0.666667
+=> patience = 97
+=> 2020-12-07 07:59:36.109962: step 58100, loss = 0.000099, learning_rate = 0.010000 (396.8 examples/sec)
+=> 2020-12-07 07:59:45.020310: step 58200, loss = 0.000123, learning_rate = 0.010000 (394.9 examples/sec)
+=> 2020-12-07 07:59:53.898561: step 58300, loss = 0.000143, learning_rate = 0.010000 (395.5 examples/sec)
+=> 2020-12-07 08:00:02.824723: step 58400, loss = 0.000417, learning_rate = 0.010000 (394.1 examples/sec)
+=> 2020-12-07 08:00:11.728905: step 58500, loss = 0.000109, learning_rate = 0.010000 (396.4 examples/sec)
+=> 2020-12-07 08:00:20.624379: step 58600, loss = 0.000082, learning_rate = 0.010000 (395.7 examples/sec)
+=> 2020-12-07 08:00:29.658022: step 58700, loss = 0.000252, learning_rate = 0.010000 (390.8 examples/sec)
+=> 2020-12-07 08:00:38.940571: step 58800, loss = 0.000110, learning_rate = 0.010000 (380.2 examples/sec)
+=> 2020-12-07 08:00:48.164304: step 58900, loss = 0.000208, learning_rate = 0.010000 (381.6 examples/sec)
+=> 2020-12-07 08:00:57.323206: step 59000, loss = 0.000184, learning_rate = 0.010000 (384.7 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.555556, best accuracy 0.666667
+=> patience = 96
+Traceback (most recent call last):
+  File "train.py", line 148, in <module>
+    main(parser.parse_args())
+  File "train.py", line 143, in main
+    path_to_restore_checkpoint_file, training_options)
+  File "train.py", line 89, in _train
+    loss.backward()
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\tensor.py", line 198, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph)
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\autograd\__init__.py", line 100, in backward
+    allow_unreachable=True)  # allow_unreachable flag
+KeyboardInterrupt

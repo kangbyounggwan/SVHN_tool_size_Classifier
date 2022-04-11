@@ -1,0 +1,56 @@
+2020-12-07 09:03:55,455 INFO    MainThread:25096 [wandb_setup.py:_flush():70] setting env: {}
+2020-12-07 09:03:55,455 INFO    MainThread:25096 [wandb_setup.py:_flush():70] multiprocessing start_methods=spawn
+2020-12-07 09:03:55,455 INFO    MainThread:25096 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-12-07 09:03:55,456 INFO    MainThread:25096 [wandb_init.py:_log_setup():303] Logging user logs to C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201207_090355-3kpsmojr\logs\debug.log
+2020-12-07 09:03:55,456 INFO    MainThread:25096 [wandb_init.py:_log_setup():304] Logging internal logs to C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201207_090355-3kpsmojr\logs\debug-internal.log
+2020-12-07 09:03:59,018 INFO    MainThread:25096 [wandb_run.py:_console_start():1218] atexit reg
+2020-12-07 09:03:59,019 INFO    MainThread:25096 [wandb_run.py:_redirect():1085] redirect: SettingsConsole.WRAP
+2020-12-07 09:03:59,020 INFO    MainThread:25096 [wandb_run.py:_redirect():1116] Wrapping output streams.
+2020-12-07 09:03:59,020 INFO    MainThread:25096 [wandb_run.py:_redirect():1132] Redirects installed.
+2020-12-09 18:41:53,243 INFO    Dummy-4   :25096 [wandb_run.py:_atexit_cleanup():1188] got exitcode: 255
+2020-12-09 18:41:53,243 INFO    Dummy-4   :25096 [wandb_run.py:_restore():1160] restore
+2020-12-09 18:42:56,692 INFO    Dummy-4   :25096 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "fbf35eb5140b45d2aa5238f8bfb9bdc4"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 521
+      total_bytes: 521
+    }
+  }
+}
+
+2020-12-09 18:47:19,599 INFO    Dummy-4   :25096 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "e515533f935f4667beddd98099c0b23a"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 113903
+      total_bytes: 113903
+    }
+  }
+}
+
+2020-12-09 18:47:21,608 INFO    Dummy-4   :25096 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "927ec523db79452180d214208a799a6b"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 113903
+      total_bytes: 113903
+    }
+  }
+}
+
+2020-12-09 18:47:22,714 INFO    Dummy-4   :25096 [wandb_run.py:_show_summary():1450] rendering summary
+2020-12-09 18:47:22,715 INFO    Dummy-4   :25096 [wandb_run.py:_show_files():1517] logging synced files
+2020-12-09 18:47:22,716 INFO    Dummy-4   :25096 [internal.py:handle_exit():138] Internal process exited

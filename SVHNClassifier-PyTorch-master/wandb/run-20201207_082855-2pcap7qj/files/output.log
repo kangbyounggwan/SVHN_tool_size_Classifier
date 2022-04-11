@@ -1,0 +1,58 @@
+Start training
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden1' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden2' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden3' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden4' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden5' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden6' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden7' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden8' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden9' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden10' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:159: UserWarning: '_features' was found in ScriptModule constants, but was not actually set in __init__. Consider removing it.
+  "Consider removing it.".format(name))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:159: UserWarning: '_classifier' was found in ScriptModule constants, but was not actually set in __init__. Consider removing it.
+  "Consider removing it.".format(name))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit_length' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit1' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit2' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit3' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit4' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit5' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+Model restored from file: .\logs\model-54000.pth
+Traceback (most recent call last):
+  File "train.py", line 148, in <module>
+    main(parser.parse_args())
+  File "train.py", line 143, in main
+    path_to_restore_checkpoint_file, training_options)
+  File "train.py", line 82, in _train
+    for batch_idx, (images, length_labels, digits_labels) in enumerate(train_loader):
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 345, in __next__
+    data = self._next_data()
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 385, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\utils\data\_utils\fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\utils\data\_utils\fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\dataset.py", line 27, in __getitem__
+    image = Image.fromarray(image)
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\PIL\Image.py", line 2475, in fromarray
+    size = shape[1], shape[0]
+IndexError: tuple index out of range

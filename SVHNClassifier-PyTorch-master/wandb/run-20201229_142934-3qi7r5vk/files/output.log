@@ -1,0 +1,45 @@
+Start training
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden1' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden2' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden3' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden4' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden5' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden6' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden7' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden8' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden9' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden10' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:159: UserWarning: '_features' was found in ScriptModule constants, but was not actually set in __init__. Consider removing it.
+  "Consider removing it.".format(name))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:159: UserWarning: '_classifier' was found in ScriptModule constants, but was not actually set in __init__. Consider removing it.
+  "Consider removing it.".format(name))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit_length' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit1' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit2' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit3' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit4' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit5' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+Traceback (most recent call last):
+  File "train.py", line 150, in <module>
+    main(parser.parse_args())
+  File "train.py", line 145, in main
+    path_to_restore_checkpoint_file, training_options)
+  File "train.py", line 71, in _train
+    assert os.path.isfile(path_to_restore_checkpoint_file), '%s not found' % path_to_restore_checkpoint_file
+AssertionError: .\logs\model-54000.pth not found

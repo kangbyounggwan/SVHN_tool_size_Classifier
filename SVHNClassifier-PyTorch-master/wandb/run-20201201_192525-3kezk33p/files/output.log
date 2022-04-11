@@ -1,0 +1,81 @@
+Start training
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden1' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden2' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden3' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden4' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden5' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden6' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden7' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden8' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden9' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden10' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:159: UserWarning: '_features' was found in ScriptModule constants, but was not actually set in __init__. Consider removing it.
+  "Consider removing it.".format(name))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:159: UserWarning: '_classifier' was found in ScriptModule constants, but was not actually set in __init__. Consider removing it.
+  "Consider removing it.".format(name))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit_length' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit1' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit2' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit3' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit4' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit5' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+Model restored from file: .\logs\model-54000.pth
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\optim\lr_scheduler.py:351: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+=> 2020-12-01 19:25:40.434296: step 54100, loss = 0.359845, learning_rate = 0.010000 (342.2 examples/sec)
+=> 2020-12-01 19:25:49.566923: step 54200, loss = 0.025216, learning_rate = 0.010000 (392.0 examples/sec)
+=> 2020-12-01 19:25:58.571361: step 54300, loss = 0.079962, learning_rate = 0.010000 (396.6 examples/sec)
+=> 2020-12-01 19:26:07.628988: step 54400, loss = 0.011818, learning_rate = 0.010000 (392.0 examples/sec)
+=> 2020-12-01 19:26:16.741864: step 54500, loss = 0.000319, learning_rate = 0.010000 (390.6 examples/sec)
+=> 2020-12-01 19:26:25.870182: step 54600, loss = 0.000133, learning_rate = 0.010000 (389.3 examples/sec)
+=> 2020-12-01 19:26:34.906192: step 54700, loss = 0.000191, learning_rate = 0.010000 (394.4 examples/sec)
+=> 2020-12-01 19:26:44.044155: step 54800, loss = 0.000072, learning_rate = 0.010000 (391.3 examples/sec)
+=> 2020-12-01 19:26:52.986448: step 54900, loss = 0.000163, learning_rate = 0.010000 (395.3 examples/sec)
+=> 2020-12-01 19:27:02.021300: step 55000, loss = 0.000216, learning_rate = 0.010000 (394.9 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.555556, best accuracy 0.000000
+=> Model saved to file: ./logs\model-55000.pth
+=> patience = 100
+=> 2020-12-01 19:27:11.627701: step 55100, loss = 0.000067, learning_rate = 0.010000 (393.5 examples/sec)
+Traceback (most recent call last):
+  File "train.py", line 148, in <module>
+    main(parser.parse_args())
+  File "train.py", line 143, in main
+    path_to_restore_checkpoint_file, training_options)
+  File "train.py", line 82, in _train
+    for batch_idx, (images, length_labels, digits_labels) in enumerate(train_loader):
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 345, in __next__
+    data = self._next_data()
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\utils\data\dataloader.py", line 385, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\utils\data\_utils\fetch.py", line 44, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\utils\data\_utils\fetch.py", line 44, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\dataset.py", line 28, in __getitem__
+    image = Image.fromarray(image)
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\PIL\Image.py", line 2482, in fromarray
+    return frombuffer(mode, size, obj, "raw", rawmode, 0, 1)
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\PIL\Image.py", line 2435, in frombuffer
+    return frombytes(mode, size, data, decoder_name, args)
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\PIL\Image.py", line 2368, in frombytes
+    im.frombytes(data, decoder_name, args)
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\PIL\Image.py", line 796, in frombytes
+    s = d.decode(data)
+KeyboardInterrupt

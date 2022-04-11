@@ -1,0 +1,141 @@
+2020-12-29 14:11:48,436 INFO    MainThread:26660 [internal.py:wandb_internal():63] W&B internal server running at pid: 26660
+2020-12-29 14:11:48,441 INFO    WriterThread:26660 [datastore.py:open_for_write():76] open: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201229_141147-10ipt9zh\run-10ipt9zh.wandb
+2020-12-29 14:11:48,441 DEBUG   HandlerThread:26660 [handler.py:handle_request():55] handle_request: check_version
+2020-12-29 14:11:48,442 DEBUG   SenderThread:26660 [sender.py:send():90] send: header
+2020-12-29 14:11:48,442 DEBUG   SenderThread:26660 [sender.py:send():90] send: request
+2020-12-29 14:11:48,444 DEBUG   SenderThread:26660 [sender.py:send_request():99] send_request: check_version
+2020-12-29 14:11:48,447 DEBUG   Thread-4  :26660 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): pypi.org:443
+2020-12-29 14:11:49,831 DEBUG   Thread-4  :26660 [connectionpool.py:_make_request():442] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 52216
+2020-12-29 14:11:50,087 DEBUG   SenderThread:26660 [sender.py:send():90] send: run
+2020-12-29 14:11:50,101 DEBUG   SenderThread:26660 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-29 14:11:50,490 DEBUG   SenderThread:26660 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-29 14:11:50,496 DEBUG   HandlerThread:26660 [handler.py:handle_request():55] handle_request: run_start
+2020-12-29 14:11:50,500 INFO    SenderThread:26660 [dir_watcher.py:__init__():165] watching files in: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201229_141147-10ipt9zh\files
+2020-12-29 14:11:50,500 INFO    SenderThread:26660 [sender.py:_start_run_threads():490] run started: 10ipt9zh with start time 1609218707
+2020-12-29 14:11:50,500 DEBUG   SenderThread:26660 [sender.py:send():90] send: summary
+2020-12-29 14:11:50,500 INFO    SenderThread:26660 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-29 14:11:50,556 DEBUG   SenderThread:26660 [sender.py:send():90] send: files
+2020-12-29 14:11:50,556 INFO    SenderThread:26660 [sender.py:_save_file():568] saving file wandb-metadata.json with policy now
+2020-12-29 14:11:50,560 DEBUG   HandlerThread:26660 [handler.py:handle_request():55] handle_request: status
+2020-12-29 14:11:50,560 DEBUG   SenderThread:26660 [sender.py:send():90] send: request
+2020-12-29 14:11:50,560 DEBUG   SenderThread:26660 [sender.py:send_request():99] send_request: status
+2020-12-29 14:11:50,566 DEBUG   Thread-11 :26660 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-29 14:11:50,566 DEBUG   SenderThread:26660 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-29 14:11:50,949 DEBUG   Thread-11 :26660 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-29 14:11:50,954 DEBUG   Thread-11 :26660 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-29 14:11:50,965 DEBUG   SenderThread:26660 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-29 14:11:51,202 WARNING MainThread:26660 [internal.py:wandb_internal():117] Internal process interrupt: 1
+2020-12-29 14:11:51,214 DEBUG   SenderThread:26660 [sender.py:send():90] send: exit
+2020-12-29 14:11:51,214 INFO    SenderThread:26660 [sender.py:send_exit():168] handling exit code: 255
+2020-12-29 14:11:51,214 DEBUG   HandlerThread:26660 [handler.py:handle_request():55] handle_request: poll_exit
+2020-12-29 14:11:51,214 INFO    SenderThread:26660 [sender.py:send_exit():176] send defer
+2020-12-29 14:11:51,214 DEBUG   SenderThread:26660 [sender.py:send():90] send: request
+2020-12-29 14:11:51,214 DEBUG   SenderThread:26660 [sender.py:send_request():99] send_request: poll_exit
+2020-12-29 14:11:51,215 DEBUG   HandlerThread:26660 [handler.py:handle_request():55] handle_request: defer
+2020-12-29 14:11:51,215 INFO    HandlerThread:26660 [handler.py:handle_request_defer():69] handle defer: 0
+2020-12-29 14:11:51,215 DEBUG   SenderThread:26660 [sender.py:send():90] send: request
+2020-12-29 14:11:51,215 DEBUG   SenderThread:26660 [sender.py:send_request():99] send_request: defer
+2020-12-29 14:11:51,215 INFO    SenderThread:26660 [sender.py:send_request_defer():185] handle sender defer: 0
+2020-12-29 14:11:51,216 INFO    SenderThread:26660 [sender.py:send_request_defer():221] send defer: 1
+2020-12-29 14:11:51,216 DEBUG   HandlerThread:26660 [handler.py:handle_request():55] handle_request: defer
+2020-12-29 14:11:51,216 INFO    HandlerThread:26660 [handler.py:handle_request_defer():69] handle defer: 1
+2020-12-29 14:11:51,317 DEBUG   SenderThread:26660 [sender.py:send():90] send: request
+2020-12-29 14:11:51,317 DEBUG   SenderThread:26660 [sender.py:send_request():99] send_request: defer
+2020-12-29 14:11:51,317 INFO    SenderThread:26660 [sender.py:send_request_defer():185] handle sender defer: 1
+2020-12-29 14:11:51,317 INFO    SenderThread:26660 [sender.py:send_request_defer():221] send defer: 2
+2020-12-29 14:11:51,317 DEBUG   SenderThread:26660 [sender.py:send():90] send: stats
+2020-12-29 14:11:51,318 DEBUG   HandlerThread:26660 [handler.py:handle_request():55] handle_request: defer
+2020-12-29 14:11:51,318 INFO    HandlerThread:26660 [handler.py:handle_request_defer():69] handle defer: 2
+2020-12-29 14:11:51,318 DEBUG   SenderThread:26660 [sender.py:send():90] send: request
+2020-12-29 14:11:51,318 DEBUG   SenderThread:26660 [sender.py:send_request():99] send_request: defer
+2020-12-29 14:11:51,318 INFO    SenderThread:26660 [sender.py:send_request_defer():185] handle sender defer: 2
+2020-12-29 14:11:51,318 INFO    SenderThread:26660 [sender.py:send_request_defer():221] send defer: 3
+2020-12-29 14:11:51,318 DEBUG   HandlerThread:26660 [handler.py:handle_request():55] handle_request: defer
+2020-12-29 14:11:51,318 INFO    HandlerThread:26660 [handler.py:handle_request_defer():69] handle defer: 3
+2020-12-29 14:11:51,318 DEBUG   SenderThread:26660 [sender.py:send():90] send: summary
+2020-12-29 14:11:51,319 INFO    SenderThread:26660 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-29 14:11:51,319 DEBUG   SenderThread:26660 [sender.py:send():90] send: request
+2020-12-29 14:11:51,319 DEBUG   SenderThread:26660 [sender.py:send_request():99] send_request: defer
+2020-12-29 14:11:51,319 INFO    SenderThread:26660 [sender.py:send_request_defer():185] handle sender defer: 3
+2020-12-29 14:11:51,320 INFO    SenderThread:26660 [sender.py:send_request_defer():221] send defer: 4
+2020-12-29 14:11:51,320 DEBUG   HandlerThread:26660 [handler.py:handle_request():55] handle_request: defer
+2020-12-29 14:11:51,320 INFO    HandlerThread:26660 [handler.py:handle_request_defer():69] handle defer: 4
+2020-12-29 14:11:51,320 DEBUG   SenderThread:26660 [sender.py:send():90] send: request
+2020-12-29 14:11:51,320 DEBUG   SenderThread:26660 [sender.py:send_request():99] send_request: defer
+2020-12-29 14:11:51,320 INFO    SenderThread:26660 [sender.py:send_request_defer():185] handle sender defer: 4
+2020-12-29 14:11:51,320 INFO    SenderThread:26660 [dir_watcher.py:finish():279] shutting down directory watcher
+2020-12-29 14:11:51,503 INFO    SenderThread:26660 [dir_watcher.py:_on_file_created():213] file/dir created: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201229_141147-10ipt9zh\files\wandb-metadata.json
+2020-12-29 14:11:51,503 INFO    SenderThread:26660 [dir_watcher.py:_on_file_created():213] file/dir created: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201229_141147-10ipt9zh\files\wandb-summary.json
+2020-12-29 14:11:51,504 INFO    SenderThread:26660 [dir_watcher.py:_on_file_created():213] file/dir created: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201229_141147-10ipt9zh\files\requirements.txt
+2020-12-29 14:11:51,504 INFO    SenderThread:26660 [dir_watcher.py:_on_file_created():213] file/dir created: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201229_141147-10ipt9zh\files\output.log
+2020-12-29 14:11:51,505 INFO    SenderThread:26660 [dir_watcher.py:finish():309] scan: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201229_141147-10ipt9zh\files
+2020-12-29 14:11:51,505 INFO    SenderThread:26660 [dir_watcher.py:finish():315] scan save: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201229_141147-10ipt9zh\files\config.yaml config.yaml
+2020-12-29 14:11:51,506 INFO    SenderThread:26660 [dir_watcher.py:finish():315] scan save: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201229_141147-10ipt9zh\files\output.log output.log
+2020-12-29 14:11:51,507 INFO    SenderThread:26660 [dir_watcher.py:finish():315] scan save: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201229_141147-10ipt9zh\files\requirements.txt requirements.txt
+2020-12-29 14:11:51,514 DEBUG   Thread-12 :26660 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-29 14:11:51,515 INFO    SenderThread:26660 [dir_watcher.py:finish():315] scan save: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201229_141147-10ipt9zh\files\wandb-metadata.json wandb-metadata.json
+2020-12-29 14:11:51,516 INFO    SenderThread:26660 [dir_watcher.py:finish():315] scan save: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201229_141147-10ipt9zh\files\wandb-summary.json wandb-summary.json
+2020-12-29 14:11:51,517 DEBUG   Thread-13 :26660 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-29 14:11:51,519 INFO    SenderThread:26660 [sender.py:send_request_defer():221] send defer: 5
+2020-12-29 14:11:51,521 DEBUG   Thread-14 :26660 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-29 14:11:51,521 DEBUG   HandlerThread:26660 [handler.py:handle_request():55] handle_request: defer
+2020-12-29 14:11:51,521 INFO    HandlerThread:26660 [handler.py:handle_request_defer():69] handle defer: 5
+2020-12-29 14:11:51,521 DEBUG   SenderThread:26660 [sender.py:send():90] send: request
+2020-12-29 14:11:51,521 DEBUG   SenderThread:26660 [sender.py:send_request():99] send_request: defer
+2020-12-29 14:11:51,521 INFO    SenderThread:26660 [sender.py:send_request_defer():185] handle sender defer: 5
+2020-12-29 14:11:51,522 INFO    SenderThread:26660 [file_pusher.py:finish():169] shutting down file pusher
+2020-12-29 14:11:51,522 INFO    SenderThread:26660 [sender.py:send_request_defer():221] send defer: 6
+2020-12-29 14:11:51,522 DEBUG   HandlerThread:26660 [handler.py:handle_request():55] handle_request: defer
+2020-12-29 14:11:51,522 INFO    HandlerThread:26660 [handler.py:handle_request_defer():69] handle defer: 6
+2020-12-29 14:11:51,524 DEBUG   SenderThread:26660 [sender.py:send():90] send: request
+2020-12-29 14:11:51,524 DEBUG   SenderThread:26660 [sender.py:send_request():99] send_request: defer
+2020-12-29 14:11:51,525 INFO    SenderThread:26660 [sender.py:send_request_defer():185] handle sender defer: 6
+2020-12-29 14:11:51,526 DEBUG   Thread-15 :26660 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-29 14:11:51,527 DEBUG   Thread-5  :26660 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-29 14:11:51,559 DEBUG   Thread-11 :26660 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/kbg/svhn_retrain/10ipt9zh/wandb-metadata.json?Expires=1609305111&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=khgkFCcYCpqQXy4a60XoJeRorSZgBTd%2Fx6bw1djmrvpH%2FEIgII5kteIy%2B%2BE%2FeiV35veKcZjAn69G%2BrFbU%2Fp1Ou1J%2FX2hQFVjEDQe6h8g87gYv%2B80MegMQUtAb%2FDJgKaTeeHhImccg4pBnrU%2FcmOkbyNYRCW6Av67KfnsLMWuPgUlaCmjGyS8oybPrQaCFTPueR88Gg6uVJuCUpd7WiG7vuiWI0AZvLnPTVL199%2BRo%2FRpAzdKCbsjsL%2FP811EAODlZ9jVXCRF5%2BOcKO2Lbsf9AdcgHdSjtskXNYWo7rjtsTNH%2B%2FVpVpXCyCBNJ%2FM%2FSaO%2Bp7ZZ9N%2Bzne%2B9HXEsDKg2BQ%3D%3D HTTP/1.1" 200 0
+2020-12-29 14:11:51,562 INFO    Thread-11 :26660 [upload_job.py:push():131] Uploaded file C:\Users\ST200423\AppData\Local\Temp\tmpbpxnr0iywandb\z2uei4yj-wandb-metadata.json
+2020-12-29 14:11:51,871 DEBUG   Thread-13 :26660 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-29 14:11:51,884 DEBUG   Thread-12 :26660 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-29 14:11:51,887 DEBUG   Thread-13 :26660 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-29 14:11:51,888 DEBUG   Thread-15 :26660 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-29 14:11:51,899 DEBUG   Thread-14 :26660 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-29 14:11:51,908 DEBUG   Thread-12 :26660 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-29 14:11:51,909 DEBUG   Thread-15 :26660 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-29 14:11:51,913 DEBUG   Thread-14 :26660 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-29 14:11:51,917 DEBUG   Thread-5  :26660 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/kbg/svhn_retrain/10ipt9zh/file_stream HTTP/1.1" 200 None
+2020-12-29 14:11:52,162 DEBUG   Thread-5  :26660 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/kbg/svhn_retrain/10ipt9zh/file_stream HTTP/1.1" 200 None
+2020-12-29 14:11:52,164 INFO    SenderThread:26660 [sender.py:send_request_defer():221] send defer: 7
+2020-12-29 14:11:52,164 DEBUG   HandlerThread:26660 [handler.py:handle_request():55] handle_request: defer
+2020-12-29 14:11:52,164 INFO    HandlerThread:26660 [handler.py:handle_request_defer():69] handle defer: 7
+2020-12-29 14:11:52,164 DEBUG   SenderThread:26660 [sender.py:send():90] send: request
+2020-12-29 14:11:52,165 DEBUG   SenderThread:26660 [sender.py:send_request():99] send_request: defer
+2020-12-29 14:11:52,165 INFO    SenderThread:26660 [sender.py:send_request_defer():185] handle sender defer: 7
+2020-12-29 14:11:52,165 INFO    SenderThread:26660 [sender.py:send_request_defer():221] send defer: 8
+2020-12-29 14:11:52,165 DEBUG   SenderThread:26660 [sender.py:send():90] send: final
+2020-12-29 14:11:52,166 DEBUG   SenderThread:26660 [sender.py:send():90] send: footer
+2020-12-29 14:11:52,166 DEBUG   HandlerThread:26660 [handler.py:handle_request():55] handle_request: defer
+2020-12-29 14:11:52,166 INFO    HandlerThread:26660 [handler.py:handle_request_defer():69] handle defer: 8
+2020-12-29 14:11:52,166 DEBUG   SenderThread:26660 [sender.py:send():90] send: request
+2020-12-29 14:11:52,166 DEBUG   SenderThread:26660 [sender.py:send_request():99] send_request: defer
+2020-12-29 14:11:52,166 INFO    SenderThread:26660 [sender.py:send_request_defer():185] handle sender defer: 8
+2020-12-29 14:11:52,407 DEBUG   Thread-13 :26660 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/kbg/svhn_retrain/10ipt9zh/output.log?Expires=1609305112&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=Fzvnroxr1mtrslhiWnwkLpp091rp5e8I31uCTHbBRpz3uQ%2BkNDMV63M5j7QU9dc4fm5UUQId7DDlxmAZTnRgFJq5ryZ3M7uU79CUiD9jMDmle0ChHWRed5uU4k5CTaz8jPPSJOtbEWRrHfXBizR2sxt4UV8xEMYVSHqaT%2BPFp0qfExqs3%2BxAnB3yA3NQwr1zVIUPnbrYmuCPxE9%2BP%2Fo7dpupUwk6HIeTQ88nCb8aPfmaoQ9omAZ7q7D7hVGb6fNotn4KI5WV5CjyjdK5%2FCYqutbPQs06CPD9AFfURTjektbANeiEV6kdhiEhnkTqptzr18nCocT9ZPCVFOGF4LdNPw%3D%3D HTTP/1.1" 200 0
+2020-12-29 14:11:52,411 INFO    Thread-13 :26660 [upload_job.py:push():131] Uploaded file C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201229_141147-10ipt9zh\files\output.log
+2020-12-29 14:11:52,427 DEBUG   Thread-15 :26660 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/kbg/svhn_retrain/10ipt9zh/wandb-summary.json?Expires=1609305112&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=K%2FZuLs5zoHst45NMX597mLggMzHQIzvePljmRmEu6oU2hsaHGgIakU%2BZnkozxWtMNaLUcnqWcXRa2kQnL2b6cbl6yEJ91vHQHjuckOy2T98RpoyXPmSwjeUj3cpqMGrkp5e37pPleSSuAjC2nzeU8%2FJo8Cm1pAGDO4hrq6sedGl%2BXAWVF%2BZ2IwEm%2BAI2FLJX1%2BcbbfG9dgYiAm5noyTk%2FWG3Cxo2PgRi7kPfQIRJi8kyZtpF%2B4WpfLRSwneztCj1fnu554hQnkuPfUqjOI4mIY3zJPiADLKCoQkX%2F2fRE8FRFbwiQgXl5z0BFIfML8Hpqj08aueESDjpn6GEFagCGg%3D%3D HTTP/1.1" 200 0
+2020-12-29 14:11:52,431 INFO    Thread-15 :26660 [upload_job.py:push():131] Uploaded file C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201229_141147-10ipt9zh\files\wandb-summary.json
+2020-12-29 14:11:52,432 DEBUG   Thread-14 :26660 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/kbg/svhn_retrain/10ipt9zh/requirements.txt?Expires=1609305112&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=JLzc69dK%2BLhNetTgaZDiM%2BqEPGEyB5lV6hjnvkm34KhQc24bmCJeGOv6OP87PnW%2F0AeKiD372QS7nwMGQJE2yPrWh3q2lSVGoCNH%2F1ZL7oQmaXQioeUJrN3Cf%2BIglLyDipGXbuWitx2c%2B4iYVaA4VEyOSz5S4csKvTwWzMs5mbh17ZPFTJi4%2B%2BupCi9w5yqaQGn7rzwKR%2F8L0y5fvOdyYcT8fnBEgEAHmkgOMwxy5AG45fdJjxMUed0CxRRIMdB9DUhMNomqoIugAtarmVU6PaBdUN3pjPhkl4Uu3q6JjKkUNg%2F%2BP0hvpYkawRg6GsQh1PzbcqCQawSSX08ExC0rgg%3D%3D HTTP/1.1" 200 0
+2020-12-29 14:11:52,432 DEBUG   Thread-12 :26660 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/kbg/svhn_retrain/10ipt9zh/config.yaml?Expires=1609305112&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=FOaZT47wzN4bbBSjX%2FUQakSnBWksszJowZjX%2BbuqDsyAmIvhfFZ0faJW6eMdow3yDR%2BDsBnv%2FsErt%2BygA5zODYxlk6UjaWOyTjmSVZgz9EoaeUwh04kNmU9MYQPU2bOPIrdGlv8qw5D9dtVkzdcafkhphoSYJ3gO3MbcBOt9zTgAp%2FPSggPopU5%2FiLR48dcziCHgTmHjuJlUCNO3r3WH4mD9ATph97f5VgN1ze2bXOM6kuMo4sdjJZMMk4ycX7O21jqeTGUkgN1l%2FwkEmMwFTaM5bKLTtHZL9LQPEn64XaBkwxOSXDsmzg%2Fz7cdtgyFWkeotAvwl2S6bP8OCAmTJ%2FA%3D%3D HTTP/1.1" 200 0
+2020-12-29 14:11:52,436 INFO    Thread-14 :26660 [upload_job.py:push():131] Uploaded file C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201229_141147-10ipt9zh\files\requirements.txt
+2020-12-29 14:11:52,439 INFO    Thread-12 :26660 [upload_job.py:push():131] Uploaded file C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201229_141147-10ipt9zh\files\config.yaml
+2020-12-29 14:11:53,219 DEBUG   HandlerThread:26660 [handler.py:handle_request():55] handle_request: poll_exit
+2020-12-29 14:11:53,220 DEBUG   SenderThread:26660 [sender.py:send():90] send: request
+2020-12-29 14:11:53,220 DEBUG   SenderThread:26660 [sender.py:send_request():99] send_request: poll_exit
+2020-12-29 14:11:53,220 INFO    SenderThread:26660 [file_pusher.py:join():174] waiting for file pusher
+2020-12-29 14:11:53,227 DEBUG   HandlerThread:26660 [handler.py:handle_request():55] handle_request: get_summary
+2020-12-29 14:11:53,229 DEBUG   HandlerThread:26660 [handler.py:handle_request():55] handle_request: sampled_history
+2020-12-29 14:11:53,231 DEBUG   HandlerThread:26660 [handler.py:handle_request():55] handle_request: shutdown
+2020-12-29 14:11:53,231 INFO    HandlerThread:26660 [handler.py:finish():271] shutting down handler
+2020-12-29 14:11:54,167 INFO    WriterThread:26660 [datastore.py:close():257] close: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201229_141147-10ipt9zh\run-10ipt9zh.wandb
+2020-12-29 14:11:54,222 INFO    SenderThread:26660 [sender.py:finish():642] shutting down sender
+2020-12-29 14:11:54,222 INFO    SenderThread:26660 [file_pusher.py:finish():169] shutting down file pusher
+2020-12-29 14:11:54,222 INFO    SenderThread:26660 [file_pusher.py:join():174] waiting for file pusher
+2020-12-29 14:11:54,223 INFO    Dummy-16  :26660 [internal.py:handle_exit():138] Internal process exited

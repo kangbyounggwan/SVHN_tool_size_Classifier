@@ -1,0 +1,1487 @@
+Start training
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden1' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden2' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden3' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden4' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden5' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden6' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden7' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden8' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden9' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_hidden10' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:159: UserWarning: '_features' was found in ScriptModule constants, but was not actually set in __init__. Consider removing it.
+  "Consider removing it.".format(name))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:159: UserWarning: '_classifier' was found in ScriptModule constants, but was not actually set in __init__. Consider removing it.
+  "Consider removing it.".format(name))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit_length' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit1' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit2' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit3' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit4' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\jit\_recursive.py:152: UserWarning: '_digit5' was found in ScriptModule constants,  but it is a non-constant submodule. Consider removing it.
+  " but it is a non-constant {}. Consider removing it.".format(name, hint))
+Model restored from file: .\logs\model-54000.pth
+C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\torch\optim\lr_scheduler.py:351: UserWarning: To get the last learning rate computed by the scheduler, please use `get_last_lr()`.
+  "please use `get_last_lr()`.", UserWarning)
+=> 2020-12-30 17:03:18.353691: step 54100, loss = 0.503203, learning_rate = 0.010000 (330.6 examples/sec)
+=> 2020-12-30 17:03:27.924094: step 54200, loss = 0.081105, learning_rate = 0.010000 (377.1 examples/sec)
+=> 2020-12-30 17:03:37.597263: step 54300, loss = 0.015568, learning_rate = 0.010000 (375.2 examples/sec)
+=> 2020-12-30 17:03:47.200301: step 54400, loss = 0.046042, learning_rate = 0.010000 (370.6 examples/sec)
+=> 2020-12-30 17:03:56.818500: step 54500, loss = 0.114925, learning_rate = 0.010000 (373.3 examples/sec)
+=> 2020-12-30 17:04:06.184973: step 54600, loss = 0.000653, learning_rate = 0.010000 (382.5 examples/sec)
+=> 2020-12-30 17:04:15.432963: step 54700, loss = 0.022386, learning_rate = 0.010000 (386.4 examples/sec)
+=> 2020-12-30 17:04:24.676117: step 54800, loss = 0.000996, learning_rate = 0.010000 (385.4 examples/sec)
+=> 2020-12-30 17:04:33.849509: step 54900, loss = 0.003537, learning_rate = 0.010000 (387.2 examples/sec)
+=> 2020-12-30 17:04:43.009077: step 55000, loss = 0.001060, learning_rate = 0.010000 (386.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.428571, best accuracy 0.000000
+=> Model saved to file: ./logs\model-55000.pth
+=> patience = 100
+=> 2020-12-30 17:04:52.805823: step 55100, loss = 0.010615, learning_rate = 0.010000 (384.1 examples/sec)
+=> 2020-12-30 17:05:01.960399: step 55200, loss = 0.000376, learning_rate = 0.010000 (386.9 examples/sec)
+=> 2020-12-30 17:05:11.099956: step 55300, loss = 0.000099, learning_rate = 0.010000 (389.7 examples/sec)
+=> 2020-12-30 17:05:20.252477: step 55400, loss = 0.000379, learning_rate = 0.010000 (386.2 examples/sec)
+=> 2020-12-30 17:05:29.375078: step 55500, loss = 0.006543, learning_rate = 0.010000 (388.3 examples/sec)
+=> 2020-12-30 17:05:38.735766: step 55600, loss = 0.019951, learning_rate = 0.010000 (382.5 examples/sec)
+=> 2020-12-30 17:05:48.143088: step 55700, loss = 0.000035, learning_rate = 0.010000 (379.4 examples/sec)
+=> 2020-12-30 17:05:57.616750: step 55800, loss = 0.010506, learning_rate = 0.010000 (376.3 examples/sec)
+=> 2020-12-30 17:06:07.011550: step 55900, loss = 0.011735, learning_rate = 0.010000 (380.6 examples/sec)
+=> 2020-12-30 17:06:16.148114: step 56000, loss = 0.000099, learning_rate = 0.010000 (388.6 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.428571, best accuracy 0.428571
+=> patience = 99
+=> 2020-12-30 17:06:25.342524: step 56100, loss = 0.000130, learning_rate = 0.010000 (390.6 examples/sec)
+=> 2020-12-30 17:06:34.443184: step 56200, loss = 0.000138, learning_rate = 0.010000 (389.0 examples/sec)
+=> 2020-12-30 17:06:43.553817: step 56300, loss = 0.002793, learning_rate = 0.010000 (388.5 examples/sec)
+=> 2020-12-30 17:06:52.659464: step 56400, loss = 0.000090, learning_rate = 0.010000 (389.2 examples/sec)
+=> 2020-12-30 17:07:01.779074: step 56500, loss = 0.011531, learning_rate = 0.010000 (389.0 examples/sec)
+=> 2020-12-30 17:07:10.917632: step 56600, loss = 0.000423, learning_rate = 0.010000 (387.5 examples/sec)
+=> 2020-12-30 17:07:20.040234: step 56700, loss = 0.000116, learning_rate = 0.010000 (388.2 examples/sec)
+=> 2020-12-30 17:07:29.169817: step 56800, loss = 0.000085, learning_rate = 0.010000 (388.2 examples/sec)
+=> 2020-12-30 17:07:38.476925: step 56900, loss = 0.000177, learning_rate = 0.010000 (383.7 examples/sec)
+=> 2020-12-30 17:07:47.962556: step 57000, loss = 0.000130, learning_rate = 0.010000 (379.3 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.428571, best accuracy 0.428571
+=> patience = 98
+=> 2020-12-30 17:07:57.287615: step 57100, loss = 0.000108, learning_rate = 0.010000 (384.5 examples/sec)
+=> 2020-12-30 17:08:06.568793: step 57200, loss = 0.000140, learning_rate = 0.010000 (383.3 examples/sec)
+=> 2020-12-30 17:08:15.897844: step 57300, loss = 0.000223, learning_rate = 0.010000 (381.6 examples/sec)
+=> 2020-12-30 17:08:25.096241: step 57400, loss = 0.000153, learning_rate = 0.010000 (386.1 examples/sec)
+=> 2020-12-30 17:08:34.232806: step 57500, loss = 0.000337, learning_rate = 0.010000 (389.8 examples/sec)
+=> 2020-12-30 17:08:43.391311: step 57600, loss = 0.000287, learning_rate = 0.010000 (387.8 examples/sec)
+=> 2020-12-30 17:08:52.676519: step 57700, loss = 0.000167, learning_rate = 0.010000 (383.5 examples/sec)
+=> 2020-12-30 17:09:02.124200: step 57800, loss = 0.000107, learning_rate = 0.010000 (378.3 examples/sec)
+=> 2020-12-30 17:09:11.315618: step 57900, loss = 0.000171, learning_rate = 0.010000 (386.3 examples/sec)
+=> 2020-12-30 17:09:20.499785: step 58000, loss = 0.000222, learning_rate = 0.010000 (386.7 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.428571, best accuracy 0.428571
+=> patience = 97
+=> 2020-12-30 17:09:29.744993: step 58100, loss = 0.000181, learning_rate = 0.010000 (386.4 examples/sec)
+=> 2020-12-30 17:09:38.928430: step 58200, loss = 0.000245, learning_rate = 0.010000 (386.2 examples/sec)
+=> 2020-12-30 17:09:48.105628: step 58300, loss = 0.000123, learning_rate = 0.010000 (384.4 examples/sec)
+=> 2020-12-30 17:09:57.282086: step 58400, loss = 0.000093, learning_rate = 0.010000 (387.1 examples/sec)
+=> 2020-12-30 17:10:06.506415: step 58500, loss = 0.000159, learning_rate = 0.010000 (392.2 examples/sec)
+=> 2020-12-30 17:10:15.675891: step 58600, loss = 0.000115, learning_rate = 0.010000 (387.4 examples/sec)
+=> 2020-12-30 17:10:24.862322: step 58700, loss = 0.000182, learning_rate = 0.010000 (386.1 examples/sec)
+=> 2020-12-30 17:10:34.041773: step 58800, loss = 0.000192, learning_rate = 0.010000 (385.5 examples/sec)
+=> 2020-12-30 17:10:43.214240: step 58900, loss = 0.000145, learning_rate = 0.010000 (386.6 examples/sec)
+=> 2020-12-30 17:10:52.406655: step 59000, loss = 0.000133, learning_rate = 0.010000 (385.6 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.571429, best accuracy 0.428571
+=> Model saved to file: ./logs\model-59000.pth
+=> patience = 100
+=> 2020-12-30 17:11:02.101726: step 59100, loss = 0.000235, learning_rate = 0.010000 (386.3 examples/sec)
+=> 2020-12-30 17:11:11.263223: step 59200, loss = 0.000254, learning_rate = 0.010000 (386.6 examples/sec)
+=> 2020-12-30 17:11:20.437686: step 59300, loss = 0.001363, learning_rate = 0.010000 (386.2 examples/sec)
+=> 2020-12-30 17:11:29.610154: step 59400, loss = 0.000635, learning_rate = 0.010000 (387.4 examples/sec)
+=> 2020-12-30 17:11:38.787609: step 59500, loss = 0.000095, learning_rate = 0.010000 (386.6 examples/sec)
+=> 2020-12-30 17:11:47.945117: step 59600, loss = 0.000143, learning_rate = 0.010000 (387.3 examples/sec)
+=> 2020-12-30 17:11:57.136534: step 59700, loss = 0.000278, learning_rate = 0.010000 (385.1 examples/sec)
+=> 2020-12-30 17:12:06.309002: step 59800, loss = 0.000136, learning_rate = 0.010000 (386.0 examples/sec)
+=> 2020-12-30 17:12:15.473492: step 59900, loss = 0.000269, learning_rate = 0.010000 (386.3 examples/sec)
+=> 2020-12-30 17:12:24.666904: step 60000, loss = 0.000453, learning_rate = 0.008100 (385.5 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.428571, best accuracy 0.571429
+=> patience = 99
+=> 2020-12-30 17:12:33.917164: step 60100, loss = 0.000215, learning_rate = 0.009000 (386.6 examples/sec)
+=> 2020-12-30 17:12:43.092624: step 60200, loss = 0.001492, learning_rate = 0.009000 (386.3 examples/sec)
+=> 2020-12-30 17:12:52.273071: step 60300, loss = 0.000342, learning_rate = 0.009000 (386.4 examples/sec)
+=> 2020-12-30 17:13:01.465486: step 60400, loss = 0.000307, learning_rate = 0.009000 (386.5 examples/sec)
+=> 2020-12-30 17:13:10.683019: step 60500, loss = 0.001491, learning_rate = 0.009000 (386.6 examples/sec)
+=> 2020-12-30 17:13:19.841524: step 60600, loss = 0.000275, learning_rate = 0.009000 (386.9 examples/sec)
+=> 2020-12-30 17:13:29.020974: step 60700, loss = 0.000485, learning_rate = 0.009000 (386.7 examples/sec)
+=> 2020-12-30 17:13:38.184466: step 60800, loss = 0.000192, learning_rate = 0.009000 (386.2 examples/sec)
+=> 2020-12-30 17:13:47.353942: step 60900, loss = 0.000166, learning_rate = 0.009000 (385.9 examples/sec)
+=> 2020-12-30 17:13:56.654247: step 61000, loss = 0.000322, learning_rate = 0.009000 (384.3 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.428571, best accuracy 0.571429
+=> patience = 98
+=> 2020-12-30 17:14:05.920464: step 61100, loss = 0.000273, learning_rate = 0.009000 (386.4 examples/sec)
+=> 2020-12-30 17:14:15.096921: step 61200, loss = 0.000810, learning_rate = 0.009000 (385.8 examples/sec)
+=> 2020-12-30 17:14:24.277066: step 61300, loss = 0.000291, learning_rate = 0.009000 (386.5 examples/sec)
+=> 2020-12-30 17:14:33.437566: step 61400, loss = 0.000279, learning_rate = 0.009000 (386.5 examples/sec)
+=> 2020-12-30 17:14:42.623000: step 61500, loss = 0.000188, learning_rate = 0.009000 (385.4 examples/sec)
+=> 2020-12-30 17:14:51.788487: step 61600, loss = 0.000251, learning_rate = 0.009000 (385.2 examples/sec)
+=> 2020-12-30 17:15:00.987423: step 61700, loss = 0.000569, learning_rate = 0.009000 (385.4 examples/sec)
+=> 2020-12-30 17:15:10.173853: step 61800, loss = 0.000290, learning_rate = 0.009000 (385.5 examples/sec)
+=> 2020-12-30 17:15:19.359287: step 61900, loss = 0.001179, learning_rate = 0.009000 (385.5 examples/sec)
+=> 2020-12-30 17:15:28.545718: step 62000, loss = 0.004850, learning_rate = 0.009000 (385.5 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.571429, best accuracy 0.571429
+=> patience = 97
+=> 2020-12-30 17:15:37.813930: step 62100, loss = 0.000981, learning_rate = 0.009000 (386.3 examples/sec)
+=> 2020-12-30 17:15:46.996371: step 62200, loss = 0.000842, learning_rate = 0.009000 (385.7 examples/sec)
+=> 2020-12-30 17:15:56.164850: step 62300, loss = 0.000231, learning_rate = 0.009000 (385.8 examples/sec)
+=> 2020-12-30 17:16:05.345297: step 62400, loss = 0.000355, learning_rate = 0.009000 (385.8 examples/sec)
+=> 2020-12-30 17:16:14.550678: step 62500, loss = 0.000227, learning_rate = 0.009000 (384.5 examples/sec)
+=> 2020-12-30 17:16:23.717161: step 62600, loss = 0.000549, learning_rate = 0.009000 (385.8 examples/sec)
+=> 2020-12-30 17:16:32.911570: step 62700, loss = 0.000423, learning_rate = 0.009000 (385.0 examples/sec)
+=> 2020-12-30 17:16:42.097004: step 62800, loss = 0.000394, learning_rate = 0.009000 (386.7 examples/sec)
+=> 2020-12-30 17:16:51.283435: step 62900, loss = 0.000319, learning_rate = 0.009000 (386.0 examples/sec)
+=> 2020-12-30 17:17:00.468869: step 63000, loss = 0.000365, learning_rate = 0.009000 (385.2 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.571429, best accuracy 0.571429
+=> patience = 96
+=> 2020-12-30 17:17:09.747054: step 63100, loss = 0.000676, learning_rate = 0.009000 (387.1 examples/sec)
+=> 2020-12-30 17:17:18.934482: step 63200, loss = 0.002315, learning_rate = 0.009000 (385.5 examples/sec)
+=> 2020-12-30 17:17:28.123905: step 63300, loss = 0.000432, learning_rate = 0.009000 (385.2 examples/sec)
+=> 2020-12-30 17:17:37.322304: step 63400, loss = 0.000213, learning_rate = 0.009000 (385.7 examples/sec)
+=> 2020-12-30 17:17:46.583535: step 63500, loss = 0.000345, learning_rate = 0.009000 (384.6 examples/sec)
+=> 2020-12-30 17:17:55.761987: step 63600, loss = 0.000471, learning_rate = 0.009000 (385.7 examples/sec)
+=> 2020-12-30 17:18:04.946423: step 63700, loss = 0.000692, learning_rate = 0.009000 (385.6 examples/sec)
+=> 2020-12-30 17:18:14.133851: step 63800, loss = 0.000247, learning_rate = 0.009000 (386.5 examples/sec)
+=> 2020-12-30 17:18:23.298340: step 63900, loss = 0.000255, learning_rate = 0.009000 (386.7 examples/sec)
+=> 2020-12-30 17:18:32.497736: step 64000, loss = 0.000272, learning_rate = 0.009000 (385.8 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.571429, best accuracy 0.571429
+=> patience = 95
+=> 2020-12-30 17:18:41.763954: step 64100, loss = 0.000460, learning_rate = 0.009000 (385.2 examples/sec)
+=> 2020-12-30 17:18:50.964348: step 64200, loss = 0.010292, learning_rate = 0.009000 (385.2 examples/sec)
+=> 2020-12-30 17:19:00.162746: step 64300, loss = 0.000806, learning_rate = 0.009000 (385.7 examples/sec)
+=> 2020-12-30 17:19:09.354164: step 64400, loss = 0.000278, learning_rate = 0.009000 (386.2 examples/sec)
+=> 2020-12-30 17:19:18.542589: step 64500, loss = 0.002425, learning_rate = 0.009000 (384.8 examples/sec)
+=> 2020-12-30 17:19:27.743560: step 64600, loss = 0.000127, learning_rate = 0.009000 (386.3 examples/sec)
+=> 2020-12-30 17:19:36.926998: step 64700, loss = 0.000195, learning_rate = 0.009000 (386.2 examples/sec)
+=> 2020-12-30 17:19:46.095434: step 64800, loss = 0.000879, learning_rate = 0.009000 (387.8 examples/sec)
+=> 2020-12-30 17:19:55.286677: step 64900, loss = 0.000197, learning_rate = 0.009000 (385.5 examples/sec)
+=> 2020-12-30 17:20:04.489631: step 65000, loss = 0.000237, learning_rate = 0.009000 (388.9 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.571429
+=> Model saved to file: ./logs\model-65000.pth
+=> patience = 100
+=> 2020-12-30 17:20:14.203651: step 65100, loss = 0.000467, learning_rate = 0.009000 (385.7 examples/sec)
+=> 2020-12-30 17:20:23.346199: step 65200, loss = 0.000253, learning_rate = 0.009000 (387.1 examples/sec)
+=> 2020-12-30 17:20:32.555567: step 65300, loss = 0.000240, learning_rate = 0.009000 (384.5 examples/sec)
+=> 2020-12-30 17:20:41.726042: step 65400, loss = 0.000477, learning_rate = 0.009000 (386.4 examples/sec)
+=> 2020-12-30 17:20:50.911475: step 65500, loss = 0.000510, learning_rate = 0.009000 (385.4 examples/sec)
+=> 2020-12-30 17:21:00.107880: step 65600, loss = 0.000374, learning_rate = 0.009000 (385.0 examples/sec)
+=> 2020-12-30 17:21:09.276358: step 65700, loss = 0.000122, learning_rate = 0.009000 (386.4 examples/sec)
+=> 2020-12-30 17:21:18.473759: step 65800, loss = 0.000654, learning_rate = 0.009000 (386.0 examples/sec)
+=> 2020-12-30 17:21:27.665178: step 65900, loss = 0.000281, learning_rate = 0.009000 (385.7 examples/sec)
+=> 2020-12-30 17:21:36.868562: step 66000, loss = 0.000549, learning_rate = 0.009000 (385.6 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.571429, best accuracy 0.714286
+=> patience = 99
+=> 2020-12-30 17:21:46.157719: step 66100, loss = 0.000282, learning_rate = 0.009000 (386.6 examples/sec)
+=> 2020-12-30 17:21:55.338165: step 66200, loss = 0.000854, learning_rate = 0.009000 (386.4 examples/sec)
+=> 2020-12-30 17:22:04.513625: step 66300, loss = 0.000314, learning_rate = 0.009000 (386.3 examples/sec)
+=> 2020-12-30 17:22:13.709032: step 66400, loss = 0.000398, learning_rate = 0.009000 (385.9 examples/sec)
+=> 2020-12-30 17:22:22.891473: step 66500, loss = 0.000584, learning_rate = 0.009000 (385.3 examples/sec)
+=> 2020-12-30 17:22:32.068929: step 66600, loss = 0.000835, learning_rate = 0.009000 (386.6 examples/sec)
+=> 2020-12-30 17:22:41.261343: step 66700, loss = 0.000364, learning_rate = 0.009000 (385.7 examples/sec)
+=> 2020-12-30 17:22:50.444782: step 66800, loss = 0.000328, learning_rate = 0.009000 (386.0 examples/sec)
+=> 2020-12-30 17:22:59.615256: step 66900, loss = 0.001677, learning_rate = 0.009000 (386.2 examples/sec)
+=> 2020-12-30 17:23:08.798962: step 67000, loss = 0.000728, learning_rate = 0.009000 (386.7 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.571429, best accuracy 0.714286
+=> patience = 98
+=> 2020-12-30 17:23:18.060193: step 67100, loss = 0.000252, learning_rate = 0.009000 (386.0 examples/sec)
+=> 2020-12-30 17:23:27.236651: step 67200, loss = 0.000329, learning_rate = 0.009000 (386.3 examples/sec)
+=> 2020-12-30 17:23:36.433055: step 67300, loss = 0.000235, learning_rate = 0.009000 (384.8 examples/sec)
+=> 2020-12-30 17:23:45.601533: step 67400, loss = 0.000234, learning_rate = 0.009000 (385.8 examples/sec)
+=> 2020-12-30 17:23:54.774999: step 67500, loss = 0.000871, learning_rate = 0.009000 (386.7 examples/sec)
+=> 2020-12-30 17:24:03.958438: step 67600, loss = 0.000383, learning_rate = 0.009000 (386.2 examples/sec)
+=> 2020-12-30 17:24:13.153845: step 67700, loss = 0.000254, learning_rate = 0.009000 (385.1 examples/sec)
+=> 2020-12-30 17:24:22.322323: step 67800, loss = 0.000220, learning_rate = 0.009000 (386.6 examples/sec)
+=> 2020-12-30 17:24:31.502663: step 67900, loss = 0.000260, learning_rate = 0.009000 (385.7 examples/sec)
+=> 2020-12-30 17:24:40.676128: step 68000, loss = 0.000453, learning_rate = 0.009000 (386.0 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.571429, best accuracy 0.714286
+=> patience = 97
+=> 2020-12-30 17:24:49.943343: step 68100, loss = 0.002630, learning_rate = 0.009000 (385.0 examples/sec)
+=> 2020-12-30 17:24:59.142310: step 68200, loss = 0.000534, learning_rate = 0.009000 (384.3 examples/sec)
+=> 2020-12-30 17:25:08.333727: step 68300, loss = 0.000567, learning_rate = 0.009000 (385.6 examples/sec)
+=> 2020-12-30 17:25:17.523149: step 68400, loss = 0.000464, learning_rate = 0.009000 (386.6 examples/sec)
+=> 2020-12-30 17:25:26.733516: step 68500, loss = 0.000440, learning_rate = 0.009000 (386.0 examples/sec)
+=> 2020-12-30 17:25:35.926929: step 68600, loss = 0.000511, learning_rate = 0.009000 (386.2 examples/sec)
+=> 2020-12-30 17:25:45.088426: step 68700, loss = 0.000184, learning_rate = 0.009000 (386.9 examples/sec)
+=> 2020-12-30 17:25:54.272862: step 68800, loss = 0.000985, learning_rate = 0.009000 (385.8 examples/sec)
+=> 2020-12-30 17:26:03.466274: step 68900, loss = 0.000289, learning_rate = 0.009000 (386.2 examples/sec)
+=> 2020-12-30 17:26:12.636748: step 69000, loss = 0.000378, learning_rate = 0.009000 (386.7 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.571429, best accuracy 0.714286
+=> patience = 96
+=> 2020-12-30 17:26:21.895984: step 69100, loss = 0.007746, learning_rate = 0.009000 (386.3 examples/sec)
+=> 2020-12-30 17:26:31.257947: step 69200, loss = 0.000173, learning_rate = 0.009000 (382.2 examples/sec)
+=> 2020-12-30 17:26:40.499230: step 69300, loss = 0.000488, learning_rate = 0.009000 (383.4 examples/sec)
+=> 2020-12-30 17:26:49.688658: step 69400, loss = 0.000285, learning_rate = 0.009000 (387.1 examples/sec)
+=> 2020-12-30 17:26:58.996462: step 69500, loss = 0.000430, learning_rate = 0.009000 (383.1 examples/sec)
+=> 2020-12-30 17:27:08.385476: step 69600, loss = 0.001731, learning_rate = 0.009000 (381.2 examples/sec)
+=> 2020-12-30 17:27:17.602824: step 69700, loss = 0.000540, learning_rate = 0.009000 (384.8 examples/sec)
+=> 2020-12-30 17:27:27.066711: step 69800, loss = 0.000583, learning_rate = 0.009000 (380.0 examples/sec)
+=> 2020-12-30 17:27:36.415713: step 69900, loss = 0.001010, learning_rate = 0.009000 (380.3 examples/sec)
+=> 2020-12-30 17:27:45.742774: step 70000, loss = 0.001460, learning_rate = 0.007290 (381.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.428571, best accuracy 0.714286
+=> patience = 95
+=> 2020-12-30 17:27:55.270331: step 70100, loss = 0.000376, learning_rate = 0.008100 (376.6 examples/sec)
+=> 2020-12-30 17:28:04.561776: step 70200, loss = 0.000339, learning_rate = 0.008100 (384.4 examples/sec)
+=> 2020-12-30 17:28:13.814388: step 70300, loss = 0.000175, learning_rate = 0.008100 (385.6 examples/sec)
+=> 2020-12-30 17:28:22.952103: step 70400, loss = 0.000430, learning_rate = 0.008100 (389.2 examples/sec)
+=> 2020-12-30 17:28:32.199760: step 70500, loss = 0.000274, learning_rate = 0.008100 (384.1 examples/sec)
+=> 2020-12-30 17:28:41.380523: step 70600, loss = 0.000316, learning_rate = 0.008100 (385.6 examples/sec)
+=> 2020-12-30 17:28:50.536036: step 70700, loss = 0.000584, learning_rate = 0.008100 (387.0 examples/sec)
+=> 2020-12-30 17:28:59.794484: step 70800, loss = 0.000252, learning_rate = 0.008100 (385.1 examples/sec)
+=> 2020-12-30 17:29:08.997876: step 70900, loss = 0.000191, learning_rate = 0.008100 (385.8 examples/sec)
+=> 2020-12-30 17:29:18.182313: step 71000, loss = 0.000408, learning_rate = 0.008100 (385.0 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.571429, best accuracy 0.714286
+=> patience = 94
+=> 2020-12-30 17:29:27.608197: step 71100, loss = 0.000531, learning_rate = 0.008100 (379.7 examples/sec)
+=> 2020-12-30 17:29:36.785652: step 71200, loss = 0.000334, learning_rate = 0.008100 (386.8 examples/sec)
+=> 2020-12-30 17:29:45.961112: step 71300, loss = 0.000305, learning_rate = 0.008100 (386.3 examples/sec)
+=> 2020-12-30 17:29:55.202834: step 71400, loss = 0.000242, learning_rate = 0.008100 (384.1 examples/sec)
+=> 2020-12-30 17:30:04.474037: step 71500, loss = 0.001805, learning_rate = 0.008100 (385.9 examples/sec)
+=> 2020-12-30 17:30:13.827023: step 71600, loss = 0.000405, learning_rate = 0.008100 (382.4 examples/sec)
+=> 2020-12-30 17:30:23.107479: step 71700, loss = 0.000343, learning_rate = 0.008100 (384.3 examples/sec)
+=> 2020-12-30 17:30:32.253019: step 71800, loss = 0.051591, learning_rate = 0.008100 (388.0 examples/sec)
+=> 2020-12-30 17:30:41.432469: step 71900, loss = 0.000527, learning_rate = 0.008100 (387.5 examples/sec)
+=> 2020-12-30 17:30:50.575017: step 72000, loss = 0.000209, learning_rate = 0.008100 (389.1 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.571429, best accuracy 0.714286
+=> patience = 93
+=> 2020-12-30 17:30:59.771421: step 72100, loss = 0.000405, learning_rate = 0.008100 (388.0 examples/sec)
+=> 2020-12-30 17:31:08.882054: step 72200, loss = 0.000543, learning_rate = 0.008100 (389.7 examples/sec)
+=> 2020-12-30 17:31:18.005654: step 72300, loss = 0.000317, learning_rate = 0.008100 (389.7 examples/sec)
+=> 2020-12-30 17:31:27.108309: step 72400, loss = 0.000234, learning_rate = 0.008100 (389.2 examples/sec)
+=> 2020-12-30 17:31:36.214953: step 72500, loss = 0.000342, learning_rate = 0.008100 (388.6 examples/sec)
+=> 2020-12-30 17:31:45.322594: step 72600, loss = 0.000881, learning_rate = 0.008100 (389.4 examples/sec)
+=> 2020-12-30 17:31:54.449185: step 72700, loss = 0.000218, learning_rate = 0.008100 (389.1 examples/sec)
+=> 2020-12-30 17:32:03.584752: step 72800, loss = 0.001806, learning_rate = 0.008100 (388.7 examples/sec)
+=> 2020-12-30 17:32:12.694388: step 72900, loss = 0.001105, learning_rate = 0.008100 (389.3 examples/sec)
+=> 2020-12-30 17:32:21.805022: step 73000, loss = 0.000208, learning_rate = 0.008100 (389.2 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 92
+=> 2020-12-30 17:32:31.006413: step 73100, loss = 0.000362, learning_rate = 0.008100 (389.2 examples/sec)
+=> 2020-12-30 17:32:40.125025: step 73200, loss = 0.000318, learning_rate = 0.008100 (389.8 examples/sec)
+=> 2020-12-30 17:32:49.260592: step 73300, loss = 0.000286, learning_rate = 0.008100 (389.7 examples/sec)
+=> 2020-12-30 17:32:58.378206: step 73400, loss = 0.000342, learning_rate = 0.008100 (388.3 examples/sec)
+=> 2020-12-30 17:33:07.554664: step 73500, loss = 0.000323, learning_rate = 0.008100 (387.8 examples/sec)
+=> 2020-12-30 17:33:16.843593: step 73600, loss = 0.000196, learning_rate = 0.008100 (382.5 examples/sec)
+=> 2020-12-30 17:33:26.516146: step 73700, loss = 0.000541, learning_rate = 0.008100 (375.5 examples/sec)
+=> 2020-12-30 17:33:36.221146: step 73800, loss = 0.000286, learning_rate = 0.008100 (368.0 examples/sec)
+=> 2020-12-30 17:33:45.863721: step 73900, loss = 0.000725, learning_rate = 0.008100 (368.7 examples/sec)
+=> 2020-12-30 17:33:55.011255: step 74000, loss = 0.000494, learning_rate = 0.008100 (389.0 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 91
+=> 2020-12-30 17:34:04.218630: step 74100, loss = 0.000376, learning_rate = 0.008100 (388.4 examples/sec)
+=> 2020-12-30 17:34:13.329264: step 74200, loss = 0.000239, learning_rate = 0.008100 (389.4 examples/sec)
+=> 2020-12-30 17:34:22.434911: step 74300, loss = 0.000685, learning_rate = 0.008100 (389.3 examples/sec)
+=> 2020-12-30 17:34:31.556725: step 74400, loss = 0.000460, learning_rate = 0.008100 (390.0 examples/sec)
+=> 2020-12-30 17:34:40.657794: step 74500, loss = 0.000852, learning_rate = 0.008100 (388.7 examples/sec)
+=> 2020-12-30 17:34:49.781393: step 74600, loss = 0.000249, learning_rate = 0.008100 (388.0 examples/sec)
+=> 2020-12-30 17:34:58.883440: step 74700, loss = 0.150101, learning_rate = 0.008100 (389.6 examples/sec)
+=> 2020-12-30 17:35:08.013023: step 74800, loss = 0.481906, learning_rate = 0.008100 (387.8 examples/sec)
+=> 2020-12-30 17:35:17.127646: step 74900, loss = 0.016183, learning_rate = 0.008100 (388.7 examples/sec)
+=> 2020-12-30 17:35:26.235288: step 75000, loss = 0.000712, learning_rate = 0.008100 (389.6 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 90
+=> 2020-12-30 17:35:35.414737: step 75100, loss = 0.001307, learning_rate = 0.008100 (390.0 examples/sec)
+=> 2020-12-30 17:35:44.518389: step 75200, loss = 0.000702, learning_rate = 0.008100 (389.4 examples/sec)
+=> 2020-12-30 17:35:53.639994: step 75300, loss = 0.000460, learning_rate = 0.008100 (389.7 examples/sec)
+=> 2020-12-30 17:36:02.740654: step 75400, loss = 0.001140, learning_rate = 0.008100 (388.9 examples/sec)
+=> 2020-12-30 17:36:11.866248: step 75500, loss = 0.000737, learning_rate = 0.008100 (389.2 examples/sec)
+=> 2020-12-30 17:36:20.990844: step 75600, loss = 0.000555, learning_rate = 0.008100 (389.3 examples/sec)
+=> 2020-12-30 17:36:30.112448: step 75700, loss = 0.000797, learning_rate = 0.008100 (388.6 examples/sec)
+=> 2020-12-30 17:36:39.215103: step 75800, loss = 0.000224, learning_rate = 0.008100 (388.9 examples/sec)
+=> 2020-12-30 17:36:48.335709: step 75900, loss = 0.000382, learning_rate = 0.008100 (390.1 examples/sec)
+=> 2020-12-30 17:36:57.480252: step 76000, loss = 0.000379, learning_rate = 0.008100 (387.6 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 89
+=> 2020-12-30 17:37:06.691617: step 76100, loss = 0.000499, learning_rate = 0.008100 (388.1 examples/sec)
+=> 2020-12-30 17:37:15.820202: step 76200, loss = 0.000373, learning_rate = 0.008100 (388.8 examples/sec)
+=> 2020-12-30 17:37:24.952777: step 76300, loss = 0.000128, learning_rate = 0.008100 (387.9 examples/sec)
+=> 2020-12-30 17:37:34.061416: step 76400, loss = 0.000200, learning_rate = 0.008100 (389.0 examples/sec)
+=> 2020-12-30 17:37:43.204961: step 76500, loss = 0.000309, learning_rate = 0.008100 (388.1 examples/sec)
+=> 2020-12-30 17:37:52.342523: step 76600, loss = 0.000300, learning_rate = 0.008100 (387.7 examples/sec)
+=> 2020-12-30 17:38:01.466122: step 76700, loss = 0.000283, learning_rate = 0.008100 (388.8 examples/sec)
+=> 2020-12-30 17:38:10.581742: step 76800, loss = 0.000180, learning_rate = 0.008100 (388.6 examples/sec)
+=> 2020-12-30 17:38:19.702349: step 76900, loss = 0.000375, learning_rate = 0.008100 (389.5 examples/sec)
+=> 2020-12-30 17:38:28.829937: step 77000, loss = 0.000146, learning_rate = 0.008100 (389.1 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.571429, best accuracy 0.714286
+=> patience = 88
+=> 2020-12-30 17:38:38.042299: step 77100, loss = 0.000397, learning_rate = 0.008100 (388.3 examples/sec)
+=> 2020-12-30 17:38:47.171881: step 77200, loss = 0.000168, learning_rate = 0.008100 (388.8 examples/sec)
+=> 2020-12-30 17:38:56.300467: step 77300, loss = 0.000357, learning_rate = 0.008100 (388.5 examples/sec)
+=> 2020-12-30 17:39:05.412099: step 77400, loss = 0.000132, learning_rate = 0.008100 (389.5 examples/sec)
+=> 2020-12-30 17:39:14.549659: step 77500, loss = 0.000125, learning_rate = 0.008100 (387.3 examples/sec)
+=> 2020-12-30 17:39:23.671298: step 77600, loss = 0.002145, learning_rate = 0.008100 (387.2 examples/sec)
+=> 2020-12-30 17:39:32.787952: step 77700, loss = 0.000245, learning_rate = 0.008100 (388.9 examples/sec)
+=> 2020-12-30 17:39:41.933247: step 77800, loss = 0.000244, learning_rate = 0.008100 (389.2 examples/sec)
+=> 2020-12-30 17:39:51.067815: step 77900, loss = 0.000205, learning_rate = 0.008100 (388.7 examples/sec)
+=> 2020-12-30 17:40:00.210739: step 78000, loss = 0.000227, learning_rate = 0.008100 (391.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 87
+=> 2020-12-30 17:40:09.465986: step 78100, loss = 0.000216, learning_rate = 0.008100 (392.5 examples/sec)
+=> 2020-12-30 17:40:18.577617: step 78200, loss = 0.001263, learning_rate = 0.008100 (389.9 examples/sec)
+=> 2020-12-30 17:40:27.701215: step 78300, loss = 0.000550, learning_rate = 0.008100 (389.8 examples/sec)
+=> 2020-12-30 17:40:36.823817: step 78400, loss = 0.000246, learning_rate = 0.008100 (388.0 examples/sec)
+=> 2020-12-30 17:40:45.947415: step 78500, loss = 0.000262, learning_rate = 0.008100 (388.6 examples/sec)
+=> 2020-12-30 17:40:55.072012: step 78600, loss = 0.000571, learning_rate = 0.008100 (388.9 examples/sec)
+=> 2020-12-30 17:41:04.206581: step 78700, loss = 0.000195, learning_rate = 0.008100 (388.2 examples/sec)
+=> 2020-12-30 17:41:13.349130: step 78800, loss = 0.000440, learning_rate = 0.008100 (387.8 examples/sec)
+=> 2020-12-30 17:41:22.693549: step 78900, loss = 0.000164, learning_rate = 0.008100 (383.3 examples/sec)
+=> 2020-12-30 17:41:31.958952: step 79000, loss = 0.000436, learning_rate = 0.008100 (381.7 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 86
+=> 2020-12-30 17:41:41.399296: step 79100, loss = 0.001449, learning_rate = 0.008100 (381.1 examples/sec)
+=> 2020-12-30 17:41:50.685411: step 79200, loss = 0.000393, learning_rate = 0.008100 (382.3 examples/sec)
+=> 2020-12-30 17:41:59.807352: step 79300, loss = 0.000542, learning_rate = 0.008100 (388.8 examples/sec)
+=> 2020-12-30 17:42:08.907015: step 79400, loss = 0.008491, learning_rate = 0.008100 (389.7 examples/sec)
+=> 2020-12-30 17:42:18.037595: step 79500, loss = 0.000128, learning_rate = 0.008100 (388.6 examples/sec)
+=> 2020-12-30 17:42:27.165184: step 79600, loss = 0.000171, learning_rate = 0.008100 (388.4 examples/sec)
+=> 2020-12-30 17:42:36.280804: step 79700, loss = 0.000488, learning_rate = 0.008100 (389.0 examples/sec)
+=> 2020-12-30 17:42:45.400413: step 79800, loss = 0.000162, learning_rate = 0.008100 (388.0 examples/sec)
+=> 2020-12-30 17:42:54.523014: step 79900, loss = 0.000226, learning_rate = 0.008100 (388.0 examples/sec)
+=> 2020-12-30 17:43:03.683586: step 80000, loss = 0.000786, learning_rate = 0.006561 (387.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 85
+=> 2020-12-30 17:43:12.872066: step 80100, loss = 0.000281, learning_rate = 0.007290 (388.2 examples/sec)
+=> 2020-12-30 17:43:21.977712: step 80200, loss = 0.000146, learning_rate = 0.007290 (388.6 examples/sec)
+=> 2020-12-30 17:43:31.079370: step 80300, loss = 0.000196, learning_rate = 0.007290 (389.3 examples/sec)
+=> 2020-12-30 17:43:40.185016: step 80400, loss = 0.000172, learning_rate = 0.007290 (388.6 examples/sec)
+=> 2020-12-30 17:43:49.306621: step 80500, loss = 0.000406, learning_rate = 0.007290 (389.7 examples/sec)
+=> 2020-12-30 17:43:58.419249: step 80600, loss = 0.000218, learning_rate = 0.007290 (389.6 examples/sec)
+=> 2020-12-30 17:44:07.701421: step 80700, loss = 0.000215, learning_rate = 0.007290 (381.7 examples/sec)
+=> 2020-12-30 17:44:17.147755: step 80800, loss = 0.000302, learning_rate = 0.007290 (378.8 examples/sec)
+=> 2020-12-30 17:44:26.333865: step 80900, loss = 0.000398, learning_rate = 0.007290 (388.1 examples/sec)
+=> 2020-12-30 17:44:35.467232: step 81000, loss = 0.000193, learning_rate = 0.007290 (387.8 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 84
+=> 2020-12-30 17:44:44.727161: step 81100, loss = 0.000315, learning_rate = 0.007290 (387.7 examples/sec)
+=> 2020-12-30 17:44:53.888659: step 81200, loss = 0.000482, learning_rate = 0.007290 (386.6 examples/sec)
+=> 2020-12-30 17:45:03.045507: step 81300, loss = 0.000284, learning_rate = 0.007290 (387.8 examples/sec)
+=> 2020-12-30 17:45:12.209996: step 81400, loss = 0.000762, learning_rate = 0.007290 (389.3 examples/sec)
+=> 2020-12-30 17:45:21.378480: step 81500, loss = 0.000783, learning_rate = 0.007290 (387.1 examples/sec)
+=> 2020-12-30 17:45:30.566901: step 81600, loss = 0.000377, learning_rate = 0.007290 (385.8 examples/sec)
+=> 2020-12-30 17:45:39.718424: step 81700, loss = 0.000413, learning_rate = 0.007290 (386.6 examples/sec)
+=> 2020-12-30 17:45:48.884909: step 81800, loss = 0.000440, learning_rate = 0.007290 (386.6 examples/sec)
+=> 2020-12-30 17:45:58.051393: step 81900, loss = 0.000222, learning_rate = 0.007290 (387.6 examples/sec)
+=> 2020-12-30 17:46:07.233835: step 82000, loss = 0.000213, learning_rate = 0.007290 (386.9 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 83
+=> 2020-12-30 17:46:16.471129: step 82100, loss = 0.000616, learning_rate = 0.007290 (387.0 examples/sec)
+=> 2020-12-30 17:46:25.618665: step 82200, loss = 0.000419, learning_rate = 0.007290 (387.4 examples/sec)
+=> 2020-12-30 17:46:34.781158: step 82300, loss = 0.000138, learning_rate = 0.007290 (386.8 examples/sec)
+=> 2020-12-30 17:46:43.935675: step 82400, loss = 0.000912, learning_rate = 0.007290 (387.0 examples/sec)
+=> 2020-12-30 17:46:53.107148: step 82500, loss = 0.000202, learning_rate = 0.007290 (387.0 examples/sec)
+=> 2020-12-30 17:47:02.250693: step 82600, loss = 0.000281, learning_rate = 0.007290 (387.3 examples/sec)
+=> 2020-12-30 17:47:11.416180: step 82700, loss = 0.000228, learning_rate = 0.007290 (386.8 examples/sec)
+=> 2020-12-30 17:47:20.593635: step 82800, loss = 0.000258, learning_rate = 0.007290 (386.8 examples/sec)
+=> 2020-12-30 17:47:29.741170: step 82900, loss = 0.000240, learning_rate = 0.007290 (387.1 examples/sec)
+=> 2020-12-30 17:47:38.927601: step 83000, loss = 0.000244, learning_rate = 0.007290 (386.1 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 82
+=> 2020-12-30 17:47:48.186837: step 83100, loss = 0.000342, learning_rate = 0.007290 (386.5 examples/sec)
+=> 2020-12-30 17:47:57.326393: step 83200, loss = 0.000720, learning_rate = 0.007290 (387.9 examples/sec)
+=> 2020-12-30 17:48:06.467944: step 83300, loss = 0.000190, learning_rate = 0.007290 (387.7 examples/sec)
+=> 2020-12-30 17:48:15.633442: step 83400, loss = 0.000297, learning_rate = 0.007290 (386.9 examples/sec)
+=> 2020-12-30 17:48:24.813877: step 83500, loss = 0.000239, learning_rate = 0.007290 (387.3 examples/sec)
+=> 2020-12-30 17:48:33.968394: step 83600, loss = 0.009322, learning_rate = 0.007290 (387.0 examples/sec)
+=> 2020-12-30 17:48:43.121913: step 83700, loss = 0.002542, learning_rate = 0.007290 (388.2 examples/sec)
+=> 2020-12-30 17:48:52.284408: step 83800, loss = 0.001279, learning_rate = 0.007290 (387.4 examples/sec)
+=> 2020-12-30 17:49:01.433937: step 83900, loss = 0.000268, learning_rate = 0.007290 (387.1 examples/sec)
+=> 2020-12-30 17:49:10.606405: step 84000, loss = 0.000323, learning_rate = 0.007290 (386.9 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.571429, best accuracy 0.714286
+=> patience = 81
+=> 2020-12-30 17:49:19.850681: step 84100, loss = 0.000242, learning_rate = 0.007290 (388.1 examples/sec)
+=> 2020-12-30 17:49:29.032175: step 84200, loss = 0.000287, learning_rate = 0.007290 (386.9 examples/sec)
+=> 2020-12-30 17:49:38.208632: step 84300, loss = 0.000230, learning_rate = 0.007290 (386.6 examples/sec)
+=> 2020-12-30 17:49:47.386216: step 84400, loss = 0.000213, learning_rate = 0.007290 (387.0 examples/sec)
+=> 2020-12-30 17:49:56.544688: step 84500, loss = 0.000287, learning_rate = 0.007290 (388.0 examples/sec)
+=> 2020-12-30 17:50:05.734111: step 84600, loss = 0.037288, learning_rate = 0.007290 (389.3 examples/sec)
+=> 2020-12-30 17:50:14.900594: step 84700, loss = 0.001163, learning_rate = 0.007290 (387.4 examples/sec)
+=> 2020-12-30 17:50:24.077052: step 84800, loss = 0.000721, learning_rate = 0.007290 (386.1 examples/sec)
+=> 2020-12-30 17:50:33.239547: step 84900, loss = 0.000262, learning_rate = 0.007290 (386.7 examples/sec)
+=> 2020-12-30 17:50:42.386084: step 85000, loss = 0.000352, learning_rate = 0.007290 (388.3 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 80
+=> 2020-12-30 17:50:51.619390: step 85100, loss = 0.000311, learning_rate = 0.007290 (387.6 examples/sec)
+=> 2020-12-30 17:51:00.792855: step 85200, loss = 0.000340, learning_rate = 0.007290 (387.0 examples/sec)
+=> 2020-12-30 17:51:09.957344: step 85300, loss = 0.000181, learning_rate = 0.007290 (386.5 examples/sec)
+=> 2020-12-30 17:51:19.122831: step 85400, loss = 0.000477, learning_rate = 0.007290 (387.0 examples/sec)
+=> 2020-12-30 17:51:28.277348: step 85500, loss = 0.000422, learning_rate = 0.007290 (386.5 examples/sec)
+=> 2020-12-30 17:51:37.429869: step 85600, loss = 0.001639, learning_rate = 0.007290 (387.1 examples/sec)
+=> 2020-12-30 17:51:46.595356: step 85700, loss = 0.000464, learning_rate = 0.007290 (387.3 examples/sec)
+=> 2020-12-30 17:51:55.747878: step 85800, loss = 0.000455, learning_rate = 0.007290 (387.5 examples/sec)
+=> 2020-12-30 17:52:04.909375: step 85900, loss = 0.000488, learning_rate = 0.007290 (386.7 examples/sec)
+=> 2020-12-30 17:52:14.070873: step 86000, loss = 0.000231, learning_rate = 0.007290 (387.0 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 79
+=> 2020-12-30 17:52:23.327117: step 86100, loss = 0.000976, learning_rate = 0.007290 (386.0 examples/sec)
+=> 2020-12-30 17:52:32.483628: step 86200, loss = 0.000415, learning_rate = 0.007290 (386.4 examples/sec)
+=> 2020-12-30 17:52:41.667066: step 86300, loss = 0.000163, learning_rate = 0.007290 (386.0 examples/sec)
+=> 2020-12-30 17:52:50.818590: step 86400, loss = 0.000153, learning_rate = 0.007290 (389.0 examples/sec)
+=> 2020-12-30 17:52:59.974104: step 86500, loss = 0.002171, learning_rate = 0.007290 (387.0 examples/sec)
+=> 2020-12-30 17:53:09.121742: step 86600, loss = 0.000117, learning_rate = 0.007290 (387.5 examples/sec)
+=> 2020-12-30 17:53:18.282241: step 86700, loss = 0.000685, learning_rate = 0.007290 (386.7 examples/sec)
+=> 2020-12-30 17:53:27.436757: step 86800, loss = 0.000659, learning_rate = 0.007290 (387.5 examples/sec)
+=> 2020-12-30 17:53:36.615210: step 86900, loss = 0.000655, learning_rate = 0.007290 (386.1 examples/sec)
+=> 2020-12-30 17:53:45.786681: step 87000, loss = 0.000266, learning_rate = 0.007290 (385.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 78
+=> 2020-12-30 17:53:55.043922: step 87100, loss = 0.000197, learning_rate = 0.007290 (386.4 examples/sec)
+=> 2020-12-30 17:54:04.209408: step 87200, loss = 0.000232, learning_rate = 0.007290 (386.9 examples/sec)
+=> 2020-12-30 17:54:13.384869: step 87300, loss = 0.000250, learning_rate = 0.007290 (386.7 examples/sec)
+=> 2020-12-30 17:54:22.545369: step 87400, loss = 0.000262, learning_rate = 0.007290 (386.7 examples/sec)
+=> 2020-12-30 17:54:31.733073: step 87500, loss = 0.000398, learning_rate = 0.007290 (384.7 examples/sec)
+=> 2020-12-30 17:54:40.893552: step 87600, loss = 0.000239, learning_rate = 0.007290 (388.4 examples/sec)
+=> 2020-12-30 17:54:50.073999: step 87700, loss = 0.000379, learning_rate = 0.007290 (386.9 examples/sec)
+=> 2020-12-30 17:54:59.257417: step 87800, loss = 0.000336, learning_rate = 0.007290 (387.1 examples/sec)
+=> 2020-12-30 17:55:08.425896: step 87900, loss = 0.000530, learning_rate = 0.007290 (386.5 examples/sec)
+=> 2020-12-30 17:55:17.605347: step 88000, loss = 0.001670, learning_rate = 0.007290 (386.3 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 77
+=> 2020-12-30 17:55:26.853611: step 88100, loss = 0.000325, learning_rate = 0.007290 (386.9 examples/sec)
+=> 2020-12-30 17:55:36.024084: step 88200, loss = 0.000159, learning_rate = 0.007290 (385.8 examples/sec)
+=> 2020-12-30 17:55:45.190568: step 88300, loss = 0.000406, learning_rate = 0.007290 (386.8 examples/sec)
+=> 2020-12-30 17:55:54.367026: step 88400, loss = 0.000167, learning_rate = 0.007290 (386.4 examples/sec)
+=> 2020-12-30 17:56:03.531516: step 88500, loss = 0.000896, learning_rate = 0.007290 (386.9 examples/sec)
+=> 2020-12-30 17:56:12.697999: step 88600, loss = 0.000221, learning_rate = 0.007290 (387.0 examples/sec)
+=> 2020-12-30 17:56:21.874457: step 88700, loss = 0.001569, learning_rate = 0.007290 (386.7 examples/sec)
+=> 2020-12-30 17:56:31.061887: step 88800, loss = 0.000461, learning_rate = 0.007290 (387.3 examples/sec)
+=> 2020-12-30 17:56:40.230364: step 88900, loss = 0.001218, learning_rate = 0.007290 (385.6 examples/sec)
+=> 2020-12-30 17:56:49.389867: step 89000, loss = 0.000393, learning_rate = 0.007290 (385.8 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 76
+=> 2020-12-30 17:56:58.648106: step 89100, loss = 0.000589, learning_rate = 0.007290 (386.1 examples/sec)
+=> 2020-12-30 17:57:07.816585: step 89200, loss = 0.000199, learning_rate = 0.007290 (387.1 examples/sec)
+=> 2020-12-30 17:57:16.970103: step 89300, loss = 0.000287, learning_rate = 0.007290 (387.3 examples/sec)
+=> 2020-12-30 17:57:26.120630: step 89400, loss = 0.000384, learning_rate = 0.007290 (387.4 examples/sec)
+=> 2020-12-30 17:57:35.286117: step 89500, loss = 0.000238, learning_rate = 0.007290 (386.3 examples/sec)
+=> 2020-12-30 17:57:44.446618: step 89600, loss = 0.000234, learning_rate = 0.007290 (386.3 examples/sec)
+=> 2020-12-30 17:57:53.610110: step 89700, loss = 0.000496, learning_rate = 0.007290 (386.6 examples/sec)
+=> 2020-12-30 17:58:02.787564: step 89800, loss = 0.000459, learning_rate = 0.007290 (386.3 examples/sec)
+=> 2020-12-30 17:58:11.981973: step 89900, loss = 0.000327, learning_rate = 0.007290 (388.0 examples/sec)
+=> 2020-12-30 17:58:21.166410: step 90000, loss = 0.000275, learning_rate = 0.005905 (386.0 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 75
+=> 2020-12-30 17:58:30.438611: step 90100, loss = 0.000231, learning_rate = 0.006561 (386.0 examples/sec)
+=> 2020-12-30 17:58:39.593128: step 90200, loss = 0.000245, learning_rate = 0.006561 (387.0 examples/sec)
+=> 2020-12-30 17:58:48.749638: step 90300, loss = 0.001339, learning_rate = 0.006561 (387.3 examples/sec)
+=> 2020-12-30 17:58:57.926096: step 90400, loss = 0.000310, learning_rate = 0.006561 (386.1 examples/sec)
+=> 2020-12-30 17:59:07.076622: step 90500, loss = 0.000479, learning_rate = 0.006561 (387.0 examples/sec)
+=> 2020-12-30 17:59:16.251086: step 90600, loss = 0.000258, learning_rate = 0.006561 (387.4 examples/sec)
+=> 2020-12-30 17:59:25.415256: step 90700, loss = 0.000200, learning_rate = 0.006561 (386.9 examples/sec)
+=> 2020-12-30 17:59:34.566780: step 90800, loss = 0.000267, learning_rate = 0.006561 (387.1 examples/sec)
+=> 2020-12-30 17:59:43.739687: step 90900, loss = 0.000592, learning_rate = 0.006561 (387.6 examples/sec)
+=> 2020-12-30 17:59:52.911158: step 91000, loss = 0.000478, learning_rate = 0.006561 (386.9 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 74
+=> 2020-12-30 18:00:02.154194: step 91100, loss = 0.000152, learning_rate = 0.006561 (388.3 examples/sec)
+=> 2020-12-30 18:00:11.328657: step 91200, loss = 0.000219, learning_rate = 0.006561 (387.3 examples/sec)
+=> 2020-12-30 18:00:20.520074: step 91300, loss = 0.000739, learning_rate = 0.006561 (385.3 examples/sec)
+=> 2020-12-30 18:00:29.688554: step 91400, loss = 0.000830, learning_rate = 0.006561 (386.4 examples/sec)
+=> 2020-12-30 18:00:38.860024: step 91500, loss = 0.000443, learning_rate = 0.006561 (385.9 examples/sec)
+=> 2020-12-30 18:00:48.021522: step 91600, loss = 0.000361, learning_rate = 0.006561 (386.9 examples/sec)
+=> 2020-12-30 18:00:57.180027: step 91700, loss = 0.000330, learning_rate = 0.006561 (387.1 examples/sec)
+=> 2020-12-30 18:01:06.319583: step 91800, loss = 0.000832, learning_rate = 0.006561 (387.6 examples/sec)
+=> 2020-12-30 18:01:15.481081: step 91900, loss = 0.000429, learning_rate = 0.006561 (387.6 examples/sec)
+=> 2020-12-30 18:01:24.642578: step 92000, loss = 0.000917, learning_rate = 0.006561 (386.1 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 73
+=> 2020-12-30 18:01:33.881868: step 92100, loss = 0.000480, learning_rate = 0.006561 (387.6 examples/sec)
+=> 2020-12-30 18:01:43.047356: step 92200, loss = 0.000431, learning_rate = 0.006561 (386.3 examples/sec)
+=> 2020-12-30 18:01:52.206858: step 92300, loss = 0.000495, learning_rate = 0.006561 (387.6 examples/sec)
+=> 2020-12-30 18:02:01.371347: step 92400, loss = 0.000577, learning_rate = 0.006561 (387.1 examples/sec)
+=> 2020-12-30 18:02:10.527858: step 92500, loss = 0.000804, learning_rate = 0.006561 (387.0 examples/sec)
+=> 2020-12-30 18:02:19.680380: step 92600, loss = 0.000354, learning_rate = 0.006561 (387.1 examples/sec)
+=> 2020-12-30 18:02:28.836891: step 92700, loss = 0.000285, learning_rate = 0.006561 (386.6 examples/sec)
+=> 2020-12-30 18:02:37.991406: step 92800, loss = 0.000304, learning_rate = 0.006561 (386.9 examples/sec)
+=> 2020-12-30 18:02:47.160883: step 92900, loss = 0.000561, learning_rate = 0.006561 (386.5 examples/sec)
+=> 2020-12-30 18:02:56.339335: step 93000, loss = 0.000274, learning_rate = 0.006561 (385.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 72
+=> 2020-12-30 18:03:05.588871: step 93100, loss = 0.000703, learning_rate = 0.006561 (386.4 examples/sec)
+=> 2020-12-30 18:03:14.734410: step 93200, loss = 0.000448, learning_rate = 0.006561 (387.7 examples/sec)
+=> 2020-12-30 18:03:23.903887: step 93300, loss = 0.003950, learning_rate = 0.006561 (386.9 examples/sec)
+=> 2020-12-30 18:03:33.085331: step 93400, loss = 0.000429, learning_rate = 0.006561 (386.0 examples/sec)
+=> 2020-12-30 18:03:42.257799: step 93500, loss = 0.000597, learning_rate = 0.006561 (386.2 examples/sec)
+=> 2020-12-30 18:03:51.419296: step 93600, loss = 0.000588, learning_rate = 0.006561 (386.8 examples/sec)
+=> 2020-12-30 18:04:00.589770: step 93700, loss = 0.000299, learning_rate = 0.006561 (387.4 examples/sec)
+=> 2020-12-30 18:04:09.740297: step 93800, loss = 0.000375, learning_rate = 0.006561 (386.9 examples/sec)
+=> 2020-12-30 18:04:18.891821: step 93900, loss = 0.000142, learning_rate = 0.006561 (387.2 examples/sec)
+=> 2020-12-30 18:04:28.055406: step 94000, loss = 0.000413, learning_rate = 0.006561 (386.6 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 71
+=> 2020-12-30 18:04:37.320626: step 94100, loss = 0.000571, learning_rate = 0.006561 (385.8 examples/sec)
+=> 2020-12-30 18:04:46.476139: step 94200, loss = 0.000417, learning_rate = 0.006561 (387.7 examples/sec)
+=> 2020-12-30 18:04:55.648120: step 94300, loss = 0.000735, learning_rate = 0.006561 (386.2 examples/sec)
+=> 2020-12-30 18:05:04.788673: step 94400, loss = 0.000526, learning_rate = 0.006561 (387.8 examples/sec)
+=> 2020-12-30 18:05:13.959147: step 94500, loss = 0.000274, learning_rate = 0.006561 (386.7 examples/sec)
+=> 2020-12-30 18:05:23.103690: step 94600, loss = 0.000582, learning_rate = 0.006561 (386.8 examples/sec)
+=> 2020-12-30 18:05:32.282142: step 94700, loss = 0.000294, learning_rate = 0.006561 (386.3 examples/sec)
+=> 2020-12-30 18:05:41.463586: step 94800, loss = 0.000193, learning_rate = 0.006561 (386.2 examples/sec)
+=> 2020-12-30 18:05:50.637051: step 94900, loss = 0.000400, learning_rate = 0.006561 (385.3 examples/sec)
+=> 2020-12-30 18:05:59.804533: step 95000, loss = 0.000918, learning_rate = 0.006561 (386.5 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 70
+=> 2020-12-30 18:06:09.071748: step 95100, loss = 0.000641, learning_rate = 0.006561 (385.8 examples/sec)
+=> 2020-12-30 18:06:18.242221: step 95200, loss = 0.000378, learning_rate = 0.006561 (386.1 examples/sec)
+=> 2020-12-30 18:06:27.405713: step 95300, loss = 0.000372, learning_rate = 0.006561 (386.8 examples/sec)
+=> 2020-12-30 18:06:36.557237: step 95400, loss = 0.000199, learning_rate = 0.006561 (387.5 examples/sec)
+=> 2020-12-30 18:06:45.732698: step 95500, loss = 0.001161, learning_rate = 0.006561 (386.9 examples/sec)
+=> 2020-12-30 18:06:54.913144: step 95600, loss = 0.000572, learning_rate = 0.006561 (385.3 examples/sec)
+=> 2020-12-30 18:07:04.068657: step 95700, loss = 0.000234, learning_rate = 0.006561 (387.4 examples/sec)
+=> 2020-12-30 18:07:13.251099: step 95800, loss = 0.000346, learning_rate = 0.006561 (386.4 examples/sec)
+=> 2020-12-30 18:07:22.415589: step 95900, loss = 0.000347, learning_rate = 0.006561 (386.6 examples/sec)
+=> 2020-12-30 18:07:31.583070: step 96000, loss = 0.000426, learning_rate = 0.006561 (387.2 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 69
+=> 2020-12-30 18:07:40.841309: step 96100, loss = 0.000294, learning_rate = 0.006561 (385.6 examples/sec)
+=> 2020-12-30 18:07:49.999816: step 96200, loss = 0.000499, learning_rate = 0.006561 (386.5 examples/sec)
+=> 2020-12-30 18:07:59.165301: step 96300, loss = 0.001021, learning_rate = 0.006561 (386.8 examples/sec)
+=> 2020-12-30 18:08:08.341759: step 96400, loss = 0.000363, learning_rate = 0.006561 (386.1 examples/sec)
+=> 2020-12-30 18:08:17.504254: step 96500, loss = 0.000306, learning_rate = 0.006561 (385.8 examples/sec)
+=> 2020-12-30 18:08:26.697666: step 96600, loss = 0.000317, learning_rate = 0.006561 (386.1 examples/sec)
+=> 2020-12-30 18:08:35.873127: step 96700, loss = 0.000241, learning_rate = 0.006561 (385.7 examples/sec)
+=> 2020-12-30 18:08:45.049583: step 96800, loss = 0.000592, learning_rate = 0.006561 (387.2 examples/sec)
+=> 2020-12-30 18:08:54.222052: step 96900, loss = 0.000260, learning_rate = 0.006561 (386.4 examples/sec)
+=> 2020-12-30 18:09:03.398509: step 97000, loss = 0.000152, learning_rate = 0.006561 (387.3 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 68
+=> 2020-12-30 18:09:12.651762: step 97100, loss = 0.000374, learning_rate = 0.006561 (387.3 examples/sec)
+=> 2020-12-30 18:09:21.819242: step 97200, loss = 0.000416, learning_rate = 0.006561 (386.0 examples/sec)
+=> 2020-12-30 18:09:30.988720: step 97300, loss = 0.000191, learning_rate = 0.006561 (386.2 examples/sec)
+=> 2020-12-30 18:09:40.153209: step 97400, loss = 0.000278, learning_rate = 0.006561 (386.2 examples/sec)
+=> 2020-12-30 18:09:49.333655: step 97500, loss = 0.000418, learning_rate = 0.006561 (386.2 examples/sec)
+=> 2020-12-30 18:09:58.503131: step 97600, loss = 0.000365, learning_rate = 0.006561 (387.2 examples/sec)
+=> 2020-12-30 18:10:07.728459: step 97700, loss = 0.000533, learning_rate = 0.006561 (390.9 examples/sec)
+=> 2020-12-30 18:10:16.895940: step 97800, loss = 0.000202, learning_rate = 0.006561 (386.3 examples/sec)
+=> 2020-12-30 18:10:26.081993: step 97900, loss = 0.000387, learning_rate = 0.006561 (386.8 examples/sec)
+=> 2020-12-30 18:10:35.221548: step 98000, loss = 0.000269, learning_rate = 0.006561 (387.5 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 67
+=> 2020-12-30 18:10:44.458302: step 98100, loss = 0.000367, learning_rate = 0.006561 (387.2 examples/sec)
+=> 2020-12-30 18:10:53.631768: step 98200, loss = 0.000371, learning_rate = 0.006561 (386.2 examples/sec)
+=> 2020-12-30 18:11:02.799588: step 98300, loss = 0.000176, learning_rate = 0.006561 (387.1 examples/sec)
+=> 2020-12-30 18:11:11.971059: step 98400, loss = 0.000365, learning_rate = 0.006561 (386.4 examples/sec)
+=> 2020-12-30 18:11:21.133553: step 98500, loss = 0.000468, learning_rate = 0.006561 (387.2 examples/sec)
+=> 2020-12-30 18:11:30.311008: step 98600, loss = 0.000459, learning_rate = 0.006561 (386.0 examples/sec)
+=> 2020-12-30 18:11:39.483477: step 98700, loss = 0.000462, learning_rate = 0.006561 (386.4 examples/sec)
+=> 2020-12-30 18:11:48.657939: step 98800, loss = 0.000219, learning_rate = 0.006561 (386.9 examples/sec)
+=> 2020-12-30 18:11:57.821431: step 98900, loss = 0.000295, learning_rate = 0.006561 (386.1 examples/sec)
+=> 2020-12-30 18:12:06.988914: step 99000, loss = 0.000214, learning_rate = 0.006561 (387.0 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 66
+=> 2020-12-30 18:12:16.223216: step 99100, loss = 0.000211, learning_rate = 0.006561 (387.7 examples/sec)
+=> 2020-12-30 18:12:25.389699: step 99200, loss = 0.000266, learning_rate = 0.006561 (386.7 examples/sec)
+=> 2020-12-30 18:12:34.568153: step 99300, loss = 0.000479, learning_rate = 0.006561 (385.8 examples/sec)
+=> 2020-12-30 18:12:43.735633: step 99400, loss = 0.000458, learning_rate = 0.006561 (387.7 examples/sec)
+=> 2020-12-30 18:12:52.912091: step 99500, loss = 0.000909, learning_rate = 0.006561 (387.0 examples/sec)
+=> 2020-12-30 18:13:02.072776: step 99600, loss = 0.000338, learning_rate = 0.006561 (386.5 examples/sec)
+=> 2020-12-30 18:13:11.230505: step 99700, loss = 0.000389, learning_rate = 0.006561 (387.6 examples/sec)
+=> 2020-12-30 18:13:20.385021: step 99800, loss = 0.000243, learning_rate = 0.006561 (386.8 examples/sec)
+=> 2020-12-30 18:13:29.557489: step 99900, loss = 0.000421, learning_rate = 0.006561 (387.0 examples/sec)
+=> 2020-12-30 18:13:38.725968: step 100000, loss = 0.000772, learning_rate = 0.005314 (386.3 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 65
+=> 2020-12-30 18:13:47.984207: step 100100, loss = 0.000399, learning_rate = 0.005905 (386.3 examples/sec)
+=> 2020-12-30 18:13:57.148696: step 100200, loss = 0.000299, learning_rate = 0.005905 (386.4 examples/sec)
+=> 2020-12-30 18:14:06.331138: step 100300, loss = 0.000203, learning_rate = 0.005905 (386.3 examples/sec)
+=> 2020-12-30 18:14:15.512581: step 100400, loss = 0.000161, learning_rate = 0.005905 (386.3 examples/sec)
+=> 2020-12-30 18:14:24.692906: step 100500, loss = 0.000151, learning_rate = 0.005905 (387.3 examples/sec)
+=> 2020-12-30 18:14:33.866372: step 100600, loss = 0.000529, learning_rate = 0.005905 (386.9 examples/sec)
+=> 2020-12-30 18:14:43.014552: step 100700, loss = 0.000616, learning_rate = 0.005905 (388.1 examples/sec)
+=> 2020-12-30 18:14:52.212951: step 100800, loss = 0.000319, learning_rate = 0.005905 (385.3 examples/sec)
+=> 2020-12-30 18:15:01.382387: step 100900, loss = 0.000294, learning_rate = 0.005905 (387.2 examples/sec)
+=> 2020-12-30 18:15:10.559842: step 101000, loss = 0.000269, learning_rate = 0.005905 (385.6 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 64
+=> 2020-12-30 18:15:19.799131: step 101100, loss = 0.000370, learning_rate = 0.005905 (386.9 examples/sec)
+=> 2020-12-30 18:15:28.967610: step 101200, loss = 0.000237, learning_rate = 0.005905 (386.5 examples/sec)
+=> 2020-12-30 18:15:38.132100: step 101300, loss = 0.000390, learning_rate = 0.005905 (386.9 examples/sec)
+=> 2020-12-30 18:15:47.261682: step 101400, loss = 0.000408, learning_rate = 0.005905 (387.6 examples/sec)
+=> 2020-12-30 18:15:56.406225: step 101500, loss = 0.000290, learning_rate = 0.005905 (386.9 examples/sec)
+=> 2020-12-30 18:16:05.573707: step 101600, loss = 0.000727, learning_rate = 0.005905 (386.5 examples/sec)
+=> 2020-12-30 18:16:14.725231: step 101700, loss = 0.000301, learning_rate = 0.005905 (386.5 examples/sec)
+=> 2020-12-30 18:16:23.885731: step 101800, loss = 0.000364, learning_rate = 0.005905 (386.6 examples/sec)
+=> 2020-12-30 18:16:33.041244: step 101900, loss = 0.000939, learning_rate = 0.005905 (386.7 examples/sec)
+=> 2020-12-30 18:16:42.195762: step 102000, loss = 0.000492, learning_rate = 0.005905 (387.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 63
+=> 2020-12-30 18:16:51.418095: step 102100, loss = 0.000281, learning_rate = 0.005905 (387.6 examples/sec)
+=> 2020-12-30 18:17:00.575613: step 102200, loss = 0.000376, learning_rate = 0.005905 (387.6 examples/sec)
+=> 2020-12-30 18:17:09.738099: step 102300, loss = 0.000628, learning_rate = 0.005905 (387.0 examples/sec)
+=> 2020-12-30 18:17:18.914556: step 102400, loss = 0.000199, learning_rate = 0.005905 (386.3 examples/sec)
+=> 2020-12-30 18:17:28.073062: step 102500, loss = 0.000823, learning_rate = 0.005905 (386.5 examples/sec)
+=> 2020-12-30 18:17:37.230569: step 102600, loss = 0.000345, learning_rate = 0.005905 (386.4 examples/sec)
+=> 2020-12-30 18:17:46.419993: step 102700, loss = 0.000224, learning_rate = 0.005905 (385.5 examples/sec)
+=> 2020-12-30 18:17:55.600440: step 102800, loss = 0.000557, learning_rate = 0.005905 (385.5 examples/sec)
+=> 2020-12-30 18:18:04.753958: step 102900, loss = 0.000771, learning_rate = 0.005905 (386.3 examples/sec)
+=> 2020-12-30 18:18:13.910469: step 103000, loss = 0.000456, learning_rate = 0.005905 (387.8 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 62
+=> 2020-12-30 18:18:23.143774: step 103100, loss = 0.000431, learning_rate = 0.005905 (387.3 examples/sec)
+=> 2020-12-30 18:18:32.299288: step 103200, loss = 0.000247, learning_rate = 0.005905 (386.7 examples/sec)
+=> 2020-12-30 18:18:41.473751: step 103300, loss = 0.000277, learning_rate = 0.005905 (386.0 examples/sec)
+=> 2020-12-30 18:18:50.643226: step 103400, loss = 0.000743, learning_rate = 0.005905 (385.6 examples/sec)
+=> 2020-12-30 18:18:59.813700: step 103500, loss = 0.000631, learning_rate = 0.005905 (386.7 examples/sec)
+=> 2020-12-30 18:19:08.976195: step 103600, loss = 0.000276, learning_rate = 0.005905 (386.9 examples/sec)
+=> 2020-12-30 18:19:18.145672: step 103700, loss = 0.000287, learning_rate = 0.005905 (385.9 examples/sec)
+=> 2020-12-30 18:19:27.305890: step 103800, loss = 0.000308, learning_rate = 0.005905 (387.2 examples/sec)
+=> 2020-12-30 18:19:36.461404: step 103900, loss = 0.000315, learning_rate = 0.005905 (387.5 examples/sec)
+=> 2020-12-30 18:19:45.639321: step 104000, loss = 0.000173, learning_rate = 0.005905 (386.0 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 61
+=> 2020-12-30 18:19:54.874621: step 104100, loss = 0.000267, learning_rate = 0.005905 (387.7 examples/sec)
+=> 2020-12-30 18:20:04.065410: step 104200, loss = 0.000301, learning_rate = 0.005905 (388.1 examples/sec)
+=> 2020-12-30 18:20:13.232891: step 104300, loss = 0.000248, learning_rate = 0.005905 (387.4 examples/sec)
+=> 2020-12-30 18:20:22.406357: step 104400, loss = 0.000369, learning_rate = 0.005905 (386.6 examples/sec)
+=> 2020-12-30 18:20:31.562867: step 104500, loss = 0.000782, learning_rate = 0.005905 (386.5 examples/sec)
+=> 2020-12-30 18:20:40.754286: step 104600, loss = 0.000810, learning_rate = 0.005905 (385.6 examples/sec)
+=> 2020-12-30 18:20:49.913788: step 104700, loss = 0.000363, learning_rate = 0.005905 (386.3 examples/sec)
+=> 2020-12-30 18:20:59.068304: step 104800, loss = 0.000501, learning_rate = 0.005905 (386.8 examples/sec)
+=> 2020-12-30 18:21:08.238778: step 104900, loss = 0.000411, learning_rate = 0.005905 (386.8 examples/sec)
+=> 2020-12-30 18:21:17.414237: step 105000, loss = 0.000324, learning_rate = 0.005905 (386.8 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 60
+=> 2020-12-30 18:21:26.672477: step 105100, loss = 0.000434, learning_rate = 0.005905 (385.5 examples/sec)
+=> 2020-12-30 18:21:35.829985: step 105200, loss = 0.000216, learning_rate = 0.005905 (387.5 examples/sec)
+=> 2020-12-30 18:21:44.984675: step 105300, loss = 0.000297, learning_rate = 0.005905 (386.3 examples/sec)
+=> 2020-12-30 18:21:54.147170: step 105400, loss = 0.000973, learning_rate = 0.005905 (386.0 examples/sec)
+=> 2020-12-30 18:22:03.310662: step 105500, loss = 0.000185, learning_rate = 0.005905 (387.7 examples/sec)
+=> 2020-12-30 18:22:12.485125: step 105600, loss = 0.000247, learning_rate = 0.005905 (387.2 examples/sec)
+=> 2020-12-30 18:22:21.634655: step 105700, loss = 0.000494, learning_rate = 0.005905 (387.5 examples/sec)
+=> 2020-12-30 18:22:30.802136: step 105800, loss = 0.000330, learning_rate = 0.005905 (386.1 examples/sec)
+=> 2020-12-30 18:22:39.964972: step 105900, loss = 0.000230, learning_rate = 0.005905 (386.5 examples/sec)
+=> 2020-12-30 18:22:49.129461: step 106000, loss = 0.001100, learning_rate = 0.005905 (386.8 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 59
+=> 2020-12-30 18:22:58.376730: step 106100, loss = 0.000298, learning_rate = 0.005905 (386.9 examples/sec)
+=> 2020-12-30 18:23:07.549314: step 106200, loss = 0.000159, learning_rate = 0.005905 (385.1 examples/sec)
+=> 2020-12-30 18:23:16.723777: step 106300, loss = 0.000537, learning_rate = 0.005905 (386.9 examples/sec)
+=> 2020-12-30 18:23:25.885274: step 106400, loss = 0.000514, learning_rate = 0.005905 (386.4 examples/sec)
+=> 2020-12-30 18:23:35.046533: step 106500, loss = 0.000196, learning_rate = 0.005905 (386.3 examples/sec)
+=> 2020-12-30 18:23:44.192073: step 106600, loss = 0.000383, learning_rate = 0.005905 (387.7 examples/sec)
+=> 2020-12-30 18:23:53.350578: step 106700, loss = 0.000541, learning_rate = 0.005905 (387.6 examples/sec)
+=> 2020-12-30 18:24:02.510082: step 106800, loss = 0.000450, learning_rate = 0.005905 (386.7 examples/sec)
+=> 2020-12-30 18:24:11.669584: step 106900, loss = 0.000249, learning_rate = 0.005905 (386.3 examples/sec)
+=> 2020-12-30 18:24:20.829087: step 107000, loss = 0.000698, learning_rate = 0.005905 (386.6 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 58
+=> 2020-12-30 18:24:30.075421: step 107100, loss = 0.000307, learning_rate = 0.005905 (387.6 examples/sec)
+=> 2020-12-30 18:24:39.202012: step 107200, loss = 0.000307, learning_rate = 0.005905 (388.2 examples/sec)
+=> 2020-12-30 18:24:48.376474: step 107300, loss = 0.000528, learning_rate = 0.005905 (387.0 examples/sec)
+=> 2020-12-30 18:24:57.554010: step 107400, loss = 0.000245, learning_rate = 0.005905 (385.9 examples/sec)
+=> 2020-12-30 18:25:06.753296: step 107500, loss = 0.000364, learning_rate = 0.005905 (385.6 examples/sec)
+=> 2020-12-30 18:25:15.925764: step 107600, loss = 0.000309, learning_rate = 0.005905 (386.3 examples/sec)
+=> 2020-12-30 18:25:25.117181: step 107700, loss = 0.000761, learning_rate = 0.005905 (385.9 examples/sec)
+=> 2020-12-30 18:25:34.273945: step 107800, loss = 0.000733, learning_rate = 0.005905 (386.8 examples/sec)
+=> 2020-12-30 18:25:43.425470: step 107900, loss = 0.000408, learning_rate = 0.005905 (387.2 examples/sec)
+=> 2020-12-30 18:25:52.593948: step 108000, loss = 0.002274, learning_rate = 0.005905 (386.3 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 57
+=> 2020-12-30 18:26:01.849195: step 108100, loss = 0.000357, learning_rate = 0.005905 (386.0 examples/sec)
+=> 2020-12-30 18:26:10.999722: step 108200, loss = 0.000257, learning_rate = 0.005905 (386.7 examples/sec)
+=> 2020-12-30 18:26:20.171193: step 108300, loss = 0.000249, learning_rate = 0.005905 (386.0 examples/sec)
+=> 2020-12-30 18:26:29.335682: step 108400, loss = 0.000375, learning_rate = 0.005905 (386.1 examples/sec)
+=> 2020-12-30 18:26:38.477233: step 108500, loss = 0.000726, learning_rate = 0.005905 (387.6 examples/sec)
+=> 2020-12-30 18:26:47.630753: step 108600, loss = 0.000783, learning_rate = 0.005905 (386.3 examples/sec)
+=> 2020-12-30 18:26:56.777289: step 108700, loss = 0.000314, learning_rate = 0.005905 (387.7 examples/sec)
+=> 2020-12-30 18:27:05.923827: step 108800, loss = 0.000290, learning_rate = 0.005905 (387.7 examples/sec)
+=> 2020-12-30 18:27:15.090733: step 108900, loss = 0.000282, learning_rate = 0.005905 (385.8 examples/sec)
+=> 2020-12-30 18:27:24.236273: step 109000, loss = 0.001244, learning_rate = 0.005905 (387.2 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 56
+=> 2020-12-30 18:27:33.477557: step 109100, loss = 0.000271, learning_rate = 0.005905 (386.8 examples/sec)
+=> 2020-12-30 18:27:42.630079: step 109200, loss = 0.000425, learning_rate = 0.005905 (387.1 examples/sec)
+=> 2020-12-30 18:27:51.779608: step 109300, loss = 0.000488, learning_rate = 0.005905 (387.3 examples/sec)
+=> 2020-12-30 18:28:00.959059: step 109400, loss = 0.000646, learning_rate = 0.005905 (385.9 examples/sec)
+=> 2020-12-30 18:28:10.150488: step 109500, loss = 0.000266, learning_rate = 0.005905 (386.5 examples/sec)
+=> 2020-12-30 18:28:19.306985: step 109600, loss = 0.000470, learning_rate = 0.005905 (387.1 examples/sec)
+=> 2020-12-30 18:28:28.479455: step 109700, loss = 0.000450, learning_rate = 0.005905 (386.2 examples/sec)
+=> 2020-12-30 18:28:37.621005: step 109800, loss = 0.000795, learning_rate = 0.005905 (387.2 examples/sec)
+=> 2020-12-30 18:28:46.769537: step 109900, loss = 0.000330, learning_rate = 0.005905 (387.3 examples/sec)
+=> 2020-12-30 18:28:55.915078: step 110000, loss = 0.000703, learning_rate = 0.004783 (387.8 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 55
+=> 2020-12-30 18:29:05.145390: step 110100, loss = 0.000328, learning_rate = 0.005314 (387.4 examples/sec)
+=> 2020-12-30 18:29:14.305891: step 110200, loss = 0.000248, learning_rate = 0.005314 (386.5 examples/sec)
+=> 2020-12-30 18:29:23.458290: step 110300, loss = 0.000340, learning_rate = 0.005314 (386.0 examples/sec)
+=> 2020-12-30 18:29:32.629297: step 110400, loss = 0.000380, learning_rate = 0.005314 (385.9 examples/sec)
+=> 2020-12-30 18:29:41.780435: step 110500, loss = 0.000318, learning_rate = 0.005314 (387.5 examples/sec)
+=> 2020-12-30 18:29:50.938941: step 110600, loss = 0.000441, learning_rate = 0.005314 (386.7 examples/sec)
+=> 2020-12-30 18:30:00.086953: step 110700, loss = 0.000385, learning_rate = 0.005314 (388.0 examples/sec)
+=> 2020-12-30 18:30:09.254434: step 110800, loss = 0.001011, learning_rate = 0.005314 (389.2 examples/sec)
+=> 2020-12-30 18:30:18.374043: step 110900, loss = 0.000382, learning_rate = 0.005314 (388.1 examples/sec)
+=> 2020-12-30 18:30:27.517589: step 111000, loss = 0.000266, learning_rate = 0.005314 (387.9 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 54
+=> 2020-12-30 18:30:36.759870: step 111100, loss = 0.000357, learning_rate = 0.005314 (386.7 examples/sec)
+=> 2020-12-30 18:30:45.914386: step 111200, loss = 0.000343, learning_rate = 0.005314 (386.7 examples/sec)
+=> 2020-12-30 18:30:55.074886: step 111300, loss = 0.000180, learning_rate = 0.005314 (386.2 examples/sec)
+=> 2020-12-30 18:31:04.220426: step 111400, loss = 0.000269, learning_rate = 0.005314 (387.0 examples/sec)
+=> 2020-12-30 18:31:13.363972: step 111500, loss = 0.000186, learning_rate = 0.005314 (387.6 examples/sec)
+=> 2020-12-30 18:31:22.519486: step 111600, loss = 0.000296, learning_rate = 0.005314 (387.7 examples/sec)
+=> 2020-12-30 18:31:31.659042: step 111700, loss = 0.000437, learning_rate = 0.005314 (387.4 examples/sec)
+=> 2020-12-30 18:31:40.823532: step 111800, loss = 0.001252, learning_rate = 0.005314 (386.4 examples/sec)
+=> 2020-12-30 18:31:49.972063: step 111900, loss = 0.000249, learning_rate = 0.005314 (387.9 examples/sec)
+=> 2020-12-30 18:31:59.125582: step 112000, loss = 0.001268, learning_rate = 0.005314 (387.0 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 53
+=> 2020-12-30 18:32:08.376839: step 112100, loss = 0.000490, learning_rate = 0.005314 (386.7 examples/sec)
+=> 2020-12-30 18:32:17.524374: step 112200, loss = 0.000247, learning_rate = 0.005314 (388.0 examples/sec)
+=> 2020-12-30 18:32:26.680885: step 112300, loss = 0.000704, learning_rate = 0.005314 (386.7 examples/sec)
+=> 2020-12-30 18:32:35.837396: step 112400, loss = 0.000432, learning_rate = 0.005314 (386.8 examples/sec)
+=> 2020-12-30 18:32:44.998893: step 112500, loss = 0.000514, learning_rate = 0.005314 (387.1 examples/sec)
+=> 2020-12-30 18:32:54.154407: step 112600, loss = 0.000231, learning_rate = 0.005314 (386.4 examples/sec)
+=> 2020-12-30 18:33:03.312505: step 112700, loss = 0.000424, learning_rate = 0.005314 (387.3 examples/sec)
+=> 2020-12-30 18:33:12.471497: step 112800, loss = 0.000451, learning_rate = 0.005314 (385.3 examples/sec)
+=> 2020-12-30 18:33:21.633622: step 112900, loss = 0.001035, learning_rate = 0.005314 (384.9 examples/sec)
+=> 2020-12-30 18:33:30.786143: step 113000, loss = 0.000701, learning_rate = 0.005314 (386.9 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 52
+=> 2020-12-30 18:33:40.018193: step 113100, loss = 0.000172, learning_rate = 0.005314 (388.2 examples/sec)
+=> 2020-12-30 18:33:49.167723: step 113200, loss = 0.000199, learning_rate = 0.005314 (387.7 examples/sec)
+=> 2020-12-30 18:33:58.346175: step 113300, loss = 0.000382, learning_rate = 0.005314 (386.4 examples/sec)
+=> 2020-12-30 18:34:07.497700: step 113400, loss = 0.000626, learning_rate = 0.005314 (386.5 examples/sec)
+=> 2020-12-30 18:34:16.649223: step 113500, loss = 0.000189, learning_rate = 0.005314 (387.0 examples/sec)
+=> 2020-12-30 18:34:25.795880: step 113600, loss = 0.000750, learning_rate = 0.005314 (386.4 examples/sec)
+=> 2020-12-30 18:34:34.965355: step 113700, loss = 0.000584, learning_rate = 0.005314 (386.4 examples/sec)
+=> 2020-12-30 18:34:44.135608: step 113800, loss = 0.000397, learning_rate = 0.005314 (388.2 examples/sec)
+=> 2020-12-30 18:34:53.300097: step 113900, loss = 0.000241, learning_rate = 0.005314 (386.3 examples/sec)
+=> 2020-12-30 18:35:02.457702: step 114000, loss = 0.000492, learning_rate = 0.005314 (387.0 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 51
+=> 2020-12-30 18:35:11.720927: step 114100, loss = 0.000204, learning_rate = 0.005314 (386.9 examples/sec)
+=> 2020-12-30 18:35:20.855496: step 114200, loss = 0.000312, learning_rate = 0.005314 (388.5 examples/sec)
+=> 2020-12-30 18:35:30.025970: step 114300, loss = 0.000887, learning_rate = 0.005314 (386.9 examples/sec)
+=> 2020-12-30 18:35:39.170513: step 114400, loss = 0.000535, learning_rate = 0.005314 (386.8 examples/sec)
+=> 2020-12-30 18:35:48.336000: step 114500, loss = 0.000770, learning_rate = 0.005314 (386.6 examples/sec)
+=> 2020-12-30 18:35:57.490517: step 114600, loss = 0.000592, learning_rate = 0.005314 (387.1 examples/sec)
+=> 2020-12-30 18:36:06.637053: step 114700, loss = 0.000315, learning_rate = 0.005314 (387.4 examples/sec)
+=> 2020-12-30 18:36:15.803537: step 114800, loss = 0.000511, learning_rate = 0.005314 (386.5 examples/sec)
+=> 2020-12-30 18:36:24.957056: step 114900, loss = 0.000275, learning_rate = 0.005314 (388.0 examples/sec)
+=> 2020-12-30 18:36:34.117728: step 115000, loss = 0.000357, learning_rate = 0.005314 (385.6 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 50
+=> 2020-12-30 18:36:43.370980: step 115100, loss = 0.000221, learning_rate = 0.005314 (386.7 examples/sec)
+=> 2020-12-30 18:36:52.534471: step 115200, loss = 0.000841, learning_rate = 0.005314 (386.3 examples/sec)
+=> 2020-12-30 18:37:01.678558: step 115300, loss = 0.000210, learning_rate = 0.005314 (387.2 examples/sec)
+=> 2020-12-30 18:37:10.839057: step 115400, loss = 0.000448, learning_rate = 0.005314 (387.2 examples/sec)
+=> 2020-12-30 18:37:19.983600: step 115500, loss = 0.000570, learning_rate = 0.005314 (387.5 examples/sec)
+=> 2020-12-30 18:37:29.153077: step 115600, loss = 0.000312, learning_rate = 0.005314 (386.4 examples/sec)
+=> 2020-12-30 18:37:38.297619: step 115700, loss = 0.000449, learning_rate = 0.005314 (387.4 examples/sec)
+=> 2020-12-30 18:37:47.459117: step 115800, loss = 0.000351, learning_rate = 0.005314 (386.8 examples/sec)
+=> 2020-12-30 18:37:56.617622: step 115900, loss = 0.000301, learning_rate = 0.005314 (386.8 examples/sec)
+=> 2020-12-30 18:38:05.784107: step 116000, loss = 0.000404, learning_rate = 0.005314 (386.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 49
+=> 2020-12-30 18:38:15.023396: step 116100, loss = 0.000249, learning_rate = 0.005314 (387.9 examples/sec)
+=> 2020-12-30 18:38:24.161954: step 116200, loss = 0.000158, learning_rate = 0.005314 (388.1 examples/sec)
+=> 2020-12-30 18:38:33.320460: step 116300, loss = 0.000362, learning_rate = 0.005314 (387.9 examples/sec)
+=> 2020-12-30 18:38:42.483953: step 116400, loss = 0.000336, learning_rate = 0.005314 (387.2 examples/sec)
+=> 2020-12-30 18:38:51.622515: step 116500, loss = 0.000571, learning_rate = 0.005314 (387.6 examples/sec)
+=> 2020-12-30 18:39:00.784011: step 116600, loss = 0.000503, learning_rate = 0.005314 (387.6 examples/sec)
+=> 2020-12-30 18:39:09.931546: step 116700, loss = 0.000322, learning_rate = 0.005314 (387.5 examples/sec)
+=> 2020-12-30 18:39:19.095038: step 116800, loss = 0.000281, learning_rate = 0.005314 (386.6 examples/sec)
+=> 2020-12-30 18:39:28.244622: step 116900, loss = 0.000371, learning_rate = 0.005314 (387.7 examples/sec)
+=> 2020-12-30 18:39:37.398140: step 117000, loss = 0.000378, learning_rate = 0.005314 (386.9 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 48
+=> 2020-12-30 18:39:46.625001: step 117100, loss = 0.000287, learning_rate = 0.005314 (387.2 examples/sec)
+=> 2020-12-30 18:39:55.780684: step 117200, loss = 0.000293, learning_rate = 0.005314 (386.8 examples/sec)
+=> 2020-12-30 18:40:05.007008: step 117300, loss = 0.000420, learning_rate = 0.005314 (389.9 examples/sec)
+=> 2020-12-30 18:40:14.197428: step 117400, loss = 0.000406, learning_rate = 0.005314 (388.5 examples/sec)
+=> 2020-12-30 18:40:23.356284: step 117500, loss = 0.000361, learning_rate = 0.005314 (388.0 examples/sec)
+=> 2020-12-30 18:40:32.524761: step 117600, loss = 0.001187, learning_rate = 0.005314 (387.3 examples/sec)
+=> 2020-12-30 18:40:41.679279: step 117700, loss = 0.000452, learning_rate = 0.005314 (386.3 examples/sec)
+=> 2020-12-30 18:40:50.813847: step 117800, loss = 0.000507, learning_rate = 0.005314 (387.7 examples/sec)
+=> 2020-12-30 18:40:59.968363: step 117900, loss = 0.000604, learning_rate = 0.005314 (387.2 examples/sec)
+=> 2020-12-30 18:41:09.120885: step 118000, loss = 0.000248, learning_rate = 0.005314 (387.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 47
+=> 2020-12-30 18:41:18.341225: step 118100, loss = 0.000302, learning_rate = 0.005314 (386.7 examples/sec)
+=> 2020-12-30 18:41:27.501726: step 118200, loss = 0.000453, learning_rate = 0.005314 (387.0 examples/sec)
+=> 2020-12-30 18:41:36.640143: step 118300, loss = 0.000343, learning_rate = 0.005314 (387.8 examples/sec)
+=> 2020-12-30 18:41:45.783688: step 118400, loss = 0.000681, learning_rate = 0.005314 (386.9 examples/sec)
+=> 2020-12-30 18:41:54.927234: step 118500, loss = 0.000156, learning_rate = 0.005314 (387.6 examples/sec)
+=> 2020-12-30 18:42:04.064795: step 118600, loss = 0.000116, learning_rate = 0.005314 (387.5 examples/sec)
+=> 2020-12-30 18:42:13.216320: step 118700, loss = 0.000409, learning_rate = 0.005314 (387.6 examples/sec)
+=> 2020-12-30 18:42:22.366846: step 118800, loss = 0.000313, learning_rate = 0.005314 (387.7 examples/sec)
+=> 2020-12-30 18:42:31.530348: step 118900, loss = 0.000368, learning_rate = 0.005314 (387.7 examples/sec)
+=> 2020-12-30 18:42:40.683867: step 119000, loss = 0.000237, learning_rate = 0.005314 (387.3 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 46
+=> 2020-12-30 18:42:49.922158: step 119100, loss = 0.001125, learning_rate = 0.005314 (386.0 examples/sec)
+=> 2020-12-30 18:42:59.072687: step 119200, loss = 0.000327, learning_rate = 0.005314 (387.8 examples/sec)
+=> 2020-12-30 18:43:08.237317: step 119300, loss = 0.000398, learning_rate = 0.005314 (387.1 examples/sec)
+=> 2020-12-30 18:43:17.410418: step 119400, loss = 0.000155, learning_rate = 0.005314 (386.5 examples/sec)
+=> 2020-12-30 18:43:26.552967: step 119500, loss = 0.000394, learning_rate = 0.005314 (388.0 examples/sec)
+=> 2020-12-30 18:43:35.690529: step 119600, loss = 0.000302, learning_rate = 0.005314 (387.6 examples/sec)
+=> 2020-12-30 18:43:44.839061: step 119700, loss = 0.000623, learning_rate = 0.005314 (387.8 examples/sec)
+=> 2020-12-30 18:43:53.995571: step 119800, loss = 0.000567, learning_rate = 0.005314 (386.9 examples/sec)
+=> 2020-12-30 18:44:03.160061: step 119900, loss = 0.000524, learning_rate = 0.005314 (388.3 examples/sec)
+=> 2020-12-30 18:44:12.293633: step 120000, loss = 0.000840, learning_rate = 0.004305 (388.2 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 45
+=> 2020-12-30 18:44:21.529930: step 120100, loss = 0.000234, learning_rate = 0.004783 (386.4 examples/sec)
+=> 2020-12-30 18:44:30.665551: step 120200, loss = 0.000284, learning_rate = 0.004783 (388.3 examples/sec)
+=> 2020-12-30 18:44:39.810975: step 120300, loss = 0.000519, learning_rate = 0.004783 (386.5 examples/sec)
+=> 2020-12-30 18:44:48.975464: step 120400, loss = 0.000284, learning_rate = 0.004783 (386.6 examples/sec)
+=> 2020-12-30 18:44:58.121291: step 120500, loss = 0.000446, learning_rate = 0.004783 (387.5 examples/sec)
+=> 2020-12-30 18:45:07.293760: step 120600, loss = 0.000346, learning_rate = 0.004783 (387.5 examples/sec)
+=> 2020-12-30 18:45:16.442292: step 120700, loss = 0.000316, learning_rate = 0.004783 (387.2 examples/sec)
+=> 2020-12-30 18:45:25.569879: step 120800, loss = 0.000966, learning_rate = 0.004783 (387.7 examples/sec)
+=> 2020-12-30 18:45:34.724374: step 120900, loss = 0.000776, learning_rate = 0.004783 (389.3 examples/sec)
+=> 2020-12-30 18:45:43.873902: step 121000, loss = 0.000270, learning_rate = 0.004783 (388.3 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 44
+=> 2020-12-30 18:45:53.105212: step 121100, loss = 0.000240, learning_rate = 0.004783 (387.8 examples/sec)
+=> 2020-12-30 18:46:02.280673: step 121200, loss = 0.000651, learning_rate = 0.004783 (387.0 examples/sec)
+=> 2020-12-30 18:46:11.430202: step 121300, loss = 0.000227, learning_rate = 0.004783 (387.5 examples/sec)
+=> 2020-12-30 18:46:20.568761: step 121400, loss = 0.000228, learning_rate = 0.004783 (387.9 examples/sec)
+=> 2020-12-30 18:46:29.750205: step 121500, loss = 0.000338, learning_rate = 0.004783 (386.1 examples/sec)
+=> 2020-12-30 18:46:38.920678: step 121600, loss = 0.000447, learning_rate = 0.004783 (386.7 examples/sec)
+=> 2020-12-30 18:46:48.062229: step 121700, loss = 0.000160, learning_rate = 0.004783 (387.2 examples/sec)
+=> 2020-12-30 18:46:57.214751: step 121800, loss = 0.000244, learning_rate = 0.004783 (389.3 examples/sec)
+=> 2020-12-30 18:47:06.372259: step 121900, loss = 0.000415, learning_rate = 0.004783 (387.1 examples/sec)
+=> 2020-12-30 18:47:15.532759: step 122000, loss = 0.000351, learning_rate = 0.004783 (387.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 43
+=> 2020-12-30 18:47:24.758086: step 122100, loss = 0.000228, learning_rate = 0.004783 (388.1 examples/sec)
+=> 2020-12-30 18:47:33.918587: step 122200, loss = 0.000478, learning_rate = 0.004783 (387.3 examples/sec)
+=> 2020-12-30 18:47:43.070253: step 122300, loss = 0.000223, learning_rate = 0.004783 (387.6 examples/sec)
+=> 2020-12-30 18:47:52.223772: step 122400, loss = 0.000457, learning_rate = 0.004783 (386.9 examples/sec)
+=> 2020-12-30 18:48:01.386267: step 122500, loss = 0.000222, learning_rate = 0.004783 (387.5 examples/sec)
+=> 2020-12-30 18:48:10.531807: step 122600, loss = 0.000199, learning_rate = 0.004783 (387.7 examples/sec)
+=> 2020-12-30 18:48:19.691311: step 122700, loss = 0.000352, learning_rate = 0.004783 (387.1 examples/sec)
+=> 2020-12-30 18:48:28.873751: step 122800, loss = 0.000479, learning_rate = 0.004783 (386.8 examples/sec)
+=> 2020-12-30 18:48:38.024278: step 122900, loss = 0.000255, learning_rate = 0.004783 (387.9 examples/sec)
+=> 2020-12-30 18:48:47.172810: step 123000, loss = 0.000302, learning_rate = 0.004783 (387.6 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 42
+=> 2020-12-30 18:48:56.418084: step 123100, loss = 0.000324, learning_rate = 0.004783 (387.9 examples/sec)
+=> 2020-12-30 18:49:05.568610: step 123200, loss = 0.000258, learning_rate = 0.004783 (387.3 examples/sec)
+=> 2020-12-30 18:49:14.727116: step 123300, loss = 0.000286, learning_rate = 0.004783 (386.4 examples/sec)
+=> 2020-12-30 18:49:23.876430: step 123400, loss = 0.000272, learning_rate = 0.004783 (388.3 examples/sec)
+=> 2020-12-30 18:49:33.007010: step 123500, loss = 0.000395, learning_rate = 0.004783 (388.4 examples/sec)
+=> 2020-12-30 18:49:42.171983: step 123600, loss = 0.000215, learning_rate = 0.004783 (387.3 examples/sec)
+=> 2020-12-30 18:49:51.338466: step 123700, loss = 0.000387, learning_rate = 0.004783 (386.6 examples/sec)
+=> 2020-12-30 18:50:00.503255: step 123800, loss = 0.000353, learning_rate = 0.004783 (386.7 examples/sec)
+=> 2020-12-30 18:50:09.656774: step 123900, loss = 0.000651, learning_rate = 0.004783 (389.2 examples/sec)
+=> 2020-12-30 18:50:18.800319: step 124000, loss = 0.000245, learning_rate = 0.004783 (387.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 41
+=> 2020-12-30 18:50:28.040606: step 124100, loss = 0.000229, learning_rate = 0.004783 (388.6 examples/sec)
+=> 2020-12-30 18:50:37.208088: step 124200, loss = 0.001019, learning_rate = 0.004783 (386.4 examples/sec)
+=> 2020-12-30 18:50:46.352631: step 124300, loss = 0.000497, learning_rate = 0.004783 (387.9 examples/sec)
+=> 2020-12-30 18:50:55.500166: step 124400, loss = 0.000222, learning_rate = 0.004783 (387.0 examples/sec)
+=> 2020-12-30 18:51:04.659668: step 124500, loss = 0.000358, learning_rate = 0.004783 (387.1 examples/sec)
+=> 2020-12-30 18:51:13.822164: step 124600, loss = 0.000260, learning_rate = 0.004783 (387.0 examples/sec)
+=> 2020-12-30 18:51:22.984658: step 124700, loss = 0.000923, learning_rate = 0.004783 (386.6 examples/sec)
+=> 2020-12-30 18:51:32.137179: step 124800, loss = 0.000795, learning_rate = 0.004783 (386.9 examples/sec)
+=> 2020-12-30 18:51:41.293691: step 124900, loss = 0.000235, learning_rate = 0.004783 (386.8 examples/sec)
+=> 2020-12-30 18:51:50.446212: step 125000, loss = 0.000233, learning_rate = 0.004783 (386.9 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 40
+=> 2020-12-30 18:51:59.660568: step 125100, loss = 0.000805, learning_rate = 0.004783 (387.9 examples/sec)
+=> 2020-12-30 18:52:08.796134: step 125200, loss = 0.000214, learning_rate = 0.004783 (387.4 examples/sec)
+=> 2020-12-30 18:52:17.958630: step 125300, loss = 0.001219, learning_rate = 0.004783 (386.6 examples/sec)
+=> 2020-12-30 18:52:27.110154: step 125400, loss = 0.000231, learning_rate = 0.004783 (386.9 examples/sec)
+=> 2020-12-30 18:52:36.262675: step 125500, loss = 0.000518, learning_rate = 0.004783 (387.0 examples/sec)
+=> 2020-12-30 18:52:45.400237: step 125600, loss = 0.000549, learning_rate = 0.004783 (388.0 examples/sec)
+=> 2020-12-30 18:52:54.544780: step 125700, loss = 0.000342, learning_rate = 0.004783 (388.7 examples/sec)
+=> 2020-12-30 18:53:03.690800: step 125800, loss = 0.000221, learning_rate = 0.004783 (387.4 examples/sec)
+=> 2020-12-30 18:53:12.847311: step 125900, loss = 0.000269, learning_rate = 0.004783 (387.6 examples/sec)
+=> 2020-12-30 18:53:21.997838: step 126000, loss = 0.000300, learning_rate = 0.004783 (387.0 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 39
+=> 2020-12-30 18:53:31.234135: step 126100, loss = 0.000654, learning_rate = 0.004783 (388.4 examples/sec)
+=> 2020-12-30 18:53:40.375686: step 126200, loss = 0.000394, learning_rate = 0.004783 (386.8 examples/sec)
+=> 2020-12-30 18:53:49.521226: step 126300, loss = 0.000489, learning_rate = 0.004783 (388.0 examples/sec)
+=> 2020-12-30 18:53:58.676740: step 126400, loss = 0.000525, learning_rate = 0.004783 (387.7 examples/sec)
+=> 2020-12-30 18:54:07.833250: step 126500, loss = 0.000355, learning_rate = 0.004783 (387.7 examples/sec)
+=> 2020-12-30 18:54:16.993750: step 126600, loss = 0.000196, learning_rate = 0.004783 (386.8 examples/sec)
+=> 2020-12-30 18:54:26.151440: step 126700, loss = 0.000345, learning_rate = 0.004783 (387.5 examples/sec)
+=> 2020-12-30 18:54:35.318921: step 126800, loss = 0.000512, learning_rate = 0.004783 (387.0 examples/sec)
+=> 2020-12-30 18:54:44.453491: step 126900, loss = 0.000789, learning_rate = 0.004783 (388.0 examples/sec)
+=> 2020-12-30 18:54:53.589058: step 127000, loss = 0.000354, learning_rate = 0.004783 (388.0 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 38
+=> 2020-12-30 18:55:02.829170: step 127100, loss = 0.000517, learning_rate = 0.004783 (386.9 examples/sec)
+=> 2020-12-30 18:55:11.969723: step 127200, loss = 0.000338, learning_rate = 0.004783 (388.8 examples/sec)
+=> 2020-12-30 18:55:21.118255: step 127300, loss = 0.000440, learning_rate = 0.004783 (386.8 examples/sec)
+=> 2020-12-30 18:55:30.263799: step 127400, loss = 0.000217, learning_rate = 0.004783 (387.9 examples/sec)
+=> 2020-12-30 18:55:39.402354: step 127500, loss = 0.000267, learning_rate = 0.004783 (388.4 examples/sec)
+=> 2020-12-30 18:55:48.547894: step 127600, loss = 0.000321, learning_rate = 0.004783 (388.2 examples/sec)
+=> 2020-12-30 18:55:57.685456: step 127700, loss = 0.000206, learning_rate = 0.004783 (387.1 examples/sec)
+=> 2020-12-30 18:56:06.832991: step 127800, loss = 0.000528, learning_rate = 0.004783 (386.6 examples/sec)
+=> 2020-12-30 18:56:15.966563: step 127900, loss = 0.000348, learning_rate = 0.004783 (387.9 examples/sec)
+=> 2020-12-30 18:56:25.107117: step 128000, loss = 0.000216, learning_rate = 0.004783 (387.5 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 37
+=> 2020-12-30 18:56:34.357377: step 128100, loss = 0.000200, learning_rate = 0.004783 (387.4 examples/sec)
+=> 2020-12-30 18:56:43.487957: step 128200, loss = 0.000397, learning_rate = 0.004783 (387.2 examples/sec)
+=> 2020-12-30 18:56:52.638484: step 128300, loss = 0.000169, learning_rate = 0.004783 (387.7 examples/sec)
+=> 2020-12-30 18:57:01.796989: step 128400, loss = 0.000398, learning_rate = 0.004783 (387.7 examples/sec)
+=> 2020-12-30 18:57:10.950508: step 128500, loss = 0.000423, learning_rate = 0.004783 (387.8 examples/sec)
+=> 2020-12-30 18:57:20.085078: step 128600, loss = 0.000272, learning_rate = 0.004783 (387.5 examples/sec)
+=> 2020-12-30 18:57:29.217652: step 128700, loss = 0.000491, learning_rate = 0.004783 (388.4 examples/sec)
+=> 2020-12-30 18:57:38.371172: step 128800, loss = 0.000454, learning_rate = 0.004783 (388.2 examples/sec)
+=> 2020-12-30 18:57:47.512722: step 128900, loss = 0.000246, learning_rate = 0.004783 (387.5 examples/sec)
+=> 2020-12-30 18:57:56.664247: step 129000, loss = 0.000644, learning_rate = 0.004783 (386.8 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 36
+=> 2020-12-30 18:58:05.901541: step 129100, loss = 0.000353, learning_rate = 0.004783 (388.1 examples/sec)
+=> 2020-12-30 18:58:15.049076: step 129200, loss = 0.000174, learning_rate = 0.004783 (387.5 examples/sec)
+=> 2020-12-30 18:58:24.199602: step 129300, loss = 0.000187, learning_rate = 0.004783 (387.2 examples/sec)
+=> 2020-12-30 18:58:33.363095: step 129400, loss = 0.000312, learning_rate = 0.004783 (386.5 examples/sec)
+=> 2020-12-30 18:58:42.508635: step 129500, loss = 0.000268, learning_rate = 0.004783 (387.7 examples/sec)
+=> 2020-12-30 18:58:51.664149: step 129600, loss = 0.000413, learning_rate = 0.004783 (386.3 examples/sec)
+=> 2020-12-30 18:59:00.800713: step 129700, loss = 0.000276, learning_rate = 0.004783 (387.7 examples/sec)
+=> 2020-12-30 18:59:09.991133: step 129800, loss = 0.000454, learning_rate = 0.004783 (385.9 examples/sec)
+=> 2020-12-30 18:59:19.147643: step 129900, loss = 0.000416, learning_rate = 0.004783 (387.4 examples/sec)
+=> 2020-12-30 18:59:28.299946: step 130000, loss = 0.000371, learning_rate = 0.003874 (387.7 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 35
+=> 2020-12-30 18:59:37.495353: step 130100, loss = 0.000325, learning_rate = 0.004305 (389.5 examples/sec)
+=> 2020-12-30 18:59:46.645836: step 130200, loss = 0.000318, learning_rate = 0.004305 (388.2 examples/sec)
+=> 2020-12-30 18:59:55.778073: step 130300, loss = 0.000280, learning_rate = 0.004305 (389.2 examples/sec)
+=> 2020-12-30 19:00:04.920620: step 130400, loss = 0.000339, learning_rate = 0.004305 (390.1 examples/sec)
+=> 2020-12-30 19:00:14.039241: step 130500, loss = 0.000263, learning_rate = 0.004305 (390.3 examples/sec)
+=> 2020-12-30 19:00:23.194754: step 130600, loss = 0.000325, learning_rate = 0.004305 (387.5 examples/sec)
+=> 2020-12-30 19:00:32.326333: step 130700, loss = 0.000238, learning_rate = 0.004305 (387.8 examples/sec)
+=> 2020-12-30 19:00:41.481846: step 130800, loss = 0.000272, learning_rate = 0.004305 (387.0 examples/sec)
+=> 2020-12-30 19:00:50.634367: step 130900, loss = 0.000290, learning_rate = 0.004305 (387.3 examples/sec)
+=> 2020-12-30 19:00:59.783897: step 131000, loss = 0.000474, learning_rate = 0.004305 (387.2 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 34
+=> 2020-12-30 19:01:09.010221: step 131100, loss = 0.000411, learning_rate = 0.004305 (388.0 examples/sec)
+=> 2020-12-30 19:01:18.157756: step 131200, loss = 0.000319, learning_rate = 0.004305 (387.8 examples/sec)
+=> 2020-12-30 19:01:27.326076: step 131300, loss = 0.000391, learning_rate = 0.004305 (385.9 examples/sec)
+=> 2020-12-30 19:01:36.446701: step 131400, loss = 0.000291, learning_rate = 0.004305 (387.1 examples/sec)
+=> 2020-12-30 19:01:45.602196: step 131500, loss = 0.000438, learning_rate = 0.004305 (387.7 examples/sec)
+=> 2020-12-30 19:01:54.754718: step 131600, loss = 0.000304, learning_rate = 0.004305 (387.2 examples/sec)
+=> 2020-12-30 19:02:03.916215: step 131700, loss = 0.000221, learning_rate = 0.004305 (386.4 examples/sec)
+=> 2020-12-30 19:02:13.042806: step 131800, loss = 0.000250, learning_rate = 0.004305 (388.4 examples/sec)
+=> 2020-12-30 19:02:22.199678: step 131900, loss = 0.000222, learning_rate = 0.004305 (388.1 examples/sec)
+=> 2020-12-30 19:02:31.356189: step 132000, loss = 0.000133, learning_rate = 0.004305 (389.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 33
+=> 2020-12-30 19:02:40.601463: step 132100, loss = 0.000264, learning_rate = 0.004305 (386.5 examples/sec)
+=> 2020-12-30 19:02:49.756976: step 132200, loss = 0.000272, learning_rate = 0.004305 (386.7 examples/sec)
+=> 2020-12-30 19:02:58.902516: step 132300, loss = 0.000568, learning_rate = 0.004305 (387.5 examples/sec)
+=> 2020-12-30 19:03:08.044371: step 132400, loss = 0.000228, learning_rate = 0.004305 (385.7 examples/sec)
+=> 2020-12-30 19:03:17.177943: step 132500, loss = 0.000421, learning_rate = 0.004305 (388.5 examples/sec)
+=> 2020-12-30 19:03:26.329467: step 132600, loss = 0.000248, learning_rate = 0.004305 (387.7 examples/sec)
+=> 2020-12-30 19:03:35.480992: step 132700, loss = 0.000231, learning_rate = 0.004305 (387.4 examples/sec)
+=> 2020-12-30 19:03:44.607238: step 132800, loss = 0.000186, learning_rate = 0.004305 (390.3 examples/sec)
+=> 2020-12-30 19:03:53.740810: step 132900, loss = 0.000150, learning_rate = 0.004305 (387.8 examples/sec)
+=> 2020-12-30 19:04:02.893332: step 133000, loss = 0.000259, learning_rate = 0.004305 (386.7 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 32
+=> 2020-12-30 19:04:12.140600: step 133100, loss = 0.000418, learning_rate = 0.004305 (386.3 examples/sec)
+=> 2020-12-30 19:04:21.281153: step 133200, loss = 0.000233, learning_rate = 0.004305 (387.7 examples/sec)
+=> 2020-12-30 19:04:30.432823: step 133300, loss = 0.000310, learning_rate = 0.004305 (388.0 examples/sec)
+=> 2020-12-30 19:04:39.569495: step 133400, loss = 0.000355, learning_rate = 0.004305 (388.1 examples/sec)
+=> 2020-12-30 19:04:48.718631: step 133500, loss = 0.000333, learning_rate = 0.004305 (388.7 examples/sec)
+=> 2020-12-30 19:04:57.875792: step 133600, loss = 0.000474, learning_rate = 0.004305 (386.8 examples/sec)
+=> 2020-12-30 19:05:07.011359: step 133700, loss = 0.000624, learning_rate = 0.004305 (388.0 examples/sec)
+=> 2020-12-30 19:05:16.156899: step 133800, loss = 0.000314, learning_rate = 0.004305 (387.8 examples/sec)
+=> 2020-12-30 19:05:25.297453: step 133900, loss = 0.000221, learning_rate = 0.004305 (387.6 examples/sec)
+=> 2020-12-30 19:05:34.413072: step 134000, loss = 0.000170, learning_rate = 0.004305 (388.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 31
+=> 2020-12-30 19:05:43.654357: step 134100, loss = 0.000364, learning_rate = 0.004305 (387.2 examples/sec)
+=> 2020-12-30 19:05:52.819844: step 134200, loss = 0.000269, learning_rate = 0.004305 (387.5 examples/sec)
+=> 2020-12-30 19:06:01.975357: step 134300, loss = 0.000583, learning_rate = 0.004305 (387.6 examples/sec)
+=> 2020-12-30 19:06:11.125884: step 134400, loss = 0.000649, learning_rate = 0.004305 (386.9 examples/sec)
+=> 2020-12-30 19:06:20.271424: step 134500, loss = 0.000241, learning_rate = 0.004305 (387.4 examples/sec)
+=> 2020-12-30 19:06:29.421951: step 134600, loss = 0.000111, learning_rate = 0.004305 (387.6 examples/sec)
+=> 2020-12-30 19:06:38.563502: step 134700, loss = 0.000381, learning_rate = 0.004305 (387.9 examples/sec)
+=> 2020-12-30 19:06:47.720012: step 134800, loss = 0.000538, learning_rate = 0.004305 (388.0 examples/sec)
+=> 2020-12-30 19:06:56.856578: step 134900, loss = 0.000252, learning_rate = 0.004305 (387.0 examples/sec)
+=> 2020-12-30 19:07:06.002117: step 135000, loss = 0.000869, learning_rate = 0.004305 (387.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 30
+=> 2020-12-30 19:07:15.241407: step 135100, loss = 0.000877, learning_rate = 0.004305 (387.4 examples/sec)
+=> 2020-12-30 19:07:24.392931: step 135200, loss = 0.000241, learning_rate = 0.004305 (387.8 examples/sec)
+=> 2020-12-30 19:07:33.545452: step 135300, loss = 0.000212, learning_rate = 0.004305 (387.7 examples/sec)
+=> 2020-12-30 19:07:42.692987: step 135400, loss = 0.000446, learning_rate = 0.004305 (388.4 examples/sec)
+=> 2020-12-30 19:07:51.838528: step 135500, loss = 0.000217, learning_rate = 0.004305 (387.1 examples/sec)
+=> 2020-12-30 19:08:00.978084: step 135600, loss = 0.000333, learning_rate = 0.004305 (387.6 examples/sec)
+=> 2020-12-30 19:08:10.133597: step 135700, loss = 0.000264, learning_rate = 0.004305 (386.9 examples/sec)
+=> 2020-12-30 19:08:19.291106: step 135800, loss = 0.001226, learning_rate = 0.004305 (386.7 examples/sec)
+=> 2020-12-30 19:08:28.442629: step 135900, loss = 0.000190, learning_rate = 0.004305 (387.3 examples/sec)
+=> 2020-12-30 19:08:37.589167: step 136000, loss = 0.000168, learning_rate = 0.004305 (387.9 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 29
+=> 2020-12-30 19:08:46.823470: step 136100, loss = 0.000286, learning_rate = 0.004305 (387.9 examples/sec)
+=> 2020-12-30 19:08:55.987959: step 136200, loss = 0.000180, learning_rate = 0.004305 (387.1 examples/sec)
+=> 2020-12-30 19:09:05.129511: step 136300, loss = 0.000157, learning_rate = 0.004305 (387.5 examples/sec)
+=> 2020-12-30 19:09:14.284026: step 136400, loss = 0.000168, learning_rate = 0.004305 (387.2 examples/sec)
+=> 2020-12-30 19:09:23.413515: step 136500, loss = 0.000265, learning_rate = 0.004305 (387.8 examples/sec)
+=> 2020-12-30 19:09:32.565676: step 136600, loss = 0.000231, learning_rate = 0.004305 (387.9 examples/sec)
+=> 2020-12-30 19:09:41.704849: step 136700, loss = 0.000374, learning_rate = 0.004305 (385.8 examples/sec)
+=> 2020-12-30 19:09:50.851386: step 136800, loss = 0.000359, learning_rate = 0.004305 (387.1 examples/sec)
+=> 2020-12-30 19:10:00.001825: step 136900, loss = 0.000402, learning_rate = 0.004305 (388.8 examples/sec)
+=> 2020-12-30 19:10:09.214186: step 137000, loss = 0.000769, learning_rate = 0.004305 (390.9 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 28
+=> 2020-12-30 19:10:18.463448: step 137100, loss = 0.000262, learning_rate = 0.004305 (387.1 examples/sec)
+=> 2020-12-30 19:10:27.613977: step 137200, loss = 0.000345, learning_rate = 0.004305 (388.1 examples/sec)
+=> 2020-12-30 19:10:36.748545: step 137300, loss = 0.000296, learning_rate = 0.004305 (387.8 examples/sec)
+=> 2020-12-30 19:10:45.898074: step 137400, loss = 0.000311, learning_rate = 0.004305 (387.1 examples/sec)
+=> 2020-12-30 19:10:55.050596: step 137500, loss = 0.000150, learning_rate = 0.004305 (387.8 examples/sec)
+=> 2020-12-30 19:11:04.199128: step 137600, loss = 0.000206, learning_rate = 0.004305 (387.5 examples/sec)
+=> 2020-12-30 19:11:13.346663: step 137700, loss = 0.000365, learning_rate = 0.004305 (386.9 examples/sec)
+=> 2020-12-30 19:11:22.487216: step 137800, loss = 0.000555, learning_rate = 0.004305 (387.4 examples/sec)
+=> 2020-12-30 19:11:31.639738: step 137900, loss = 0.000824, learning_rate = 0.004305 (387.5 examples/sec)
+=> 2020-12-30 19:11:40.778296: step 138000, loss = 0.000186, learning_rate = 0.004305 (388.8 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 27
+=> 2020-12-30 19:11:50.014595: step 138100, loss = 0.000151, learning_rate = 0.004305 (386.4 examples/sec)
+=> 2020-12-30 19:11:59.161132: step 138200, loss = 0.000201, learning_rate = 0.004305 (387.9 examples/sec)
+=> 2020-12-30 19:12:08.309848: step 138300, loss = 0.000237, learning_rate = 0.004305 (387.1 examples/sec)
+=> 2020-12-30 19:12:17.447783: step 138400, loss = 0.000713, learning_rate = 0.004305 (387.5 examples/sec)
+=> 2020-12-30 19:12:26.582353: step 138500, loss = 0.000427, learning_rate = 0.004305 (388.4 examples/sec)
+=> 2020-12-30 19:12:35.723904: step 138600, loss = 0.000589, learning_rate = 0.004305 (388.0 examples/sec)
+=> 2020-12-30 19:12:44.849497: step 138700, loss = 0.000511, learning_rate = 0.004305 (389.5 examples/sec)
+=> 2020-12-30 19:12:54.009998: step 138800, loss = 0.000363, learning_rate = 0.004305 (387.0 examples/sec)
+=> 2020-12-30 19:13:03.159527: step 138900, loss = 0.000438, learning_rate = 0.004305 (388.2 examples/sec)
+=> 2020-12-30 19:13:12.312028: step 139000, loss = 0.000451, learning_rate = 0.004305 (387.7 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 26
+=> 2020-12-30 19:13:21.533365: step 139100, loss = 0.000232, learning_rate = 0.004305 (388.7 examples/sec)
+=> 2020-12-30 19:13:30.675914: step 139200, loss = 0.000163, learning_rate = 0.004305 (387.5 examples/sec)
+=> 2020-12-30 19:13:39.816467: step 139300, loss = 0.000395, learning_rate = 0.004305 (387.3 examples/sec)
+=> 2020-12-30 19:13:48.953031: step 139400, loss = 0.000299, learning_rate = 0.004305 (387.0 examples/sec)
+=> 2020-12-30 19:13:58.124502: step 139500, loss = 0.000297, learning_rate = 0.004305 (386.9 examples/sec)
+=> 2020-12-30 19:14:07.278021: step 139600, loss = 0.000320, learning_rate = 0.004305 (387.6 examples/sec)
+=> 2020-12-30 19:14:16.444505: step 139700, loss = 0.000587, learning_rate = 0.004305 (386.3 examples/sec)
+=> 2020-12-30 19:14:25.612071: step 139800, loss = 0.000242, learning_rate = 0.004305 (386.2 examples/sec)
+=> 2020-12-30 19:14:34.758608: step 139900, loss = 0.001058, learning_rate = 0.004305 (387.3 examples/sec)
+=> 2020-12-30 19:14:43.899285: step 140000, loss = 0.000193, learning_rate = 0.003487 (387.8 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 25
+=> 2020-12-30 19:14:53.148548: step 140100, loss = 0.000252, learning_rate = 0.003874 (387.2 examples/sec)
+=> 2020-12-30 19:15:02.307085: step 140200, loss = 0.000293, learning_rate = 0.003874 (386.2 examples/sec)
+=> 2020-12-30 19:15:11.453622: step 140300, loss = 0.000399, learning_rate = 0.003874 (387.6 examples/sec)
+=> 2020-12-30 19:15:20.601157: step 140400, loss = 0.000369, learning_rate = 0.003874 (387.9 examples/sec)
+=> 2020-12-30 19:15:29.746697: step 140500, loss = 0.000568, learning_rate = 0.003874 (387.8 examples/sec)
+=> 2020-12-30 19:15:38.909192: step 140600, loss = 0.000228, learning_rate = 0.003874 (386.9 examples/sec)
+=> 2020-12-30 19:15:48.059718: step 140700, loss = 0.000337, learning_rate = 0.003874 (387.8 examples/sec)
+=> 2020-12-30 19:15:57.206256: step 140800, loss = 0.000349, learning_rate = 0.003874 (386.7 examples/sec)
+=> 2020-12-30 19:16:06.353791: step 140900, loss = 0.000365, learning_rate = 0.003874 (388.3 examples/sec)
+=> 2020-12-30 19:16:15.508308: step 141000, loss = 0.000539, learning_rate = 0.003874 (386.7 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 24
+=> 2020-12-30 19:16:24.737624: step 141100, loss = 0.000341, learning_rate = 0.003874 (386.5 examples/sec)
+=> 2020-12-30 19:16:33.866209: step 141200, loss = 0.000145, learning_rate = 0.003874 (388.4 examples/sec)
+=> 2020-12-30 19:16:43.012746: step 141300, loss = 0.000186, learning_rate = 0.003874 (387.6 examples/sec)
+=> 2020-12-30 19:16:52.152303: step 141400, loss = 0.000317, learning_rate = 0.003874 (388.1 examples/sec)
+=> 2020-12-30 19:17:01.289864: step 141500, loss = 0.000133, learning_rate = 0.003874 (387.7 examples/sec)
+=> 2020-12-30 19:17:10.421442: step 141600, loss = 0.000282, learning_rate = 0.003874 (387.5 examples/sec)
+=> 2020-12-30 19:17:19.562993: step 141700, loss = 0.000348, learning_rate = 0.003874 (388.1 examples/sec)
+=> 2020-12-30 19:17:28.704543: step 141800, loss = 0.000235, learning_rate = 0.003874 (387.6 examples/sec)
+=> 2020-12-30 19:17:37.839112: step 141900, loss = 0.000302, learning_rate = 0.003874 (388.6 examples/sec)
+=> 2020-12-30 19:17:46.988643: step 142000, loss = 0.000252, learning_rate = 0.003874 (387.3 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 23
+=> 2020-12-30 19:17:56.227932: step 142100, loss = 0.000331, learning_rate = 0.003874 (387.4 examples/sec)
+=> 2020-12-30 19:18:05.367488: step 142200, loss = 0.000466, learning_rate = 0.003874 (387.6 examples/sec)
+=> 2020-12-30 19:18:14.523002: step 142300, loss = 0.000459, learning_rate = 0.003874 (388.1 examples/sec)
+=> 2020-12-30 19:18:23.668542: step 142400, loss = 0.000238, learning_rate = 0.003874 (387.6 examples/sec)
+=> 2020-12-30 19:18:32.812088: step 142500, loss = 0.000208, learning_rate = 0.003874 (387.7 examples/sec)
+=> 2020-12-30 19:18:41.970593: step 142600, loss = 0.000273, learning_rate = 0.003874 (386.9 examples/sec)
+=> 2020-12-30 19:18:51.112144: step 142700, loss = 0.000340, learning_rate = 0.003874 (387.3 examples/sec)
+=> 2020-12-30 19:19:00.274638: step 142800, loss = 0.000625, learning_rate = 0.003874 (387.9 examples/sec)
+=> 2020-12-30 19:19:09.445112: step 142900, loss = 0.000147, learning_rate = 0.003874 (387.4 examples/sec)
+=> 2020-12-30 19:19:18.584668: step 143000, loss = 0.000311, learning_rate = 0.003874 (388.1 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 22
+=> 2020-12-30 19:19:27.819341: step 143100, loss = 0.000495, learning_rate = 0.003874 (385.7 examples/sec)
+=> 2020-12-30 19:19:36.965527: step 143200, loss = 0.000379, learning_rate = 0.003874 (386.1 examples/sec)
+=> 2020-12-30 19:19:46.123028: step 143300, loss = 0.000216, learning_rate = 0.003874 (387.1 examples/sec)
+=> 2020-12-30 19:19:55.256910: step 143400, loss = 0.000495, learning_rate = 0.003874 (388.3 examples/sec)
+=> 2020-12-30 19:20:04.403755: step 143500, loss = 0.000192, learning_rate = 0.003874 (390.5 examples/sec)
+=> 2020-12-30 19:20:13.551289: step 143600, loss = 0.000314, learning_rate = 0.003874 (388.3 examples/sec)
+=> 2020-12-30 19:20:22.723757: step 143700, loss = 0.000223, learning_rate = 0.003874 (386.3 examples/sec)
+=> 2020-12-30 19:20:31.877277: step 143800, loss = 0.000611, learning_rate = 0.003874 (386.9 examples/sec)
+=> 2020-12-30 19:20:41.015834: step 143900, loss = 0.000178, learning_rate = 0.003874 (388.1 examples/sec)
+=> 2020-12-30 19:20:50.154393: step 144000, loss = 0.000299, learning_rate = 0.003874 (387.6 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 21
+=> 2020-12-30 19:20:59.395678: step 144100, loss = 0.000221, learning_rate = 0.003874 (387.6 examples/sec)
+=> 2020-12-30 19:21:08.532242: step 144200, loss = 0.000606, learning_rate = 0.003874 (387.2 examples/sec)
+=> 2020-12-30 19:21:17.684763: step 144300, loss = 0.000427, learning_rate = 0.003874 (387.3 examples/sec)
+=> 2020-12-30 19:21:26.830304: step 144400, loss = 0.000688, learning_rate = 0.003874 (387.6 examples/sec)
+=> 2020-12-30 19:21:35.992799: step 144500, loss = 0.000435, learning_rate = 0.003874 (387.0 examples/sec)
+=> 2020-12-30 19:21:45.152301: step 144600, loss = 0.000647, learning_rate = 0.003874 (386.9 examples/sec)
+=> 2020-12-30 19:21:54.296844: step 144700, loss = 0.000485, learning_rate = 0.003874 (388.0 examples/sec)
+=> 2020-12-30 19:22:03.484272: step 144800, loss = 0.000498, learning_rate = 0.003874 (386.2 examples/sec)
+=> 2020-12-30 19:22:12.621834: step 144900, loss = 0.000293, learning_rate = 0.003874 (387.8 examples/sec)
+=> 2020-12-30 19:22:21.753411: step 145000, loss = 0.000244, learning_rate = 0.003874 (388.6 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 20
+=> 2020-12-30 19:22:30.996690: step 145100, loss = 0.000237, learning_rate = 0.003874 (387.7 examples/sec)
+=> 2020-12-30 19:22:40.178134: step 145200, loss = 0.000589, learning_rate = 0.003874 (387.5 examples/sec)
+=> 2020-12-30 19:22:49.330655: step 145300, loss = 0.000185, learning_rate = 0.003874 (388.1 examples/sec)
+=> 2020-12-30 19:22:58.483178: step 145400, loss = 0.000563, learning_rate = 0.003874 (387.1 examples/sec)
+=> 2020-12-30 19:23:07.625524: step 145500, loss = 0.000271, learning_rate = 0.003874 (390.2 examples/sec)
+=> 2020-12-30 19:23:16.765080: step 145600, loss = 0.000387, learning_rate = 0.003874 (387.2 examples/sec)
+=> 2020-12-30 19:23:25.904636: step 145700, loss = 0.000230, learning_rate = 0.003874 (387.4 examples/sec)
+=> 2020-12-30 19:23:35.057157: step 145800, loss = 0.000470, learning_rate = 0.003874 (387.6 examples/sec)
+=> 2020-12-30 19:23:44.194719: step 145900, loss = 0.000656, learning_rate = 0.003874 (388.1 examples/sec)
+=> 2020-12-30 19:23:53.329288: step 146000, loss = 0.000377, learning_rate = 0.003874 (388.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 19
+=> 2020-12-30 19:24:02.568578: step 146100, loss = 0.000344, learning_rate = 0.003874 (388.3 examples/sec)
+=> 2020-12-30 19:24:11.734541: step 146200, loss = 0.000731, learning_rate = 0.003874 (386.5 examples/sec)
+=> 2020-12-30 19:24:20.863127: step 146300, loss = 0.000323, learning_rate = 0.003874 (387.4 examples/sec)
+=> 2020-12-30 19:24:30.003993: step 146400, loss = 0.000278, learning_rate = 0.003874 (387.6 examples/sec)
+=> 2020-12-30 19:24:39.126955: step 146500, loss = 0.000656, learning_rate = 0.003874 (389.5 examples/sec)
+=> 2020-12-30 19:24:48.271960: step 146600, loss = 0.001189, learning_rate = 0.003874 (388.1 examples/sec)
+=> 2020-12-30 19:24:57.410339: step 146700, loss = 0.000535, learning_rate = 0.003874 (387.8 examples/sec)
+=> 2020-12-30 19:25:06.543910: step 146800, loss = 0.000463, learning_rate = 0.003874 (388.5 examples/sec)
+=> 2020-12-30 19:25:15.679476: step 146900, loss = 0.000256, learning_rate = 0.003874 (387.8 examples/sec)
+=> 2020-12-30 19:25:24.815043: step 147000, loss = 0.000608, learning_rate = 0.003874 (388.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 18
+=> 2020-12-30 19:25:34.014439: step 147100, loss = 0.000326, learning_rate = 0.003874 (388.5 examples/sec)
+=> 2020-12-30 19:25:43.152001: step 147200, loss = 0.000876, learning_rate = 0.003874 (387.6 examples/sec)
+=> 2020-12-30 19:25:52.298538: step 147300, loss = 0.000375, learning_rate = 0.003874 (387.6 examples/sec)
+=> 2020-12-30 19:26:01.466020: step 147400, loss = 0.000455, learning_rate = 0.003874 (386.5 examples/sec)
+=> 2020-12-30 19:26:10.582638: step 147500, loss = 0.000130, learning_rate = 0.003874 (388.3 examples/sec)
+=> 2020-12-30 19:26:19.736156: step 147600, loss = 0.000222, learning_rate = 0.003874 (386.9 examples/sec)
+=> 2020-12-30 19:26:28.887681: step 147700, loss = 0.000709, learning_rate = 0.003874 (387.1 examples/sec)
+=> 2020-12-30 19:26:38.016266: step 147800, loss = 0.000855, learning_rate = 0.003874 (389.1 examples/sec)
+=> 2020-12-30 19:26:47.146846: step 147900, loss = 0.000325, learning_rate = 0.003874 (387.3 examples/sec)
+=> 2020-12-30 19:26:56.300365: step 148000, loss = 0.000538, learning_rate = 0.003874 (386.5 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 17
+=> 2020-12-30 19:27:05.547633: step 148100, loss = 0.000367, learning_rate = 0.003874 (387.9 examples/sec)
+=> 2020-12-30 19:27:14.688187: step 148200, loss = 0.000260, learning_rate = 0.003874 (388.2 examples/sec)
+=> 2020-12-30 19:27:23.834724: step 148300, loss = 0.000401, learning_rate = 0.003874 (387.7 examples/sec)
+=> 2020-12-30 19:27:32.994227: step 148400, loss = 0.000338, learning_rate = 0.003874 (387.2 examples/sec)
+=> 2020-12-30 19:27:42.125805: step 148500, loss = 0.000468, learning_rate = 0.003874 (387.6 examples/sec)
+=> 2020-12-30 19:27:51.271345: step 148600, loss = 0.000345, learning_rate = 0.003874 (387.9 examples/sec)
+=> 2020-12-30 19:28:00.409904: step 148700, loss = 0.000188, learning_rate = 0.003874 (387.6 examples/sec)
+=> 2020-12-30 19:28:09.576388: step 148800, loss = 0.000435, learning_rate = 0.003874 (388.4 examples/sec)
+=> 2020-12-30 19:28:18.731902: step 148900, loss = 0.000395, learning_rate = 0.003874 (387.0 examples/sec)
+=> 2020-12-30 19:28:27.897388: step 149000, loss = 0.000209, learning_rate = 0.003874 (386.9 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 16
+=> 2020-12-30 19:28:37.130693: step 149100, loss = 0.000271, learning_rate = 0.003874 (387.8 examples/sec)
+=> 2020-12-30 19:28:46.273242: step 149200, loss = 0.000408, learning_rate = 0.003874 (387.8 examples/sec)
+=> 2020-12-30 19:28:55.430749: step 149300, loss = 0.000382, learning_rate = 0.003874 (387.0 examples/sec)
+=> 2020-12-30 19:29:04.594242: step 149400, loss = 0.000251, learning_rate = 0.003874 (386.9 examples/sec)
+=> 2020-12-30 19:29:13.740779: step 149500, loss = 0.000441, learning_rate = 0.003874 (388.0 examples/sec)
+=> 2020-12-30 19:29:22.894299: step 149600, loss = 0.000195, learning_rate = 0.003874 (387.8 examples/sec)
+=> 2020-12-30 19:29:32.043364: step 149700, loss = 0.000396, learning_rate = 0.003874 (386.8 examples/sec)
+=> 2020-12-30 19:29:41.205128: step 149800, loss = 0.000615, learning_rate = 0.003874 (386.4 examples/sec)
+=> 2020-12-30 19:29:50.369617: step 149900, loss = 0.000405, learning_rate = 0.003874 (386.9 examples/sec)
+=> 2020-12-30 19:29:59.529295: step 150000, loss = 0.000360, learning_rate = 0.003138 (387.1 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 15
+=> 2020-12-30 19:30:08.764595: step 150100, loss = 0.000581, learning_rate = 0.003487 (390.1 examples/sec)
+=> 2020-12-30 19:30:17.921105: step 150200, loss = 0.000488, learning_rate = 0.003487 (386.9 examples/sec)
+=> 2020-12-30 19:30:27.079611: step 150300, loss = 0.000192, learning_rate = 0.003487 (387.7 examples/sec)
+=> 2020-12-30 19:30:36.212186: step 150400, loss = 0.000203, learning_rate = 0.003487 (387.6 examples/sec)
+=> 2020-12-30 19:30:45.359721: step 150500, loss = 0.000855, learning_rate = 0.003487 (388.4 examples/sec)
+=> 2020-12-30 19:30:54.506259: step 150600, loss = 0.000478, learning_rate = 0.003487 (387.3 examples/sec)
+=> 2020-12-30 19:31:03.659778: step 150700, loss = 0.000353, learning_rate = 0.003487 (387.9 examples/sec)
+=> 2020-12-30 19:31:12.805317: step 150800, loss = 0.000824, learning_rate = 0.003487 (388.3 examples/sec)
+=> 2020-12-30 19:31:21.955845: step 150900, loss = 0.000586, learning_rate = 0.003487 (388.1 examples/sec)
+=> 2020-12-30 19:31:31.093406: step 151000, loss = 0.000798, learning_rate = 0.003487 (387.5 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 14
+=> 2020-12-30 19:31:40.333419: step 151100, loss = 0.000159, learning_rate = 0.003487 (387.6 examples/sec)
+=> 2020-12-30 19:31:49.471978: step 151200, loss = 0.000164, learning_rate = 0.003487 (387.7 examples/sec)
+=> 2020-12-30 19:31:58.618515: step 151300, loss = 0.000230, learning_rate = 0.003487 (387.5 examples/sec)
+=> 2020-12-30 19:32:07.770040: step 151400, loss = 0.000713, learning_rate = 0.003487 (387.8 examples/sec)
+=> 2020-12-30 19:32:16.921563: step 151500, loss = 0.000313, learning_rate = 0.003487 (386.8 examples/sec)
+=> 2020-12-30 19:32:26.054138: step 151600, loss = 0.000490, learning_rate = 0.003487 (388.1 examples/sec)
+=> 2020-12-30 19:32:35.191700: step 151700, loss = 0.000525, learning_rate = 0.003487 (388.3 examples/sec)
+=> 2020-12-30 19:32:44.361176: step 151800, loss = 0.000164, learning_rate = 0.003487 (387.3 examples/sec)
+=> 2020-12-30 19:32:53.519681: step 151900, loss = 0.000205, learning_rate = 0.003487 (387.3 examples/sec)
+=> 2020-12-30 19:33:02.682176: step 152000, loss = 0.000314, learning_rate = 0.003487 (386.8 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 13
+=> 2020-12-30 19:33:11.880104: step 152100, loss = 0.000451, learning_rate = 0.003487 (388.6 examples/sec)
+=> 2020-12-30 19:33:21.031134: step 152200, loss = 0.000143, learning_rate = 0.003487 (387.8 examples/sec)
+=> 2020-12-30 19:33:30.186649: step 152300, loss = 0.000210, learning_rate = 0.003487 (387.8 examples/sec)
+=> 2020-12-30 19:33:39.332187: step 152400, loss = 0.000161, learning_rate = 0.003487 (387.6 examples/sec)
+=> 2020-12-30 19:33:48.491690: step 152500, loss = 0.000566, learning_rate = 0.003487 (386.7 examples/sec)
+=> 2020-12-30 19:33:57.644212: step 152600, loss = 0.000260, learning_rate = 0.003487 (388.3 examples/sec)
+=> 2020-12-30 19:34:06.793742: step 152700, loss = 0.000267, learning_rate = 0.003487 (387.4 examples/sec)
+=> 2020-12-30 19:34:15.925319: step 152800, loss = 0.000347, learning_rate = 0.003487 (387.8 examples/sec)
+=> 2020-12-30 19:34:25.081160: step 152900, loss = 0.000350, learning_rate = 0.003487 (387.5 examples/sec)
+=> 2020-12-30 19:34:34.236673: step 153000, loss = 0.000681, learning_rate = 0.003487 (386.9 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 12
+=> 2020-12-30 19:34:43.480230: step 153100, loss = 0.000755, learning_rate = 0.003487 (386.9 examples/sec)
+=> 2020-12-30 19:34:52.616793: step 153200, loss = 0.000178, learning_rate = 0.003487 (386.7 examples/sec)
+=> 2020-12-30 19:35:01.778094: step 153300, loss = 0.000523, learning_rate = 0.003487 (387.4 examples/sec)
+=> 2020-12-30 19:35:10.914658: step 153400, loss = 0.000170, learning_rate = 0.003487 (388.2 examples/sec)
+=> 2020-12-30 19:35:20.032273: step 153500, loss = 0.000318, learning_rate = 0.003487 (388.5 examples/sec)
+=> 2020-12-30 19:35:29.179808: step 153600, loss = 0.000215, learning_rate = 0.003487 (386.8 examples/sec)
+=> 2020-12-30 19:35:38.340308: step 153700, loss = 0.000322, learning_rate = 0.003487 (387.5 examples/sec)
+=> 2020-12-30 19:35:47.479864: step 153800, loss = 0.000433, learning_rate = 0.003487 (387.7 examples/sec)
+=> 2020-12-30 19:35:56.634380: step 153900, loss = 0.000485, learning_rate = 0.003487 (386.9 examples/sec)
+=> 2020-12-30 19:36:05.789895: step 154000, loss = 0.000198, learning_rate = 0.003487 (386.9 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 11
+=> 2020-12-30 19:36:15.010235: step 154100, loss = 0.000279, learning_rate = 0.003487 (388.2 examples/sec)
+=> 2020-12-30 19:36:24.155775: step 154200, loss = 0.000373, learning_rate = 0.003487 (387.3 examples/sec)
+=> 2020-12-30 19:36:33.306301: step 154300, loss = 0.000147, learning_rate = 0.003487 (386.3 examples/sec)
+=> 2020-12-30 19:36:42.452838: step 154400, loss = 0.000238, learning_rate = 0.003487 (388.6 examples/sec)
+=> 2020-12-30 19:36:51.607354: step 154500, loss = 0.000236, learning_rate = 0.003487 (388.0 examples/sec)
+=> 2020-12-30 19:37:00.765861: step 154600, loss = 0.000340, learning_rate = 0.003487 (387.7 examples/sec)
+=> 2020-12-30 19:37:09.917384: step 154700, loss = 0.000325, learning_rate = 0.003487 (386.8 examples/sec)
+=> 2020-12-30 19:37:19.066914: step 154800, loss = 0.000324, learning_rate = 0.003487 (387.3 examples/sec)
+=> 2020-12-30 19:37:28.224422: step 154900, loss = 0.000360, learning_rate = 0.003487 (386.4 examples/sec)
+=> 2020-12-30 19:37:37.356997: step 155000, loss = 0.000488, learning_rate = 0.003487 (388.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 10
+=> 2020-12-30 19:37:46.600275: step 155100, loss = 0.000346, learning_rate = 0.003487 (387.7 examples/sec)
+=> 2020-12-30 19:37:55.781720: step 155200, loss = 0.000263, learning_rate = 0.003487 (385.8 examples/sec)
+=> 2020-12-30 19:38:04.911303: step 155300, loss = 0.000427, learning_rate = 0.003487 (388.3 examples/sec)
+=> 2020-12-30 19:38:14.049862: step 155400, loss = 0.000347, learning_rate = 0.003487 (387.9 examples/sec)
+=> 2020-12-30 19:38:23.176452: step 155500, loss = 0.000242, learning_rate = 0.003487 (387.7 examples/sec)
+=> 2020-12-30 19:38:32.319998: step 155600, loss = 0.000592, learning_rate = 0.003487 (387.3 examples/sec)
+=> 2020-12-30 19:38:41.455565: step 155700, loss = 0.000246, learning_rate = 0.003487 (387.6 examples/sec)
+=> 2020-12-30 19:38:50.614619: step 155800, loss = 0.000480, learning_rate = 0.003487 (387.0 examples/sec)
+=> 2020-12-30 19:38:59.767141: step 155900, loss = 0.000322, learning_rate = 0.003487 (386.9 examples/sec)
+=> 2020-12-30 19:39:08.916670: step 156000, loss = 0.000168, learning_rate = 0.003487 (387.6 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 9
+=> 2020-12-30 19:39:18.143991: step 156100, loss = 0.000316, learning_rate = 0.003487 (388.1 examples/sec)
+=> 2020-12-30 19:39:27.291329: step 156200, loss = 0.000216, learning_rate = 0.003487 (390.0 examples/sec)
+=> 2020-12-30 19:39:36.422268: step 156300, loss = 0.000264, learning_rate = 0.003487 (389.6 examples/sec)
+=> 2020-12-30 19:39:45.560597: step 156400, loss = 0.000522, learning_rate = 0.003487 (388.5 examples/sec)
+=> 2020-12-30 19:39:54.704144: step 156500, loss = 0.000240, learning_rate = 0.003487 (388.3 examples/sec)
+=> 2020-12-30 19:40:03.894564: step 156600, loss = 0.000343, learning_rate = 0.003487 (390.0 examples/sec)
+=> 2020-12-30 19:40:13.058055: step 156700, loss = 0.000789, learning_rate = 0.003487 (389.2 examples/sec)
+=> 2020-12-30 19:40:22.203596: step 156800, loss = 0.000591, learning_rate = 0.003487 (387.6 examples/sec)
+=> 2020-12-30 19:40:31.351130: step 156900, loss = 0.000207, learning_rate = 0.003487 (387.3 examples/sec)
+=> 2020-12-30 19:40:40.512628: step 157000, loss = 0.000257, learning_rate = 0.003487 (387.2 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 8
+=> 2020-12-30 19:40:49.741943: step 157100, loss = 0.000233, learning_rate = 0.003487 (387.7 examples/sec)
+=> 2020-12-30 19:40:58.877511: step 157200, loss = 0.000555, learning_rate = 0.003487 (387.6 examples/sec)
+=> 2020-12-30 19:41:08.043995: step 157300, loss = 0.000282, learning_rate = 0.003487 (386.9 examples/sec)
+=> 2020-12-30 19:41:17.205493: step 157400, loss = 0.000353, learning_rate = 0.003487 (387.4 examples/sec)
+=> 2020-12-30 19:41:26.340062: step 157500, loss = 0.000295, learning_rate = 0.003487 (388.3 examples/sec)
+=> 2020-12-30 19:41:35.494578: step 157600, loss = 0.000403, learning_rate = 0.003487 (387.9 examples/sec)
+=> 2020-12-30 19:41:44.644109: step 157700, loss = 0.000255, learning_rate = 0.003487 (386.6 examples/sec)
+=> 2020-12-30 19:41:53.796629: step 157800, loss = 0.000115, learning_rate = 0.003487 (386.8 examples/sec)
+=> 2020-12-30 19:42:02.972090: step 157900, loss = 0.000601, learning_rate = 0.003487 (385.8 examples/sec)
+=> 2020-12-30 19:42:12.109457: step 158000, loss = 0.000579, learning_rate = 0.003487 (386.9 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 7
+=> 2020-12-30 19:42:21.361125: step 158100, loss = 0.000268, learning_rate = 0.003487 (387.7 examples/sec)
+=> 2020-12-30 19:42:30.510655: step 158200, loss = 0.000494, learning_rate = 0.003487 (387.1 examples/sec)
+=> 2020-12-30 19:42:39.656895: step 158300, loss = 0.000452, learning_rate = 0.003487 (386.6 examples/sec)
+=> 2020-12-30 19:42:48.801438: step 158400, loss = 0.000639, learning_rate = 0.003487 (387.2 examples/sec)
+=> 2020-12-30 19:42:57.950968: step 158500, loss = 0.000242, learning_rate = 0.003487 (388.0 examples/sec)
+=> 2020-12-30 19:43:07.126411: step 158600, loss = 0.000102, learning_rate = 0.003487 (387.9 examples/sec)
+=> 2020-12-30 19:43:16.262974: step 158700, loss = 0.000656, learning_rate = 0.003487 (388.0 examples/sec)
+=> 2020-12-30 19:43:25.410266: step 158800, loss = 0.000347, learning_rate = 0.003487 (387.1 examples/sec)
+=> 2020-12-30 19:43:34.559795: step 158900, loss = 0.000287, learning_rate = 0.003487 (387.2 examples/sec)
+=> 2020-12-30 19:43:43.714473: step 159000, loss = 0.000284, learning_rate = 0.003487 (388.5 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 6
+=> 2020-12-30 19:43:52.941794: step 159100, loss = 0.000358, learning_rate = 0.003487 (387.3 examples/sec)
+=> 2020-12-30 19:44:02.111271: step 159200, loss = 0.000324, learning_rate = 0.003487 (386.6 examples/sec)
+=> 2020-12-30 19:44:11.265787: step 159300, loss = 0.000308, learning_rate = 0.003487 (387.6 examples/sec)
+=> 2020-12-30 19:44:20.407338: step 159400, loss = 0.000248, learning_rate = 0.003487 (389.0 examples/sec)
+=> 2020-12-30 19:44:29.549135: step 159500, loss = 0.000449, learning_rate = 0.003487 (389.3 examples/sec)
+=> 2020-12-30 19:44:38.713678: step 159600, loss = 0.000387, learning_rate = 0.003487 (386.2 examples/sec)
+=> 2020-12-30 19:44:47.852237: step 159700, loss = 0.000256, learning_rate = 0.003487 (387.7 examples/sec)
+=> 2020-12-30 19:44:56.996129: step 159800, loss = 0.000178, learning_rate = 0.003487 (387.0 examples/sec)
+=> 2020-12-30 19:45:06.157625: step 159900, loss = 0.000396, learning_rate = 0.003487 (386.9 examples/sec)
+=> 2020-12-30 19:45:15.293192: step 160000, loss = 0.001171, learning_rate = 0.002824 (388.2 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 5
+=> 2020-12-30 19:45:24.552428: step 160100, loss = 0.000521, learning_rate = 0.003138 (386.8 examples/sec)
+=> 2020-12-30 19:45:33.701958: step 160200, loss = 0.000361, learning_rate = 0.003138 (387.1 examples/sec)
+=> 2020-12-30 19:45:42.858469: step 160300, loss = 0.000259, learning_rate = 0.003138 (387.1 examples/sec)
+=> 2020-12-30 19:45:52.003012: step 160400, loss = 0.000264, learning_rate = 0.003138 (389.1 examples/sec)
+=> 2020-12-30 19:46:01.162515: step 160500, loss = 0.000416, learning_rate = 0.003138 (387.4 examples/sec)
+=> 2020-12-30 19:46:10.313042: step 160600, loss = 0.000422, learning_rate = 0.003138 (388.3 examples/sec)
+=> 2020-12-30 19:46:19.445616: step 160700, loss = 0.000603, learning_rate = 0.003138 (389.0 examples/sec)
+=> 2020-12-30 19:46:28.598138: step 160800, loss = 0.000198, learning_rate = 0.003138 (387.7 examples/sec)
+=> 2020-12-30 19:46:37.768611: step 160900, loss = 0.000190, learning_rate = 0.003138 (386.8 examples/sec)
+=> 2020-12-30 19:46:46.917143: step 161000, loss = 0.000846, learning_rate = 0.003138 (387.2 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 4
+=> 2020-12-30 19:46:56.160422: step 161100, loss = 0.000313, learning_rate = 0.003138 (387.4 examples/sec)
+=> 2020-12-30 19:47:05.307957: step 161200, loss = 0.000564, learning_rate = 0.003138 (387.6 examples/sec)
+=> 2020-12-30 19:47:14.476436: step 161300, loss = 0.000144, learning_rate = 0.003138 (386.9 examples/sec)
+=> 2020-12-30 19:47:23.615992: step 161400, loss = 0.000341, learning_rate = 0.003138 (387.6 examples/sec)
+=> 2020-12-30 19:47:32.752556: step 161500, loss = 0.000471, learning_rate = 0.003138 (387.5 examples/sec)
+=> 2020-12-30 19:47:41.906075: step 161600, loss = 0.000172, learning_rate = 0.003138 (387.4 examples/sec)
+=> 2020-12-30 19:47:51.056602: step 161700, loss = 0.000280, learning_rate = 0.003138 (387.5 examples/sec)
+=> 2020-12-30 19:48:00.229070: step 161800, loss = 0.000690, learning_rate = 0.003138 (385.9 examples/sec)
+=> 2020-12-30 19:48:09.346684: step 161900, loss = 0.000259, learning_rate = 0.003138 (387.7 examples/sec)
+=> 2020-12-30 19:48:18.499206: step 162000, loss = 0.000344, learning_rate = 0.003138 (387.2 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 3
+=> 2020-12-30 19:48:27.724533: step 162100, loss = 0.000268, learning_rate = 0.003138 (387.8 examples/sec)
+=> 2020-12-30 19:48:36.894010: step 162200, loss = 0.000316, learning_rate = 0.003138 (385.9 examples/sec)
+=> 2020-12-30 19:48:46.028579: step 162300, loss = 0.000257, learning_rate = 0.003138 (388.6 examples/sec)
+=> 2020-12-30 19:48:55.167138: step 162400, loss = 0.000465, learning_rate = 0.003138 (388.4 examples/sec)
+=> 2020-12-30 19:49:04.292731: step 162500, loss = 0.000295, learning_rate = 0.003138 (388.4 examples/sec)
+=> 2020-12-30 19:49:13.777200: step 162600, loss = 0.000351, learning_rate = 0.003138 (387.0 examples/sec)
+=> 2020-12-30 19:49:22.989561: step 162700, loss = 0.000379, learning_rate = 0.003138 (394.7 examples/sec)
+=> 2020-12-30 19:49:32.127627: step 162800, loss = 0.000273, learning_rate = 0.003138 (395.6 examples/sec)
+=> 2020-12-30 19:49:41.247236: step 162900, loss = 0.000366, learning_rate = 0.003138 (394.7 examples/sec)
+=> 2020-12-30 19:49:50.366846: step 163000, loss = 0.000426, learning_rate = 0.003138 (394.9 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 2
+=> 2020-12-30 19:49:59.579207: step 163100, loss = 0.000389, learning_rate = 0.003138 (395.1 examples/sec)
+=> 2020-12-30 19:50:08.728737: step 163200, loss = 0.000313, learning_rate = 0.003138 (395.7 examples/sec)
+=> 2020-12-30 19:50:17.833387: step 163300, loss = 0.000383, learning_rate = 0.003138 (396.4 examples/sec)
+=> 2020-12-30 19:50:26.921081: step 163400, loss = 0.000298, learning_rate = 0.003138 (397.2 examples/sec)
+=> 2020-12-30 19:50:35.998803: step 163500, loss = 0.000244, learning_rate = 0.003138 (393.4 examples/sec)
+=> 2020-12-30 19:50:45.030646: step 163600, loss = 0.000280, learning_rate = 0.003138 (392.7 examples/sec)
+=> 2020-12-30 19:50:54.089419: step 163700, loss = 0.000389, learning_rate = 0.003138 (392.3 examples/sec)
+=> 2020-12-30 19:51:03.139216: step 163800, loss = 0.000408, learning_rate = 0.003138 (391.9 examples/sec)
+=> 2020-12-30 19:51:12.188014: step 163900, loss = 0.000543, learning_rate = 0.003138 (392.0 examples/sec)
+=> 2020-12-30 19:51:21.246787: step 164000, loss = 0.000433, learning_rate = 0.003138 (391.4 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 1
+=> 2020-12-30 19:51:30.406289: step 164100, loss = 0.000240, learning_rate = 0.003138 (390.7 examples/sec)
+=> 2020-12-30 19:51:39.454092: step 164200, loss = 0.000632, learning_rate = 0.003138 (392.3 examples/sec)
+=> 2020-12-30 19:51:48.529818: step 164300, loss = 0.000272, learning_rate = 0.003138 (390.8 examples/sec)
+=> 2020-12-30 19:51:57.594574: step 164400, loss = 0.001028, learning_rate = 0.003138 (391.7 examples/sec)
+=> 2020-12-30 19:52:06.652349: step 164500, loss = 0.000303, learning_rate = 0.003138 (392.6 examples/sec)
+=> 2020-12-30 19:52:15.721095: step 164600, loss = 0.000206, learning_rate = 0.003138 (391.2 examples/sec)
+=> 2020-12-30 19:52:24.770891: step 164700, loss = 0.000430, learning_rate = 0.003138 (391.9 examples/sec)
+=> 2020-12-30 19:52:33.807723: step 164800, loss = 0.000403, learning_rate = 0.003138 (393.1 examples/sec)
+=> 2020-12-30 19:52:42.839566: step 164900, loss = 0.000789, learning_rate = 0.003138 (393.8 examples/sec)
+=> 2020-12-30 19:52:51.902328: step 165000, loss = 0.000249, learning_rate = 0.003138 (391.9 examples/sec)
+=> Evaluating on validation dataset...
+==> accuracy = 0.714286, best accuracy 0.714286
+=> patience = 0
+Done

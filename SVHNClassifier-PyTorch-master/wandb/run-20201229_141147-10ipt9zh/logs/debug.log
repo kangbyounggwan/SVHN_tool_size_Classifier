@@ -1,0 +1,42 @@
+2020-12-29 14:11:47,136 INFO    MainThread:31048 [wandb_setup.py:_flush():70] setting env: {}
+2020-12-29 14:11:47,137 INFO    MainThread:31048 [wandb_setup.py:_flush():70] multiprocessing start_methods=spawn
+2020-12-29 14:11:47,137 INFO    MainThread:31048 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-12-29 14:11:47,138 INFO    MainThread:31048 [wandb_init.py:_log_setup():303] Logging user logs to C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201229_141147-10ipt9zh\logs\debug.log
+2020-12-29 14:11:47,138 INFO    MainThread:31048 [wandb_init.py:_log_setup():304] Logging internal logs to C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201229_141147-10ipt9zh\logs\debug-internal.log
+2020-12-29 14:11:50,559 INFO    MainThread:31048 [wandb_run.py:_console_start():1218] atexit reg
+2020-12-29 14:11:50,561 INFO    MainThread:31048 [wandb_run.py:_redirect():1085] redirect: SettingsConsole.WRAP
+2020-12-29 14:11:50,562 INFO    MainThread:31048 [wandb_run.py:_redirect():1116] Wrapping output streams.
+2020-12-29 14:11:50,562 INFO    MainThread:31048 [wandb_run.py:_redirect():1132] Redirects installed.
+2020-12-29 14:11:51,211 INFO    Dummy-4   :31048 [wandb_run.py:_atexit_cleanup():1188] got exitcode: 255
+2020-12-29 14:11:51,211 INFO    Dummy-4   :31048 [wandb_run.py:_restore():1160] restore
+2020-12-29 14:11:51,215 INFO    Dummy-4   :31048 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "35e2caf73ea34976a68251c31a8c3302"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 521
+      total_bytes: 521
+    }
+  }
+}
+
+2020-12-29 14:11:53,222 INFO    Dummy-4   :31048 [wandb_run.py:_wait_for_finish():1305] got exit ret: uuid: "e377f75299d943099e5f52e2d63fb463"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 8087
+      total_bytes: 8087
+    }
+  }
+}
+
+2020-12-29 14:11:54,324 INFO    Dummy-4   :31048 [wandb_run.py:_show_files():1517] logging synced files
+2020-12-29 14:11:54,326 INFO    Dummy-4   :31048 [internal.py:handle_exit():138] Internal process exited

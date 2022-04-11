@@ -1,0 +1,95 @@
+2020-12-18 06:41:22,920 INFO    MainThread:6024 [internal.py:wandb_internal():63] W&B internal server running at pid: 6024
+2020-12-18 06:41:22,920 INFO    WriterThread:6024 [datastore.py:open_for_write():76] open: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201218_064121-3lll6y3v\run-3lll6y3v.wandb
+2020-12-18 06:41:22,920 DEBUG   HandlerThread:6024 [handler.py:handle_request():55] handle_request: check_version
+2020-12-18 06:41:22,927 DEBUG   SenderThread:6024 [sender.py:send():90] send: header
+2020-12-18 06:41:22,927 DEBUG   SenderThread:6024 [sender.py:send():90] send: request
+2020-12-18 06:41:22,931 DEBUG   SenderThread:6024 [sender.py:send_request():99] send_request: check_version
+2020-12-18 06:41:22,933 DEBUG   Thread-4  :6024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): pypi.org:443
+2020-12-18 06:41:22,939 DEBUG   SenderThread:6024 [sender.py:send():90] send: run
+2020-12-18 06:41:22,948 DEBUG   SenderThread:6024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-18 06:41:24,165 DEBUG   SenderThread:6024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-18 06:41:26,395 DEBUG   SenderThread:6024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-18 06:41:26,395 ERROR   SenderThread:6024 [retry.py:__call__():111] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\urllib3\connection.py", line 160, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\urllib3\util\connection.py", line 61, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\socket.py", line 733, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\urllib3\connectionpool.py", line 677, in urlopen
+    chunked=chunked,
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\urllib3\connectionpool.py", line 381, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\urllib3\connectionpool.py", line 978, in _validate_conn
+    conn.connect()
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\urllib3\connection.py", line 309, in connect
+    conn = self._new_conn()
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\urllib3\connection.py", line 172, in _new_conn
+    self, "Failed to establish a new connection: %s" % e
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x0000027DB01A40F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\urllib3\connectionpool.py", line 727, in urlopen
+    method, url, error=e, _pool=self, _stacktrace=sys.exc_info()[2]
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\urllib3\util\retry.py", line 439, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000027DB01A40F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\wandb\old\retry.py", line 96, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\wandb\sdk_py27\internal\internal_api.py", line 130, in execute
+    return self.client.execute(*args, **kwargs)
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\wandb\vendor\gql-0.2.0\gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\wandb\vendor\gql-0.2.0\gql\transport\requests.py", line 38, in execute
+    request = requests.post(self.url, **post_args)
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\requests\api.py", line 119, in post
+    return request('post', url, data=data, json=json, **kwargs)
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\requests\api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\requests\sessions.py", line 530, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\requests\sessions.py", line 643, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Max retries exceeded with url: /graphql (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x0000027DB01A40F0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed',))
+2020-12-18 06:41:30,908 DEBUG   SenderThread:6024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-18 06:41:39,223 DEBUG   SenderThread:6024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-18 06:41:52,954 DEBUG   HandlerThread:6024 [handler.py:handle_request():55] handle_request: shutdown
+2020-12-18 06:41:52,954 INFO    HandlerThread:6024 [handler.py:finish():271] shutting down handler
+2020-12-18 06:41:53,157 INFO    WriterThread:6024 [datastore.py:close():257] close: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201218_064121-3lll6y3v\run-3lll6y3v.wandb
+2020-12-18 06:41:55,930 DEBUG   SenderThread:6024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-18 06:42:31,800 DEBUG   SenderThread:6024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-18 06:42:33,474 DEBUG   SenderThread:6024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-18 06:42:33,488 INFO    SenderThread:6024 [dir_watcher.py:__init__():165] watching files in: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201218_064121-3lll6y3v\files
+2020-12-18 06:42:33,488 INFO    SenderThread:6024 [sender.py:_start_run_threads():490] run started: 3lll6y3v with start time 1608241282
+2020-12-18 06:42:33,488 INFO    SenderThread:6024 [sender.py:finish():642] shutting down sender
+2020-12-18 06:42:33,488 INFO    SenderThread:6024 [dir_watcher.py:finish():279] shutting down directory watcher
+2020-12-18 06:42:34,496 INFO    SenderThread:6024 [dir_watcher.py:finish():309] scan: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201218_064121-3lll6y3v\files
+2020-12-18 06:42:34,496 INFO    SenderThread:6024 [dir_watcher.py:finish():315] scan save: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201218_064121-3lll6y3v\files\config.yaml config.yaml
+2020-12-18 06:42:34,496 INFO    SenderThread:6024 [file_pusher.py:finish():169] shutting down file pusher
+2020-12-18 06:42:34,496 INFO    SenderThread:6024 [file_pusher.py:join():174] waiting for file pusher
+2020-12-18 06:42:34,496 DEBUG   Thread-10 :6024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-18 06:42:35,184 DEBUG   Thread-10 :6024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-18 06:42:35,184 DEBUG   Thread-10 :6024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-18 06:42:35,780 DEBUG   Thread-10 :6024 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/kbg/svhn_retrain/3lll6y3v/config.yaml?Expires=1608327754&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=UEndQWo5GanuDk5yDWcN%2F77ZM%2FCNhxxpS2PE6SA7olPr016fKgzei1WoRpyI5vrZ9IwHEKu7pA9gVd2PuRckTnIifHzkm5ErCrsgge9ARmzsi8rspSj4J6hkm0ZNAc%2Fq2bYhnZC5BYw35iCxMk64xF8%2Fo3n7ehoSOpYebs5fyJnc2f2LuWMT9doeXYu5D6vlDFm171c%2Bv31d22L2wNGywIDtelh7zA9fhaxM380xJS0ZZzD9xNfPx5UcC3f%2FXmylWcfYIfsdm4C3dTOGr1EuymV8ABcFykmJFrtrku165oeeI7V8sHplgYYIInm43rGQVzcZMhZqwwNWl6Jo59H2QQ%3D%3D HTTP/1.1" 200 0
+2020-12-18 06:42:35,780 INFO    Thread-10 :6024 [upload_job.py:push():131] Uploaded file C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201218_064121-3lll6y3v\files\config.yaml
+2020-12-18 06:42:36,031 DEBUG   Thread-5  :6024 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-18 06:42:36,422 DEBUG   Thread-5  :6024 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/kbg/svhn_retrain/3lll6y3v/file_stream HTTP/1.1" 200 None
+2020-12-18 06:42:36,422 INFO    Dummy-11  :6024 [internal.py:handle_exit():138] Internal process exited

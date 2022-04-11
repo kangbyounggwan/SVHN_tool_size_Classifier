@@ -1,0 +1,215 @@
+2020-12-01 19:25:26,313 INFO    MainThread:21180 [internal.py:wandb_internal():63] W&B internal server running at pid: 21180
+2020-12-01 19:25:26,315 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: check_version
+2020-12-01 19:25:26,316 INFO    WriterThread:21180 [datastore.py:open_for_write():76] open: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\run-3kezk33p.wandb
+2020-12-01 19:25:26,317 DEBUG   SenderThread:21180 [sender.py:send():90] send: header
+2020-12-01 19:25:26,317 DEBUG   SenderThread:21180 [sender.py:send():90] send: request
+2020-12-01 19:25:26,321 DEBUG   SenderThread:21180 [sender.py:send_request():99] send_request: check_version
+2020-12-01 19:25:26,323 DEBUG   Thread-4  :21180 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): pypi.org:443
+2020-12-01 19:25:27,264 DEBUG   Thread-4  :21180 [connectionpool.py:_make_request():442] https://pypi.org:443 "GET /pypi/wandb/json HTTP/1.1" 200 51947
+2020-12-01 19:25:27,526 DEBUG   SenderThread:21180 [sender.py:send():90] send: run
+2020-12-01 19:25:27,550 DEBUG   SenderThread:21180 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 19:25:27,991 DEBUG   SenderThread:21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 19:25:28,003 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: run_start
+2020-12-01 19:25:28,013 INFO    SenderThread:21180 [dir_watcher.py:__init__():165] watching files in: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files
+2020-12-01 19:25:28,013 INFO    SenderThread:21180 [sender.py:_start_run_threads():490] run started: 3kezk33p with start time 1606818325
+2020-12-01 19:25:28,013 DEBUG   SenderThread:21180 [sender.py:send():90] send: summary
+2020-12-01 19:25:28,014 INFO    SenderThread:21180 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-01 19:25:28,084 DEBUG   SenderThread:21180 [sender.py:send():90] send: files
+2020-12-01 19:25:28,085 INFO    SenderThread:21180 [sender.py:_save_file():568] saving file wandb-metadata.json with policy now
+2020-12-01 19:25:28,091 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: status
+2020-12-01 19:25:28,092 DEBUG   SenderThread:21180 [sender.py:send():90] send: request
+2020-12-01 19:25:28,092 DEBUG   SenderThread:21180 [sender.py:send_request():99] send_request: status
+2020-12-01 19:25:28,093 DEBUG   Thread-11 :21180 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 19:25:28,095 DEBUG   SenderThread:21180 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 19:25:28,630 DEBUG   Thread-11 :21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 19:25:28,631 DEBUG   SenderThread:21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 19:25:28,643 DEBUG   Thread-11 :21180 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): storage.googleapis.com:443
+2020-12-01 19:25:29,014 INFO    Thread-8  :21180 [dir_watcher.py:_on_file_created():213] file/dir created: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\wandb-metadata.json
+2020-12-01 19:25:29,014 INFO    Thread-8  :21180 [dir_watcher.py:_on_file_created():213] file/dir created: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\output.log
+2020-12-01 19:25:29,015 INFO    Thread-8  :21180 [dir_watcher.py:_on_file_created():213] file/dir created: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\wandb-summary.json
+2020-12-01 19:25:29,015 INFO    Thread-8  :21180 [dir_watcher.py:_on_file_created():213] file/dir created: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\requirements.txt
+2020-12-01 19:25:29,596 DEBUG   Thread-11 :21180 [connectionpool.py:_make_request():442] https://storage.googleapis.com:443 "PUT /wandb-production.appspot.com/kbg/svhn_retrain/3kezk33p/wandb-metadata.json?Expires=1606904728&GoogleAccessId=wandb-production%40appspot.gserviceaccount.com&Signature=Y196z86f%2Fva0EdubmcG%2FKlMZVZzhRG8gwQMdixNrvVPeewtozynwDdem22ItYGwaqLgbbJLyFde6EmuoqdzDbT3hYWyFafG9GszJwHzotfsdvdqsUJM8SYsgZBGV5P3tTvo1kWhiP8El0MhtDWi8ZqLfx%2FmAaP73MSNxdqezdBfjwK8ywIQbjjyYaAIvHdIdQCljH0oCwE07vhMX%2FByAvvHoJtAoyg8ErCG63UPnD%2FMpStWnbLTVm7ijIJLUkbpihbD0hSjs1oI7FUkgYhApxOYYSIDfP%2BdARZVLYELyNKN9M7VubCdjYMHi%2Bpp5uMctLSlzex7JV5bXpL%2FNpVS7Ww%3D%3D HTTP/1.1" 200 0
+2020-12-01 19:25:29,597 INFO    Thread-11 :21180 [upload_job.py:push():131] Uploaded file C:\Users\ST200423\AppData\Local\Temp\tmp792qug9vwandb\eg8tin8q-wandb-metadata.json
+2020-12-01 19:25:30,109 DEBUG   Thread-5  :21180 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 19:25:30,521 DEBUG   Thread-5  :21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/kbg/svhn_retrain/3kezk33p/file_stream HTTP/1.1" 200 None
+2020-12-01 19:25:31,017 INFO    Thread-8  :21180 [dir_watcher.py:_on_file_modified():226] file/dir modified: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\output.log
+2020-12-01 19:25:31,865 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:25:34,118 DEBUG   Thread-5  :21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/kbg/svhn_retrain/3kezk33p/file_stream HTTP/1.1" 200 None
+2020-12-01 19:25:36,738 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:25:37,085 DEBUG   Thread-5  :21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/kbg/svhn_retrain/3kezk33p/file_stream HTTP/1.1" 200 None
+2020-12-01 19:25:40,756 DEBUG   Thread-5  :21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/kbg/svhn_retrain/3kezk33p/file_stream HTTP/1.1" 200 None
+2020-12-01 19:25:41,075 INFO    Thread-8  :21180 [dir_watcher.py:_on_file_modified():226] file/dir modified: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\output.log
+2020-12-01 19:25:41,606 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:25:43,657 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: status
+2020-12-01 19:25:43,657 DEBUG   SenderThread:21180 [sender.py:send():90] send: request
+2020-12-01 19:25:43,657 DEBUG   SenderThread:21180 [sender.py:send_request():99] send_request: status
+2020-12-01 19:25:43,661 DEBUG   SenderThread:21180 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 19:25:43,887 DEBUG   Thread-5  :21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/kbg/svhn_retrain/3kezk33p/file_stream HTTP/1.1" 200 None
+2020-12-01 19:25:43,999 DEBUG   SenderThread:21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 19:25:46,474 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:25:46,875 DEBUG   Thread-5  :21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/kbg/svhn_retrain/3kezk33p/file_stream HTTP/1.1" 200 None
+2020-12-01 19:25:50,074 DEBUG   Thread-5  :21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/kbg/svhn_retrain/3kezk33p/file_stream HTTP/1.1" 200 None
+2020-12-01 19:25:50,080 INFO    Thread-8  :21180 [dir_watcher.py:_on_file_modified():226] file/dir modified: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\output.log
+2020-12-01 19:25:51,329 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:25:53,911 DEBUG   Thread-5  :21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/kbg/svhn_retrain/3kezk33p/file_stream HTTP/1.1" 200 None
+2020-12-01 19:25:56,170 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:25:56,474 DEBUG   Thread-5  :21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/kbg/svhn_retrain/3kezk33p/file_stream HTTP/1.1" 200 None
+2020-12-01 19:25:59,003 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: status
+2020-12-01 19:25:59,003 DEBUG   SenderThread:21180 [sender.py:send():90] send: request
+2020-12-01 19:25:59,003 DEBUG   SenderThread:21180 [sender.py:send_request():99] send_request: status
+2020-12-01 19:25:59,007 DEBUG   SenderThread:21180 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 19:25:59,034 DEBUG   Thread-5  :21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/kbg/svhn_retrain/3kezk33p/file_stream HTTP/1.1" 200 None
+2020-12-01 19:25:59,086 INFO    Thread-8  :21180 [dir_watcher.py:_on_file_modified():226] file/dir modified: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\output.log
+2020-12-01 19:25:59,671 DEBUG   SenderThread:21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 19:26:01,001 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:26:01,246 DEBUG   Thread-5  :21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/kbg/svhn_retrain/3kezk33p/file_stream HTTP/1.1" 200 None
+2020-12-01 19:26:05,839 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:26:06,043 DEBUG   Thread-5  :21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /files/kbg/svhn_retrain/3kezk33p/file_stream HTTP/1.1" 404 None
+2020-12-01 19:26:08,091 INFO    Thread-8  :21180 [dir_watcher.py:_on_file_modified():226] file/dir modified: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\output.log
+2020-12-01 19:26:10,699 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:26:14,674 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: status
+2020-12-01 19:26:14,674 DEBUG   SenderThread:21180 [sender.py:send():90] send: request
+2020-12-01 19:26:14,674 DEBUG   SenderThread:21180 [sender.py:send_request():99] send_request: status
+2020-12-01 19:26:14,677 DEBUG   SenderThread:21180 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 19:26:15,404 DEBUG   SenderThread:21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 19:26:15,533 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:26:17,099 INFO    Thread-8  :21180 [dir_watcher.py:_on_file_modified():226] file/dir modified: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\output.log
+2020-12-01 19:26:20,396 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:26:25,223 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:26:26,146 INFO    Thread-8  :21180 [dir_watcher.py:_on_file_modified():226] file/dir modified: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\output.log
+2020-12-01 19:26:30,054 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:26:30,408 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: status
+2020-12-01 19:26:30,408 DEBUG   SenderThread:21180 [sender.py:send():90] send: request
+2020-12-01 19:26:30,408 DEBUG   SenderThread:21180 [sender.py:send_request():99] send_request: status
+2020-12-01 19:26:30,411 DEBUG   SenderThread:21180 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 19:26:31,035 DEBUG   SenderThread:21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 19:26:34,876 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:26:35,150 INFO    Thread-8  :21180 [dir_watcher.py:_on_file_modified():226] file/dir modified: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\output.log
+2020-12-01 19:26:39,707 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:26:44,155 INFO    Thread-8  :21180 [dir_watcher.py:_on_file_modified():226] file/dir modified: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\output.log
+2020-12-01 19:26:44,590 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:26:46,037 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: status
+2020-12-01 19:26:46,037 DEBUG   SenderThread:21180 [sender.py:send():90] send: request
+2020-12-01 19:26:46,037 DEBUG   SenderThread:21180 [sender.py:send_request():99] send_request: status
+2020-12-01 19:26:46,040 DEBUG   SenderThread:21180 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 19:26:46,397 DEBUG   SenderThread:21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 19:26:49,538 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:26:53,170 INFO    Thread-8  :21180 [dir_watcher.py:_on_file_modified():226] file/dir modified: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\output.log
+2020-12-01 19:26:54,342 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:26:59,207 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:27:01,400 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: status
+2020-12-01 19:27:01,400 DEBUG   SenderThread:21180 [sender.py:send():90] send: request
+2020-12-01 19:27:01,400 DEBUG   SenderThread:21180 [sender.py:send_request():99] send_request: status
+2020-12-01 19:27:01,402 DEBUG   SenderThread:21180 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 19:27:02,077 DEBUG   SenderThread:21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 19:27:02,107 DEBUG   SenderThread:21180 [sender.py:send():90] send: history
+2020-12-01 19:27:02,108 DEBUG   SenderThread:21180 [sender.py:send():90] send: summary
+2020-12-01 19:27:02,108 INFO    SenderThread:21180 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-01 19:27:02,210 INFO    Thread-8  :21180 [dir_watcher.py:_on_file_modified():226] file/dir modified: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\output.log
+2020-12-01 19:27:02,211 INFO    Thread-8  :21180 [dir_watcher.py:_on_file_modified():226] file/dir modified: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\wandb-summary.json
+2020-12-01 19:27:03,212 INFO    Thread-8  :21180 [dir_watcher.py:_on_file_modified():226] file/dir modified: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\output.log
+2020-12-01 19:27:04,035 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:27:08,950 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:27:12,226 INFO    Thread-8  :21180 [dir_watcher.py:_on_file_modified():226] file/dir modified: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\output.log
+2020-12-01 19:27:13,813 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:27:17,080 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: status
+2020-12-01 19:27:17,080 DEBUG   SenderThread:21180 [sender.py:send():90] send: request
+2020-12-01 19:27:17,080 DEBUG   SenderThread:21180 [sender.py:send_request():99] send_request: status
+2020-12-01 19:27:17,083 DEBUG   SenderThread:21180 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 19:27:17,506 DEBUG   SenderThread:21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 19:27:17,565 WARNING MainThread:21180 [internal.py:wandb_internal():117] Internal process interrupt: 1
+2020-12-01 19:27:17,573 DEBUG   SenderThread:21180 [sender.py:send():90] send: exit
+2020-12-01 19:27:17,573 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: poll_exit
+2020-12-01 19:27:17,573 INFO    SenderThread:21180 [sender.py:send_exit():168] handling exit code: 255
+2020-12-01 19:27:17,574 INFO    SenderThread:21180 [sender.py:send_exit():176] send defer
+2020-12-01 19:27:17,574 DEBUG   SenderThread:21180 [sender.py:send():90] send: request
+2020-12-01 19:27:17,574 DEBUG   SenderThread:21180 [sender.py:send_request():99] send_request: poll_exit
+2020-12-01 19:27:17,574 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: defer
+2020-12-01 19:27:17,575 INFO    HandlerThread:21180 [handler.py:handle_request_defer():69] handle defer: 0
+2020-12-01 19:27:17,575 DEBUG   SenderThread:21180 [sender.py:send():90] send: request
+2020-12-01 19:27:17,575 DEBUG   SenderThread:21180 [sender.py:send_request():99] send_request: defer
+2020-12-01 19:27:17,575 INFO    SenderThread:21180 [sender.py:send_request_defer():185] handle sender defer: 0
+2020-12-01 19:27:17,575 INFO    SenderThread:21180 [sender.py:send_request_defer():221] send defer: 1
+2020-12-01 19:27:17,575 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: defer
+2020-12-01 19:27:17,575 INFO    HandlerThread:21180 [handler.py:handle_request_defer():69] handle defer: 1
+2020-12-01 19:27:17,728 DEBUG   SenderThread:21180 [sender.py:send():90] send: request
+2020-12-01 19:27:17,728 DEBUG   SenderThread:21180 [sender.py:send_request():99] send_request: defer
+2020-12-01 19:27:17,728 INFO    SenderThread:21180 [sender.py:send_request_defer():185] handle sender defer: 1
+2020-12-01 19:27:17,728 INFO    SenderThread:21180 [sender.py:send_request_defer():221] send defer: 2
+2020-12-01 19:27:17,728 DEBUG   SenderThread:21180 [sender.py:send():90] send: stats
+2020-12-01 19:27:17,729 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: defer
+2020-12-01 19:27:17,729 INFO    HandlerThread:21180 [handler.py:handle_request_defer():69] handle defer: 2
+2020-12-01 19:27:17,729 DEBUG   SenderThread:21180 [sender.py:send():90] send: request
+2020-12-01 19:27:17,729 DEBUG   SenderThread:21180 [sender.py:send_request():99] send_request: defer
+2020-12-01 19:27:17,729 INFO    SenderThread:21180 [sender.py:send_request_defer():185] handle sender defer: 2
+2020-12-01 19:27:17,729 INFO    SenderThread:21180 [sender.py:send_request_defer():221] send defer: 3
+2020-12-01 19:27:17,729 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: defer
+2020-12-01 19:27:17,729 INFO    HandlerThread:21180 [handler.py:handle_request_defer():69] handle defer: 3
+2020-12-01 19:27:17,730 DEBUG   SenderThread:21180 [sender.py:send():90] send: summary
+2020-12-01 19:27:17,730 INFO    SenderThread:21180 [sender.py:_save_file():568] saving file wandb-summary.json with policy end
+2020-12-01 19:27:17,730 DEBUG   SenderThread:21180 [sender.py:send():90] send: request
+2020-12-01 19:27:17,730 DEBUG   SenderThread:21180 [sender.py:send_request():99] send_request: defer
+2020-12-01 19:27:17,730 INFO    SenderThread:21180 [sender.py:send_request_defer():185] handle sender defer: 3
+2020-12-01 19:27:17,730 INFO    SenderThread:21180 [sender.py:send_request_defer():221] send defer: 4
+2020-12-01 19:27:17,731 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: defer
+2020-12-01 19:27:17,731 INFO    HandlerThread:21180 [handler.py:handle_request_defer():69] handle defer: 4
+2020-12-01 19:27:17,731 DEBUG   SenderThread:21180 [sender.py:send():90] send: request
+2020-12-01 19:27:17,731 DEBUG   SenderThread:21180 [sender.py:send_request():99] send_request: defer
+2020-12-01 19:27:17,731 INFO    SenderThread:21180 [sender.py:send_request_defer():185] handle sender defer: 4
+2020-12-01 19:27:17,731 INFO    SenderThread:21180 [dir_watcher.py:finish():279] shutting down directory watcher
+2020-12-01 19:27:18,229 INFO    SenderThread:21180 [dir_watcher.py:_on_file_modified():226] file/dir modified: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\output.log
+2020-12-01 19:27:18,230 INFO    SenderThread:21180 [dir_watcher.py:_on_file_modified():226] file/dir modified: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\wandb-summary.json
+2020-12-01 19:27:18,230 INFO    SenderThread:21180 [dir_watcher.py:finish():309] scan: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files
+2020-12-01 19:27:18,231 INFO    SenderThread:21180 [dir_watcher.py:finish():315] scan save: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\config.yaml config.yaml
+2020-12-01 19:27:18,232 INFO    SenderThread:21180 [dir_watcher.py:finish():315] scan save: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\output.log output.log
+2020-12-01 19:27:18,233 INFO    SenderThread:21180 [dir_watcher.py:finish():315] scan save: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\requirements.txt requirements.txt
+2020-12-01 19:27:18,240 INFO    SenderThread:21180 [dir_watcher.py:finish():315] scan save: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\wandb-metadata.json wandb-metadata.json
+2020-12-01 19:27:18,241 DEBUG   Thread-12 :21180 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 19:27:18,245 INFO    SenderThread:21180 [dir_watcher.py:finish():315] scan save: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\files\wandb-summary.json wandb-summary.json
+2020-12-01 19:27:18,252 DEBUG   Thread-13 :21180 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 19:27:18,253 DEBUG   Thread-14 :21180 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 19:27:18,253 INFO    SenderThread:21180 [sender.py:send_request_defer():221] send defer: 5
+2020-12-01 19:27:18,259 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: defer
+2020-12-01 19:27:18,259 INFO    HandlerThread:21180 [handler.py:handle_request_defer():69] handle defer: 5
+2020-12-01 19:27:18,260 DEBUG   SenderThread:21180 [sender.py:send():90] send: request
+2020-12-01 19:27:18,260 DEBUG   SenderThread:21180 [sender.py:send_request():99] send_request: defer
+2020-12-01 19:27:18,260 INFO    SenderThread:21180 [sender.py:send_request_defer():185] handle sender defer: 5
+2020-12-01 19:27:18,260 INFO    SenderThread:21180 [file_pusher.py:finish():169] shutting down file pusher
+2020-12-01 19:27:18,260 INFO    SenderThread:21180 [sender.py:send_request_defer():221] send defer: 6
+2020-12-01 19:27:18,260 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: defer
+2020-12-01 19:27:18,261 DEBUG   Thread-15 :21180 [connectionpool.py:_new_conn():943] Starting new HTTPS connection (1): api.wandb.ai:443
+2020-12-01 19:27:18,261 INFO    HandlerThread:21180 [handler.py:handle_request_defer():69] handle defer: 6
+2020-12-01 19:27:18,261 DEBUG   SenderThread:21180 [sender.py:send():90] send: request
+2020-12-01 19:27:18,261 DEBUG   SenderThread:21180 [sender.py:send_request():99] send_request: defer
+2020-12-01 19:27:18,262 INFO    SenderThread:21180 [sender.py:send_request_defer():185] handle sender defer: 6
+2020-12-01 19:27:18,263 INFO    SenderThread:21180 [sender.py:send_request_defer():221] send defer: 7
+2020-12-01 19:27:18,264 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: defer
+2020-12-01 19:27:18,264 INFO    HandlerThread:21180 [handler.py:handle_request_defer():69] handle defer: 7
+2020-12-01 19:27:18,264 DEBUG   SenderThread:21180 [sender.py:send():90] send: request
+2020-12-01 19:27:18,264 DEBUG   SenderThread:21180 [sender.py:send_request():99] send_request: defer
+2020-12-01 19:27:18,264 INFO    SenderThread:21180 [sender.py:send_request_defer():185] handle sender defer: 7
+2020-12-01 19:27:18,264 INFO    SenderThread:21180 [sender.py:send_request_defer():221] send defer: 8
+2020-12-01 19:27:18,265 DEBUG   SenderThread:21180 [sender.py:send():90] send: final
+2020-12-01 19:27:18,265 DEBUG   SenderThread:21180 [sender.py:send():90] send: footer
+2020-12-01 19:27:18,265 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: defer
+2020-12-01 19:27:18,265 INFO    HandlerThread:21180 [handler.py:handle_request_defer():69] handle defer: 8
+2020-12-01 19:27:18,265 DEBUG   SenderThread:21180 [sender.py:send():90] send: request
+2020-12-01 19:27:18,265 DEBUG   SenderThread:21180 [sender.py:send_request():99] send_request: defer
+2020-12-01 19:27:18,265 INFO    SenderThread:21180 [sender.py:send_request_defer():185] handle sender defer: 8
+2020-12-01 19:27:18,818 DEBUG   Thread-14 :21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 19:27:18,820 DEBUG   Thread-15 :21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 19:27:18,828 DEBUG   Thread-12 :21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 19:27:18,833 DEBUG   Thread-13 :21180 [connectionpool.py:_make_request():442] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2020-12-01 19:27:19,578 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: poll_exit
+2020-12-01 19:27:19,578 DEBUG   SenderThread:21180 [sender.py:send():90] send: request
+2020-12-01 19:27:19,579 DEBUG   SenderThread:21180 [sender.py:send_request():99] send_request: poll_exit
+2020-12-01 19:27:19,579 INFO    SenderThread:21180 [file_pusher.py:join():174] waiting for file pusher
+2020-12-01 19:27:19,585 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: get_summary
+2020-12-01 19:27:19,588 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: sampled_history
+2020-12-01 19:27:19,590 DEBUG   HandlerThread:21180 [handler.py:handle_request():55] handle_request: shutdown
+2020-12-01 19:27:19,591 INFO    HandlerThread:21180 [handler.py:finish():271] shutting down handler
+2020-12-01 19:27:20,266 INFO    WriterThread:21180 [datastore.py:close():257] close: C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_192525-3kezk33p\run-3kezk33p.wandb
+2020-12-01 19:27:20,580 INFO    SenderThread:21180 [sender.py:finish():642] shutting down sender
+2020-12-01 19:27:20,580 INFO    SenderThread:21180 [file_pusher.py:finish():169] shutting down file pusher
+2020-12-01 19:27:20,580 INFO    SenderThread:21180 [file_pusher.py:join():174] waiting for file pusher
+2020-12-01 19:27:20,583 INFO    Dummy-16  :21180 [internal.py:handle_exit():138] Internal process exited

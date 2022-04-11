@@ -1,0 +1,23 @@
+2020-12-01 18:26:27,547 INFO    MainThread:18392 [wandb_setup.py:_flush():70] setting env: {}
+2020-12-01 18:26:27,547 INFO    MainThread:18392 [wandb_setup.py:_flush():70] multiprocessing start_methods=spawn
+2020-12-01 18:26:27,547 INFO    MainThread:18392 [wandb_setup.py:_flush():70] setting login settings: {}
+2020-12-01 18:26:27,547 INFO    MainThread:18392 [wandb_init.py:_log_setup():303] Logging user logs to C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_182627-3ax1ra77\logs\debug.log
+2020-12-01 18:26:27,548 INFO    MainThread:18392 [wandb_init.py:_log_setup():304] Logging internal logs to C:\Users\ST200423\PycharmProjects\SVHM\SVHNClassifier-PyTorch-master\wandb\run-20201201_182627-3ax1ra77\logs\debug-internal.log
+2020-12-01 18:26:30,173 INFO    MainThread:18392 [wandb_run.py:_console_start():1218] atexit reg
+2020-12-01 18:26:30,174 INFO    MainThread:18392 [wandb_run.py:_redirect():1085] redirect: SettingsConsole.WRAP
+2020-12-01 18:26:30,175 INFO    MainThread:18392 [wandb_run.py:_redirect():1116] Wrapping output streams.
+2020-12-01 18:26:30,175 INFO    MainThread:18392 [wandb_run.py:_redirect():1132] Redirects installed.
+2020-12-01 18:36:32,818 INFO    Dummy-4   :18392 [wandb_run.py:_atexit_cleanup():1188] got exitcode: 1
+2020-12-01 18:36:32,818 INFO    Dummy-4   :18392 [wandb_run.py:_restore():1160] restore
+2020-12-01 18:36:32,820 INFO    Dummy-4   :18392 [wandb_run.py:_restore():1160] restore
+2020-12-01 18:36:38,714 ERROR   Dummy-4   :18392 [wandb_run.py:_atexit_cleanup():1206] Problem finishing run
+Traceback (most recent call last):
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\wandb\sdk_py27\wandb_run.py", line 1196, in _atexit_cleanup
+    self._on_finish()
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\wandb\sdk_py27\wandb_run.py", line 1344, in _on_finish
+    self._backend.interface.publish_exit(self._exit_code)
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\wandb\sdk_py27\interface\interface.py", line 585, in publish_exit
+    self._publish(rec)
+  File "C:\Users\ST200423\anaconda3\envs\pytorch\lib\site-packages\wandb\sdk_py27\interface\interface.py", line 433, in _publish
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown

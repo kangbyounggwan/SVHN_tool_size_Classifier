@@ -1,0 +1,18 @@
+{
+    "heartbeatAt": "2020-12-06T23:28:59.235371",
+    "gpu_count": 1,
+    "codePath": "train.py",
+    "state": "running",
+    "os": "Windows-10-10.0.18362-SP0",
+    "username": "ST200423",
+    "host": "DESKTOP-1RET8IC",
+    "executable": "C:\\Users\\ST200423\\anaconda3\\envs\\pytorch\\python.exe",
+    "python": "3.5.6",
+    "docker": null,
+    "startedAt": "2020-12-06T23:28:55.035651",
+    "cuda": null,
+    "cpu_count": 8,
+    "gpu": "GeForce GTX 1060",
+    "program": "train.py",
+    "args": []
+}
